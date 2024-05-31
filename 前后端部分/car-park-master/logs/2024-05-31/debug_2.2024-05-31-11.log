@@ -1,0 +1,26 @@
+[13:40:40:000] [DEBUG] - io.lettuce.core.protocol.ConnectionWatchdog.lambda$run$4(ConnectionWatchdog.java:327) - Cannot reconnect to [192.168.232.130:6379]: Reconnection attempt exceeded timeout of 60 SECONDS 
+java.util.concurrent.TimeoutException: Reconnection attempt exceeded timeout of 60 SECONDS 
+	at io.lettuce.core.protocol.ReconnectionHandler.lambda$reconnect0$6(ReconnectionHandler.java:203) ~[lettuce-core-5.3.5.RELEASE.jar:5.3.5.RELEASE]
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.PromiseTask.run(PromiseTask.java:106) ~[netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) ~[netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+[13:40:39:990] [DEBUG] - io.lettuce.core.protocol.ConnectionWatchdog.lambda$run$4(ConnectionWatchdog.java:327) - Cannot reconnect to [192.168.232.130:6379]: Reconnection attempt exceeded timeout of 60 SECONDS 
+java.util.concurrent.TimeoutException: Reconnection attempt exceeded timeout of 60 SECONDS 
+	at io.lettuce.core.protocol.ReconnectionHandler.lambda$reconnect0$6(ReconnectionHandler.java:203) ~[lettuce-core-5.3.5.RELEASE.jar:5.3.5.RELEASE]
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.PromiseTask.run(PromiseTask.java:106) ~[netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) ~[netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+[13:40:40:006] [DEBUG] - io.lettuce.core.protocol.ConnectionWatchdog.scheduleReconnect(ConnectionWatchdog.java:218) - [channel=0x3cf35115, /192.168.232.1:55785 -> /192.168.232.130:6379, last known addr=/192.168.232.130:6379] scheduleReconnect()
+[13:40:40:006] [DEBUG] - io.lettuce.core.protocol.ConnectionWatchdog.scheduleReconnect(ConnectionWatchdog.java:235) - [channel=0x3cf35115, /192.168.232.1:55785 -> /192.168.232.130:6379, last known addr=/192.168.232.130:6379] Reconnect attempt 2, delay 2ms
+[13:40:40:006] [DEBUG] - io.lettuce.core.protocol.ConnectionWatchdog.scheduleReconnect(ConnectionWatchdog.java:218) - [channel=0x6a7a91cc, /192.168.232.1:58283 -> /192.168.232.130:6379, last known addr=/192.168.232.130:6379] scheduleReconnect()
+[13:40:40:007] [DEBUG] - io.lettuce.core.protocol.ConnectionWatchdog.scheduleReconnect(ConnectionWatchdog.java:235) - [channel=0x6a7a91cc, /192.168.232.1:58283 -> /192.168.232.130:6379, last known addr=/192.168.232.130:6379] Reconnect attempt 2, delay 2ms
+[13:40:40:009] [DEBUG] - io.lettuce.core.protocol.CommandHandler.channelUnregistered(CommandHandler.java:198) - [channel=0xcb8582df, [id: 0xd57331cb] (inactive), chid=0x3] channelUnregistered()
+[13:40:40:009] [DEBUG] - io.lettuce.core.protocol.CommandHandler.channelUnregistered(CommandHandler.java:198) - [channel=0xac659094, [id: 0x6bfbcf9b] (inactive), chid=0x4] channelUnregistered()

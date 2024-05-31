@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: car-park-master-common
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+#        namespace: 43ea2193-6bb0-4aa6-9d17-2111e14b404e
+        register-enabled: true
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/cpm_user?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+#    username: root
+#    password: root
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 6000
+logging:
+  config: classpath:log4j2-dev.xml
+
+

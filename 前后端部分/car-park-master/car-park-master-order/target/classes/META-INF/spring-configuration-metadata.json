@@ -1,0 +1,60 @@
+{
+  "groups": [
+    {
+      "name": "alipay.easy",
+      "type": "com.ustcsse.order.config.AliPayConfigInfo",
+      "sourceType": "com.ustcsse.order.config.AliPayConfigInfo"
+    }
+  ],
+  "properties": [
+    {
+      "name": "alipay.easy.alipay-public-key",
+      "type": "java.lang.String",
+      "description": "支付宝公钥",
+      "sourceType": "com.ustcsse.order.config.AliPayConfigInfo"
+    },
+    {
+      "name": "alipay.easy.app-id",
+      "type": "java.lang.String",
+      "description": "应用ID（来自支付宝申请）",
+      "sourceType": "com.ustcsse.order.config.AliPayConfigInfo"
+    },
+    {
+      "name": "alipay.easy.encrypt-key",
+      "type": "java.lang.String",
+      "description": "设施AES秘钥",
+      "sourceType": "com.ustcsse.order.config.AliPayConfigInfo"
+    },
+    {
+      "name": "alipay.easy.gateway-host",
+      "type": "java.lang.String",
+      "description": "请求网关",
+      "sourceType": "com.ustcsse.order.config.AliPayConfigInfo"
+    },
+    {
+      "name": "alipay.easy.merchant-private-key",
+      "type": "java.lang.String",
+      "description": "应用秘钥",
+      "sourceType": "com.ustcsse.order.config.AliPayConfigInfo"
+    },
+    {
+      "name": "alipay.easy.notify-url",
+      "type": "java.lang.String",
+      "description": "支付结果异步通知的地址",
+      "sourceType": "com.ustcsse.order.config.AliPayConfigInfo"
+    },
+    {
+      "name": "alipay.easy.protocol",
+      "type": "java.lang.String",
+      "description": "请求协议",
+      "sourceType": "com.ustcsse.order.config.AliPayConfigInfo"
+    },
+    {
+      "name": "alipay.easy.sign-type",
+      "type": "java.lang.String",
+      "description": "签名类型",
+      "sourceType": "com.ustcsse.order.config.AliPayConfigInfo"
+    }
+  ],
+  "hints": []
+}

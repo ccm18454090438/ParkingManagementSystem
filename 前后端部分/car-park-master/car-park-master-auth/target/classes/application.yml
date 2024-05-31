@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: cpm-auth
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+#        namespace: 43ea2193-6bb0-4aa6-9d17-2111e14b404e
+        register-enabled: true
+  redis:
+    host: 192.168.232.130
+    port: 6379
+  datasource:
+    url: jdbc:mysql://192.168.232.130:3306/cpm_auth?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 4000
+logging:
+  config: classpath:log4j2-dev.xml
+#接口文档，访问路径http://localhost:5000/swagger-ui.html
+swagger:
+  title: "智慧停车认证管理模块"
+  description: "对停车系统进行认证管理"
+  base-package: com.ustcsse.auth
+  enabled: true
+  version: 1.0.0
+mybatis-plus:
+  mapper-locations: classpath*:/com/ustcsse/auth/mapper/*.xml
+management:
+  health:
+    elasticsearch:
+      enabled: false
+

@@ -1,0 +1,63 @@
+spring:
+  application:
+    name: cpm-order
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+#        namespace: 43ea2193-6bb0-4aa6-9d17-2111e14b404e
+        register-enabled: true
+  datasource:
+    url: jdbc:mysql://192.168.232.130:3306/cpm_order?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: 192.168.232.130
+    port: 6379
+  rabbitmq:
+    host: 192.168.232.130
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: my_vhost
+    publisher-confirm-type: correlated #correlated 异步回调，定义ConfirmCallback，MQ返回结果时会回调这个ConfirmCallback
+    publisher-returns: false #开启publish-return功能，同样是基于callback机制，需要定义ReturnCallback
+    template:
+      mandatory: false #定义消息路由失败时的策略。true，则调用ReturnCallback；false：则直接丢弃消息
+    listener:
+      simple:
+        acknowledge-mode: none #出现异常时返回unack，消息回滚到mq；没有异常，返回ack ,manual:手动控制,none:丢弃消息，不回滚到mq
+        retry:
+          enabled: true #开启消费者失败重试
+          initial-interval: 1000ms #初识的失败等待时长为1秒
+          multiplier: 1 #失败的等待时长倍数，下次等待时长 = multiplier * last-interval
+          max-attempts: 3 #最大重试次数
+          stateless: true #true无状态；false有状态。如果业务中包含事务，这里改为false
+server:
+  port: 9000
+  servlet:
+    session:
+      # 配置会话超时
+      timeout: 60s
+#日志配置文件
+logging:
+  config: classpath:log4j2-dev.xml
+#接口文档，访问路径http://localhost:9000/swagger-ui.html
+swagger:
+  title: "智慧停车订单管理模块"
+  description: "对停车订单进行管理"
+  base-package: com.ustcsse.order
+  enabled: true
+  version: 1.0.0
+mybatis-plus:
+  mapper-locations: classpath*:/com/ustcsse/order/mapper/*.xml
+alipay:
+  easy:
+    protocol: https
+    gatewayHost: openapi-sandbox.dl.alipaydev.com
+    signType: RSA2
+    appId: 9021000136603098
+    merchantPrivateKey: MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCFxenNdBUPQTlK86ZNeWSR0C0VMr2RdBCrHMt+Fyfx5Mgp46NkgBAOVy74hy+lNCYHDh4EdHFt9fxNXo5ScmNv183YTjLnOvTULbNywHks7VrZV0EYrnKXje7oFuXKsEeIcP8re2LBis+G7kR1pKr+kKHNwkMjAdOp2+W+EZIHdVvy0eIF0zvDUk6PzbqoIANq/2WXVd+HrSZZpjxneZC7dlnhJy59/2NLFLyDY3TXsRObzkbYO+Znkxqnl7/ROwj7BChbDwF46Ytq0XKSl/TkkzvDnUomEZyvwmpC3eaHCZcxsh3Wl0inSJ8RvT5h3Zd7CE8ujl79HYDF8eICc7tXAgMBAAECggEAawLZd1snBZ79f/HM1SkIxIQtrEl80ABy3Q8Z0fIgKCcF4EyThm/TaEVh87ng6V0AFqC6boHfw0EF5baAT3/l/7A4oJJdsg+9joZIiMFjrgbpp/dewam7TXVi6hJ3HF9Lud/6oAQCCiVKwfuUlC94AlAcv4ZpQnXRpo2cCSHxGTkjDvSmogsSCrdNgpNqLkmDew+w5StBx/cKRaWryL9wajhzdUtfw8ES8FzuwXLAxZwE+FBYOYKFDgmmo5lna3yXrP7Y1+nRowCOwdCb1btg4K/qMwZ0fUEeSO40cfpyCyOW63XkO1vb6RwClUu2zSiqWgqkutsaMaV6PKrPhfjm8QKBgQDX306ejLdkvwq/2goub2QHxqfuYKngSXISb525IxkboqLmt+IOYNIYihsiHjhpgkA/eKJNUfVR7FT02kRtRcqXv115rc3nxT/7qsEKxWznP5HA2NxnVQr1jszJf6U7UfcIjtY9AgWmBtzrS9eGJO4ctgJCUtqRDpYl+EwJBllYrQKBgQCeo8KZWmpKe6ACIv5ilImevlpbTrcitTAteAYGcaWMFpDWJvENpAOWUTY8U2fqZAmKAD3amIjmLqm37UK0iypsUplXsh1WxniTYaXoSH+5CkRfuTTkAmfRiHpuW82kN38Mi8SMZVoAR32V5ttMeV74591IViQwJ++M36bIwmcQkwKBgFQsHGmyEKhV3YklKaclg+mMSlqmklaEDNincOaJiva9matAtAJLOmCbKS1Kf1CUmxykmxRvCqrg7ddzbA73kaFN2tLhNFJVFTe6Qv9CL86TeO+rH3WjMVzCS5OeE/1nXl2V5G9xZGZycp3Eusrxh27mgUb/K344I8+2W1+BfEEZAoGABwKVhtFIASKVX4LMWu7VZf5jX8WKsi3vgxLasU40UoxsugnefQvSXMIZ83B8Fw90nHSGRzKWWhWVylrhp7i+lyrPO+DTCxKaIWkfO7R4cGTTwKcefzTcAZZWUqob3DXXl2ZVuR6Ba6G9GvKonih+2eDlFl04HCinnUIEzLpKc6ECgYB6rm1ylEhQdvXHWv5qbJkQxYfQcto6dLMJhzZ3ZkpAlQhIP4oeXVJfcfAyqCMxSIoBcRvl/bheSPYCpzK1AhBLz6au6WIBNYsECDDAJ1kA9t1PM+YBbvvXMNZ0cbk+k3ULxhEvyi/KS2tlS+MFfsEjfVaP+Ku8gvDyzOjWP0mBPw==
+    alipayPublicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2R0hXIynrBj3Nn64sOOaIe0WDa5sj0VuHrwSnk3Rc7Si5VSmX97n+dGmDXkmR8WCCFle3R5KWn4Fvaieog62hK9txqCEH0XBVorzPD8hELRyk+hquu9SkYw/xSyg+s5AXZeye4Xj/8dgw0ao4Jj1feTSjcSMes0GNrl89bk5bDh7RRN17CXInOtOg2frm7+FP+8CvmO99m9ePJ27ya7XslHz832/cY8aELdu3drv4U1XEMTeDGzfn68zuOKE44VhnDtRwR9YR9jzxL41Mhv1mFW5rQ8uQWstFkZ7OxxxOqYU8IGHauWCstKAJ0CYevV7qlvhHyK2xBdiB0+AlOYhxQIDAQAB
+    notifyUrl: http://239526.natappfree.cc/order/notify

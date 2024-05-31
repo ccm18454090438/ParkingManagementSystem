@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.ustcsse</groupId>
+    <artifactId>car-park-master</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>car-park-master</name>
+    <description>聚合服务</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>car-park-master-common</module>
+        <module>car-park-master-member</module>
+        <module>car-park-master-order</module>
+        <module>car-park-master-gateway</module>
+        <module>car-park-master-parking</module>
+        <module>car-park-master-parkinglots</module>
+        <module>car-park-master-generator</module>
+        <module>car-park-master-user</module>
+        <module>car-park-master-auth</module>
+    </modules>
+
+    <build>
+<!--        这样也可以把所有的xml文件，打包到相应位置。-->
+            <resources>
+                <resource>
+                    <directory>src/main/resources</directory>
+                    <includes>
+                        <include>**/*.properties</include>
+                        <include>**/*.xml</include>
+                    </includes>
+                </resource>
+<!--将src/main/java目录下的xml文件打包进target文件夹中-->
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.properties</include>
+                    <include>**/*.xml</include>
+                </includes>
+            </resource>
+        </resources>
+    </build>
+
+</project>

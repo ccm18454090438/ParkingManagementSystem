@@ -1,0 +1,8 @@
+com\ustcsse\member\model\po\Member.class
+com\ustcsse\member\service\MemberService.class
+com\ustcsse\CarParkMasterMemberApplication.class
+com\ustcsse\member\mapper\MemberMapper.class
+com\ustcsse\member\service\impl\MemberServiceImpl.class
+com\ustcsse\member\model\MemberQueryParams.class
+com\ustcsse\member\model\vo\MemberVo.class
+com\ustcsse\member\controller\MemberController.class

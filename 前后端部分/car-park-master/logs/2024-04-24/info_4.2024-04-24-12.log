@@ -1,0 +1,4 @@
+[13:00:44:510] [WARN] - com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal(DruidAbstractDataSource.java:1494) - discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.232.130:3306/cpm_member?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true, version : 1.2.8, lastPacketReceivedIdleMillis : 275526
+[13:00:44:553] [INFO] - com.ustcsse.parking.service.WebSocketServer.sendOneMessage(WebSocketServer.java:115) - 【websocket消息】 单点消息:[WELCOME]皖FZ777B,欢迎进入停车场!
+[13:01:29:008] [INFO] - com.ustcsse.parking.service.WebSocketServer.sendOneMessage(WebSocketServer.java:115) - 【websocket消息】 单点消息:[WELCOME]皖FZ777B,欢迎进入停车场!
+[13:01:43:309] [INFO] - com.ustcsse.parking.service.WebSocketServer.sendOneMessage(WebSocketServer.java:115) - 【websocket消息】 单点消息:[GOODBYE] 临时停车：皖FZ777B,免费时段,欢迎驶出！

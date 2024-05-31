@@ -1,0 +1,185 @@
+[17:07:18:421] [DEBUG] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.lookupHandlerMethod(PropertySourcedRequestMappingHandlerMapping.java:108) - looking up handler for path: /member/getByCarplate
+[17:07:18:462] [DEBUG] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.lookupHandlerMethod(PropertySourcedRequestMappingHandlerMapping.java:108) - looking up handler for path: /parkinglots/add
+[17:07:18:463] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - ==>  Preparing: UPDATE parkinglot SET total=?, car_amount=?, left_amount=?, name=?, administrator=?, phone=?, address=? WHERE id=?
+[17:07:18:426] [WARN] - com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal(DruidAbstractDataSource.java:1494) - discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.232.130:3306/cpm_member?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true, version : 1.2.8, lastPacketReceivedIdleMillis : 1036259
+[17:07:18:428] [DEBUG] - com.alibaba.druid.pool.DruidDataSource.getConnectionDirect(DruidDataSource.java:1485) - skip not validate connection.
+[17:07:18:440] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - ==>  Preparing: SELECT id,name,type,dayleft,createtime,carplate,basedate,parkinglotid,parkinglot_name,phone FROM member WHERE (carplate = ?)
+[17:07:18:441] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - ==> Parameters: 皖AQ4025(String)
+[17:07:18:445] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - <==      Total: 0
+[17:07:18:465] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - ==> Parameters: 80(Integer), 5(Integer), 75(Integer), 中科大南区停车场(String), 李四(String), 16666666666(String), 中科大西校区(String), 2(Integer)
+[17:07:18:468] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - <==    Updates: 1
+[17:07:18:470] [INFO] - com.ustcsse.parking.service.WebSocketServer.sendOneMessage(WebSocketServer.java:115) - 【websocket消息】 单点消息:[WELCOME]皖AQ4025,欢迎进入停车场!
+[17:07:18:494] [DEBUG] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.lookupHandlerMethod(PropertySourcedRequestMappingHandlerMapping.java:108) - looking up handler for path: /auth/check
+[17:07:18:495] [DEBUG] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.lookupHandlerMethod(PropertySourcedRequestMappingHandlerMapping.java:108) - looking up handler for path: /auth/check
+[17:07:18:498] [DEBUG] - io.lettuce.core.RedisChannelHandler.dispatch(RedisChannelHandler.java:179) - dispatching command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+[17:07:18:498] [DEBUG] - io.lettuce.core.protocol.DefaultEndpoint.channelWriteAndFlush(DefaultEndpoint.java:389) - [channel=0x92c1f34a, /192.168.232.1:51612 -> /192.168.232.130:6379, epid=0x2] write() writeAndFlush command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+[17:07:18:499] [DEBUG] - io.lettuce.core.protocol.CommandHandler.write(CommandHandler.java:374) - [channel=0x92c1f34a, /192.168.232.1:51612 -> /192.168.232.130:6379, chid=0x2] write(ctx, AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+[17:07:18:499] [DEBUG] - io.lettuce.core.protocol.DefaultEndpoint.write(DefaultEndpoint.java:173) - [channel=0x92c1f34a, /192.168.232.1:51612 -> /192.168.232.130:6379, epid=0x2] write() done
+[17:07:18:500] [DEBUG] - io.lettuce.core.protocol.CommandEncoder.encode(CommandEncoder.java:101) - [channel=0x92c1f34a, /192.168.232.1:51612 -> /192.168.232.130:6379] writing command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+[17:07:18:501] [DEBUG] - io.lettuce.core.protocol.CommandHandler.channelRead(CommandHandler.java:570) - [channel=0x92c1f34a, /192.168.232.1:51612 -> /192.168.232.130:6379, chid=0x2] Received: 372 bytes, 1 commands in the stack
+[17:07:18:501] [DEBUG] - io.lettuce.core.protocol.CommandHandler.decode(CommandHandler.java:616) - [channel=0x92c1f34a, /192.168.232.1:51612 -> /192.168.232.130:6379, chid=0x2] Stack contains: 1 commands
+[17:07:18:501] [DEBUG] - io.lettuce.core.protocol.RedisStateMachine.decode(RedisStateMachine.java:131) - Decode LatencyMeteredCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand]
+[17:07:18:501] [DEBUG] - io.lettuce.core.protocol.RedisStateMachine.decode(RedisStateMachine.java:145) - Decoded LatencyMeteredCommand [type=GET, output=ValueOutput [output=[B@6d1bed4a, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand], empty stack: true
+[17:07:18:509] [DEBUG] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.lookupHandlerMethod(PropertySourcedRequestMappingHandlerMapping.java:108) - looking up handler for path: /parkinglots/getAll
+[17:07:18:510] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - ==>  Preparing: SELECT id,total,car_amount,left_amount,name,administrator,phone,address FROM parkinglot
+[17:07:18:511] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - ==> Parameters: 
+[17:07:18:514] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - <==      Total: 3
+[17:07:23:992] [DEBUG] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.lookupHandlerMethod(PropertySourcedRequestMappingHandlerMapping.java:108) - looking up handler for path: /auth/check
+[17:07:23:993] [DEBUG] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.lookupHandlerMethod(PropertySourcedRequestMappingHandlerMapping.java:108) - looking up handler for path: /auth/check
+[17:07:23:996] [DEBUG] - io.lettuce.core.RedisChannelHandler.dispatch(RedisChannelHandler.java:179) - dispatching command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+[17:07:23:997] [DEBUG] - io.lettuce.core.protocol.DefaultEndpoint.channelWriteAndFlush(DefaultEndpoint.java:389) - [channel=0x92c1f34a, /192.168.232.1:51612 -> /192.168.232.130:6379, epid=0x2] write() writeAndFlush command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+[17:07:23:998] [DEBUG] - io.lettuce.core.protocol.CommandHandler.write(CommandHandler.java:374) - [channel=0x92c1f34a, /192.168.232.1:51612 -> /192.168.232.130:6379, chid=0x2] write(ctx, AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+[17:07:23:998] [DEBUG] - io.lettuce.core.protocol.DefaultEndpoint.write(DefaultEndpoint.java:173) - [channel=0x92c1f34a, /192.168.232.1:51612 -> /192.168.232.130:6379, epid=0x2] write() done
+[17:07:24:000] [DEBUG] - io.lettuce.core.protocol.CommandEncoder.encode(CommandEncoder.java:101) - [channel=0x92c1f34a, /192.168.232.1:51612 -> /192.168.232.130:6379] writing command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+[17:07:24:001] [DEBUG] - io.lettuce.core.protocol.CommandHandler.channelRead(CommandHandler.java:570) - [channel=0x92c1f34a, /192.168.232.1:51612 -> /192.168.232.130:6379, chid=0x2] Received: 372 bytes, 1 commands in the stack
+[17:07:24:001] [DEBUG] - io.lettuce.core.protocol.CommandHandler.decode(CommandHandler.java:616) - [channel=0x92c1f34a, /192.168.232.1:51612 -> /192.168.232.130:6379, chid=0x2] Stack contains: 1 commands
+[17:07:24:001] [DEBUG] - io.lettuce.core.protocol.RedisStateMachine.decode(RedisStateMachine.java:131) - Decode LatencyMeteredCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand]
+[17:07:24:002] [DEBUG] - io.lettuce.core.protocol.RedisStateMachine.decode(RedisStateMachine.java:145) - Decoded LatencyMeteredCommand [type=GET, output=ValueOutput [output=[B@7a6ad1ea, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand], empty stack: true
+[17:07:24:011] [DEBUG] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.lookupHandlerMethod(PropertySourcedRequestMappingHandlerMapping.java:108) - looking up handler for path: /parking/parkingIn
+[17:07:24:019] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - ==>  Preparing: SELECT id,parkinglotid,parkinglot_name,memberid,carplate,intime,outtime,status FROM parking WHERE (carplate = ? AND parkinglot_name = ? AND outtime = ?)
+[17:07:24:020] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - ==> Parameters: null, 中科大南区停车场(String), 2099-12-31T23:59:59(LocalDateTime)
+[17:07:24:022] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - <==      Total: 0
+[17:07:24:024] [DEBUG] - com.netflix.loadbalancer.ZoneAwareLoadBalancer.chooseServer(ZoneAwareLoadBalancer.java:112) - Zone aware logic disabled or there is only one zone
+[17:07:24:025] [DEBUG] - com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:492) - cpm-parkinglots using LB returned Server: 192.168.108.1:11000 for request http:///parkinglots/getByName/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%8D%97%E5%8C%BA%E5%81%9C%E8%BD%A6%E5%9C%BA
+[17:07:24:030] [DEBUG] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.lookupHandlerMethod(PropertySourcedRequestMappingHandlerMapping.java:108) - looking up handler for path: /parkinglots/getByName/中科大南区停车场
+[17:07:24:039] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - ==>  Preparing: SELECT id,total,car_amount,left_amount,name,administrator,phone,address FROM parkinglot WHERE (name = ?)
+[17:07:24:040] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - ==> Parameters: 中科大南区停车场(String)
+[17:07:24:043] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - <==      Total: 1
+[17:07:24:049] [DEBUG] - com.netflix.loadbalancer.ZoneAwareLoadBalancer.chooseServer(ZoneAwareLoadBalancer.java:112) - Zone aware logic disabled or there is only one zone
+[17:07:24:049] [DEBUG] - com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:492) - cpm-parkinglots using LB returned Server: 192.168.108.1:11000 for request http:///parkinglots/add
+[17:07:24:054] [DEBUG] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.lookupHandlerMethod(PropertySourcedRequestMappingHandlerMapping.java:108) - looking up handler for path: /parkinglots/add
+[17:07:24:056] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - ==>  Preparing: UPDATE parkinglot SET total=?, car_amount=?, left_amount=?, name=?, administrator=?, phone=?, address=? WHERE id=?
+[17:07:24:059] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - ==> Parameters: 80(Integer), 6(Integer), 74(Integer), 中科大南区停车场(String), 李四(String), 16666666666(String), 中科大西校区(String), 2(Integer)
+[17:07:24:066] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - <==    Updates: 1
+[17:07:24:070] [DEBUG] - com.netflix.loadbalancer.ZoneAwareLoadBalancer.chooseServer(ZoneAwareLoadBalancer.java:112) - Zone aware logic disabled or there is only one zone
+[17:07:24:070] [DEBUG] - com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:492) - cpm-member using LB returned Server: 192.168.108.1:8000 for request http:///member/getByCarplate
+[17:07:24:075] [DEBUG] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.lookupHandlerMethod(PropertySourcedRequestMappingHandlerMapping.java:108) - looking up handler for path: /member/getByCarplate
+[17:07:24:076] [WARN] - org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.logException(AbstractHandlerExceptionResolver.java:199) - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'carplate' is not present]
+[17:07:24:077] [DEBUG] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.lookupHandlerMethod(PropertySourcedRequestMappingHandlerMapping.java:108) - looking up handler for path: /error
+[17:07:24:083] [ERROR] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:175) - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is feign.FeignException$BadRequest: [400] during [GET] to [http://cpm-member/member/getByCarplate] [MemberFeignService#getByCarplate(String)]: [{"timestamp":"2024-04-18T09:07:24.079+00:00","status":400,"error":"Bad Request","message":"","path":"/member/getByCarplate"}]] with root cause
+feign.FeignException$BadRequest: [400] during [GET] to [http://cpm-member/member/getByCarplate] [MemberFeignService#getByCarplate(String)]: [{"timestamp":"2024-04-18T09:07:24.079+00:00","status":400,"error":"Bad Request","message":"","path":"/member/getByCarplate"}]
+	at feign.FeignException.clientErrorStatus(FeignException.java:195) ~[feign-core-10.10.1.jar:?]
+	at feign.FeignException.errorStatus(FeignException.java:177) ~[feign-core-10.10.1.jar:?]
+	at feign.FeignException.errorStatus(FeignException.java:169) ~[feign-core-10.10.1.jar:?]
+	at feign.codec.ErrorDecoder$Default.decode(ErrorDecoder.java:92) ~[feign-core-10.10.1.jar:?]
+	at feign.AsyncResponseHandler.handleResponse(AsyncResponseHandler.java:96) ~[feign-core-10.10.1.jar:?]
+	at feign.SynchronousMethodHandler.executeAndDecode(SynchronousMethodHandler.java:138) ~[feign-core-10.10.1.jar:?]
+	at feign.SynchronousMethodHandler.invoke(SynchronousMethodHandler.java:89) ~[feign-core-10.10.1.jar:?]
+	at feign.ReflectiveFeign$FeignInvocationHandler.invoke(ReflectiveFeign.java:100) ~[feign-core-10.10.1.jar:?]
+	at com.sun.proxy.$Proxy136.getByCarplate(Unknown Source) ~[?:?]
+	at com.ustcsse.parking.service.impl.ParkingServiceImpl.add(ParkingServiceImpl.java:147) ~[classes/:?]
+	at com.ustcsse.parking.service.impl.ParkingServiceImpl.parkingIn(ParkingServiceImpl.java:228) ~[classes/:?]
+	at com.ustcsse.parking.service.impl.ParkingServiceImpl$$FastClassBySpringCGLIB$$76a4ded9.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687) ~[spring-aop-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at com.ustcsse.parking.service.impl.ParkingServiceImpl$$EnhancerBySpringCGLIB$$90b1289c.parkingIn(<generated>) ~[classes/:?]
+	at com.ustcsse.parking.controller.ParkingController.parkingIn(ParkingController.java:95) ~[classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_201]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_201]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+[17:07:24:086] [DEBUG] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.lookupHandlerMethod(PropertySourcedRequestMappingHandlerMapping.java:108) - looking up handler for path: /error
+[17:07:32:447] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[17:07:33:873] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[17:07:33:873] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[17:07:33:873] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[17:07:33:874] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[17:07:33:874] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[17:07:33:874] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[17:07:33:874] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[17:07:36:267] [DEBUG] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.lookupHandlerMethod(PropertySourcedRequestMappingHandlerMapping.java:108) - looking up handler for path: /auth/check
+[17:07:36:268] [DEBUG] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.lookupHandlerMethod(PropertySourcedRequestMappingHandlerMapping.java:108) - looking up handler for path: /auth/check
+[17:07:36:271] [DEBUG] - io.lettuce.core.RedisChannelHandler.dispatch(RedisChannelHandler.java:179) - dispatching command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+[17:07:36:272] [DEBUG] - io.lettuce.core.protocol.DefaultEndpoint.channelWriteAndFlush(DefaultEndpoint.java:389) - [channel=0x92c1f34a, /192.168.232.1:51612 -> /192.168.232.130:6379, epid=0x2] write() writeAndFlush command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+[17:07:36:273] [DEBUG] - io.lettuce.core.protocol.CommandHandler.write(CommandHandler.java:374) - [channel=0x92c1f34a, /192.168.232.1:51612 -> /192.168.232.130:6379, chid=0x2] write(ctx, AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+[17:07:36:273] [DEBUG] - io.lettuce.core.protocol.DefaultEndpoint.write(DefaultEndpoint.java:173) - [channel=0x92c1f34a, /192.168.232.1:51612 -> /192.168.232.130:6379, epid=0x2] write() done
+[17:07:36:274] [DEBUG] - io.lettuce.core.protocol.CommandEncoder.encode(CommandEncoder.java:101) - [channel=0x92c1f34a, /192.168.232.1:51612 -> /192.168.232.130:6379] writing command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+[17:07:36:275] [DEBUG] - io.lettuce.core.protocol.CommandHandler.channelRead(CommandHandler.java:570) - [channel=0x92c1f34a, /192.168.232.1:51612 -> /192.168.232.130:6379, chid=0x2] Received: 372 bytes, 1 commands in the stack
+[17:07:36:276] [DEBUG] - io.lettuce.core.protocol.CommandHandler.decode(CommandHandler.java:616) - [channel=0x92c1f34a, /192.168.232.1:51612 -> /192.168.232.130:6379, chid=0x2] Stack contains: 1 commands
+[17:07:36:276] [DEBUG] - io.lettuce.core.protocol.RedisStateMachine.decode(RedisStateMachine.java:131) - Decode LatencyMeteredCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand]
+[17:07:36:276] [DEBUG] - io.lettuce.core.protocol.RedisStateMachine.decode(RedisStateMachine.java:145) - Decoded LatencyMeteredCommand [type=GET, output=ValueOutput [output=[B@33479ebf, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand], empty stack: true
+[17:07:36:290] [DEBUG] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.lookupHandlerMethod(PropertySourcedRequestMappingHandlerMapping.java:108) - looking up handler for path: /parking/parkingOut
+[17:07:36:295] [DEBUG] - com.netflix.loadbalancer.ZoneAwareLoadBalancer.chooseServer(ZoneAwareLoadBalancer.java:112) - Zone aware logic disabled or there is only one zone
+[17:07:36:296] [DEBUG] - com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:492) - cpm-member using LB returned Server: 192.168.108.1:8000 for request http:///member/getByCarplate?carplate=%E7%9A%96AQ4025
+[17:07:36:301] [DEBUG] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.lookupHandlerMethod(PropertySourcedRequestMappingHandlerMapping.java:108) - looking up handler for path: /member/getByCarplate
+[17:07:36:307] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - ==>  Preparing: SELECT id,name,type,dayleft,createtime,carplate,basedate,parkinglotid,parkinglot_name,phone FROM member WHERE (carplate = ?)
+[17:07:36:308] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - ==> Parameters: 皖AQ4025(String)
+[17:07:36:311] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - <==      Total: 0
+[17:07:36:318] [DEBUG] - com.netflix.loadbalancer.ZoneAwareLoadBalancer.chooseServer(ZoneAwareLoadBalancer.java:112) - Zone aware logic disabled or there is only one zone
+[17:07:36:319] [DEBUG] - com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:492) - cpm-parkinglots using LB returned Server: 192.168.108.1:11000 for request http:///parkinglots/getByName/%E4%B8%AD%E7%A7%91%E5%A4%A7%E5%8D%97%E5%8C%BA%E5%81%9C%E8%BD%A6%E5%9C%BA
+[17:07:36:323] [DEBUG] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.lookupHandlerMethod(PropertySourcedRequestMappingHandlerMapping.java:108) - looking up handler for path: /parkinglots/getByName/中科大南区停车场
+[17:07:36:328] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - ==>  Preparing: SELECT id,total,car_amount,left_amount,name,administrator,phone,address FROM parkinglot WHERE (name = ?)
+[17:07:36:329] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - ==> Parameters: 中科大南区停车场(String)
+[17:07:36:333] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - <==      Total: 1
+[17:07:36:342] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - ==>  Preparing: SELECT id,parkinglotid,parkinglot_name,memberid,carplate,intime,outtime,status FROM parking WHERE (carplate = ? AND parkinglot_name = ? AND outtime = ?)
+[17:07:36:343] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - ==> Parameters: 皖AQ4025(String), 中科大南区停车场(String), 2099-12-31T23:59:59(LocalDateTime)
+[17:07:36:347] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - <==      Total: 1
+[17:07:36:348] [INFO] - com.ustcsse.parking.service.WebSocketServer.sendOneMessage(WebSocketServer.java:115) - 【websocket消息】 单点消息:[GOODBYE] 临时停车：皖AQ4025,免费时段,欢迎驶出！
+[17:07:36:353] [DEBUG] - com.netflix.loadbalancer.ZoneAwareLoadBalancer.chooseServer(ZoneAwareLoadBalancer.java:112) - Zone aware logic disabled or there is only one zone
+[17:07:36:353] [DEBUG] - com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:492) - cpm-order using LB returned Server: 192.168.108.1:9000 for request http:///order/add
+[17:07:36:394] [DEBUG] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.lookupHandlerMethod(PropertySourcedRequestMappingHandlerMapping.java:108) - looking up handler for path: /auth/check
+[17:07:36:398] [DEBUG] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.lookupHandlerMethod(PropertySourcedRequestMappingHandlerMapping.java:108) - looking up handler for path: /auth/check
+[17:07:36:401] [DEBUG] - io.lettuce.core.RedisChannelHandler.dispatch(RedisChannelHandler.java:179) - dispatching command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+[17:07:36:401] [DEBUG] - io.lettuce.core.protocol.DefaultEndpoint.channelWriteAndFlush(DefaultEndpoint.java:389) - [channel=0x92c1f34a, /192.168.232.1:51612 -> /192.168.232.130:6379, epid=0x2] write() writeAndFlush command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+[17:07:36:402] [DEBUG] - io.lettuce.core.protocol.CommandHandler.write(CommandHandler.java:374) - [channel=0x92c1f34a, /192.168.232.1:51612 -> /192.168.232.130:6379, chid=0x2] write(ctx, AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command], promise)
+[17:07:36:402] [DEBUG] - io.lettuce.core.protocol.DefaultEndpoint.write(DefaultEndpoint.java:173) - [channel=0x92c1f34a, /192.168.232.1:51612 -> /192.168.232.130:6379, epid=0x2] write() done
+[17:07:36:403] [DEBUG] - io.lettuce.core.protocol.CommandEncoder.encode(CommandEncoder.java:101) - [channel=0x92c1f34a, /192.168.232.1:51612 -> /192.168.232.130:6379] writing command AsyncCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.Command]
+[17:07:36:406] [DEBUG] - io.lettuce.core.protocol.CommandHandler.channelRead(CommandHandler.java:570) - [channel=0x92c1f34a, /192.168.232.1:51612 -> /192.168.232.130:6379, chid=0x2] Received: 372 bytes, 1 commands in the stack
+[17:07:36:406] [DEBUG] - io.lettuce.core.protocol.CommandHandler.decode(CommandHandler.java:616) - [channel=0x92c1f34a, /192.168.232.1:51612 -> /192.168.232.130:6379, chid=0x2] Stack contains: 1 commands
+[17:07:36:406] [DEBUG] - io.lettuce.core.protocol.RedisStateMachine.decode(RedisStateMachine.java:131) - Decode LatencyMeteredCommand [type=GET, output=ValueOutput [output=null, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand]
+[17:07:36:406] [DEBUG] - io.lettuce.core.protocol.RedisStateMachine.decode(RedisStateMachine.java:145) - Decoded LatencyMeteredCommand [type=GET, output=ValueOutput [output=[B@14817ed8, error='null'], commandType=io.lettuce.core.protocol.AsyncCommand], empty stack: true
+[17:07:36:415] [DEBUG] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.lookupHandlerMethod(PropertySourcedRequestMappingHandlerMapping.java:108) - looking up handler for path: /parkinglots/getAll
+[17:07:36:416] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - ==>  Preparing: SELECT id,total,car_amount,left_amount,name,administrator,phone,address FROM parkinglot
+[17:07:36:418] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - ==> Parameters: 
+[17:07:36:419] [INFO] - com.ustcsse.parking.service.impl.ParkingServiceImpl.parkingOut(ParkingServiceImpl.java:315) - 订单保存成功!
+[17:07:36:420] [DEBUG] - com.netflix.loadbalancer.ZoneAwareLoadBalancer.chooseServer(ZoneAwareLoadBalancer.java:112) - Zone aware logic disabled or there is only one zone
+[17:07:36:422] [DEBUG] - com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:492) - cpm-parkinglots using LB returned Server: 192.168.108.1:11000 for request http:///parkinglots/add
+[17:07:36:421] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - <==      Total: 3
+[17:07:36:428] [DEBUG] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.lookupHandlerMethod(PropertySourcedRequestMappingHandlerMapping.java:108) - looking up handler for path: /parkinglots/add
+[17:07:36:432] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - ==>  Preparing: UPDATE parkinglot SET total=?, car_amount=?, left_amount=?, name=?, administrator=?, phone=?, address=? WHERE id=?

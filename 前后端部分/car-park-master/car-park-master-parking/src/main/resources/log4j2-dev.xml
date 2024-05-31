@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="fatal">
+    <!--打印在本地，根据具体存储地址填写-->
+    <Properties>
+        <Property name="baseDir" value="logs"/>
+    </Properties>
+
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <!--控制台只输出level及以上级别的信息（onMatch），其他的直接拒绝（onMismatch） -->
+            <ThresholdFilter level="info" onMatch="ACCEPT"
+                             onMismatch="DENY"/>
+            <!--disableAnsi可以启用控制台日志输出颜色-->
+            <PatternLayout
+                    pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %highlight{%6p} %style{%5pid}{bright,magenta} --- [%15.15t] %style{%-40.40logger{39}}{bright,cyan}: %m%n"
+                    disableAnsi="false"/>
+        </Console>
+
+        <!-- info级别日志文件输出 -->
+        <RollingFile name="InfoAppender" fileName="${baseDir}/info.log"
+                     filePattern="${baseDir}/$${date:yyyy-MM-dd}/info_%i.%d{yyyy-MM-dd-HH}.log" append="true">
+            <!-- 过滤器 -->
+            <Filters>
+                <!-- 限制日志级别在info及以上在error以下 -->
+                <ThresholdFilter level="info"/>
+                <ThresholdFilter level="error" onMatch="DENY" onMismatch="NEUTRAL"/>
+            </Filters>
+            <!-- 日志格式 -->
+            <PatternLayout pattern="[%d{HH:mm:ss:SSS}] [%p] - %l - %m%n"/>
+            <!-- 策略 -->
+            <Policies>
+                <!-- 每隔一天转存 -->
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <!-- 文件大小 -->
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+            <!-- DefaultRolloverStrategy属性如不设置，则默认为最多同一文件夹下7个文件开始自动清理-->
+            <DefaultRolloverStrategy max="10">
+                <Delete basePath="${baseDir}/$${date:yyyy-MM-dd}/" maxDepth="2">
+                    <IfFileName glob="*/*.log" />
+                    <!--7天-->
+                    <IfLastModified age="168H" />
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+
+        <!-- error级别日志文件输出 -->
+        <RollingFile name="ErrorAppender" fileName="${baseDir}/error.log"
+                     filePattern="${baseDir}/$${date:yyyy-MM-dd}/error_%i.%d{yyyy-MM-dd-HH}.log" append="true">
+            <Filters>
+                <ThresholdFilter level="error" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+            <PatternLayout pattern="[%d{HH:mm:ss:SSS}] [%p] - %l - %m%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10">
+                <Delete basePath="${baseDir}/$${date:yyyy-MM-dd}/" maxDepth="2">
+                    <IfFileName glob="*/*.log" />
+                    <!--7天-->
+                    <IfLastModified age="168H" />
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+
+        <!-- debug级别日志文件输出 -->
+        <RollingFile name="DebugAppender" fileName="${baseDir}/debug.log"
+                     filePattern="${baseDir}/$${date:yyyy-MM-dd}/debug_%i.%d{yyyy-MM-dd-HH}.log" append="true">
+            <Filters>
+                <ThresholdFilter level="debug" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+            <PatternLayout pattern="[%d{HH:mm:ss:SSS}] [%p] - %l - %m%n"/>
+            <Policies>
+                <TimeBasedTriggeringPolicy interval="1" modulate="true"/>
+                <SizeBasedTriggeringPolicy size="100 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10">
+                <Delete basePath="${baseDir}/$${date:yyyy-MM-dd}/" maxDepth="2">
+                    <IfFileName glob="*/*.log" />
+                    <!--7天-->
+                    <IfLastModified age="168H" />
+                </Delete>
+            </DefaultRolloverStrategy>
+        </RollingFile>
+
+        <!--异步appender-->
+        <Async name="AsyncAppender" includeLocation="true">
+            <AppenderRef ref="ErrorAppender"/>
+            <AppenderRef ref="InfoAppender"/>
+            <AppenderRef ref="DebugAppender"/>
+        </Async>
+    </Appenders>
+
+    <Loggers>
+        <logger name="org.springframework" level="INFO">
+        </logger>
+        <logger name="org.mybatis" level="INFO">
+        </logger>
+        <Root level="debug" includeLocation="true">
+            <AppenderRef ref="Console"/>
+            <AppenderRef ref="AsyncAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>
