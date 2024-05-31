@@ -1,0 +1,56 @@
+[18:10:39:109] [WARN] - com.alibaba.nacos.common.notify.NotifyCenter.shutdown(NotifyCenter.java:145) - [NotifyCenter] Start destroying Publisher
+[18:10:39:109] [WARN] - com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown(HttpClientBeanHolder.java:108) - [HttpClientBeanHolder] Start destroying common HttpClient
+[18:10:39:112] [WARN] - com.alibaba.nacos.common.notify.NotifyCenter.shutdown(NotifyCenter.java:162) - [NotifyCenter] Destruction of the end
+[18:10:39:121] [WARN] - com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown(HttpClientBeanHolder.java:114) - [HttpClientBeanHolder] Destruction of the end
+[18:10:39:501] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+[18:10:39:518] [DEBUG] - org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.shutdown(PoolingNHttpClientConnectionManager.java:232) - Connection manager is shutting down
+[18:10:39:526] [DEBUG] - org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.shutdown(PoolingNHttpClientConnectionManager.java:234) - Connection manager shut down
+[18:10:39:532] [INFO] - com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:94) - De-registering from Nacos Server now...
+[18:10:39:542] [INFO] - com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:114) - De-registration finished.
+[18:10:39:557] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[18:10:39:869] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[18:10:40:113] [DEBUG] - com.alibaba.nacos.common.notify.DefaultPublisher.notifySubscriber(DefaultPublisher.java:193) - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@697147e1 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@5e6522a6
+[18:10:40:123] [DEBUG] - com.alibaba.nacos.common.notify.DefaultPublisher.notifySubscriber(DefaultPublisher.java:193) - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@39eeaeb5 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@76134b9b
+[18:10:40:977] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[18:10:40:977] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[18:10:40:977] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[18:10:40:977] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[18:10:40:977] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[18:10:40:977] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[18:10:40:977] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[18:10:41:086] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: []
+[18:10:41:086] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: []
+[18:10:41:086] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[18:10:41:086] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {}
+[18:10:41:086] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[18:10:45:804] [WARN] - org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:349) - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[18:10:45:814] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[18:10:45:850] [DEBUG] - io.lettuce.core.AbstractRedisClient.shutdownAsync(AbstractRedisClient.java:474) - Initiate shutdown (100, 100, MILLISECONDS)
+[18:10:45:890] [DEBUG] - io.lettuce.core.resource.DefaultClientResources.shutdown(DefaultClientResources.java:631) - Initiate shutdown (0, 2, SECONDS)
+[18:10:45:900] [DEBUG] - io.lettuce.core.resource.DefaultEventLoopGroupProvider.shutdown(DefaultEventLoopGroupProvider.java:263) - Initiate shutdown (0, 2, SECONDS)
+[18:10:45:912] [INFO] - com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2071) - {dataSource-1} closing ...
+[18:10:45:915] [INFO] - com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2144) - {dataSource-1} closed
+[18:10:46:631] [WARN] - com.alibaba.nacos.common.notify.NotifyCenter.shutdown(NotifyCenter.java:145) - [NotifyCenter] Start destroying Publisher
+[18:10:46:632] [WARN] - com.alibaba.nacos.common.notify.NotifyCenter.shutdown(NotifyCenter.java:162) - [NotifyCenter] Destruction of the end
+[18:10:46:631] [WARN] - com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown(HttpClientBeanHolder.java:108) - [HttpClientBeanHolder] Start destroying common HttpClient
+[18:10:46:632] [INFO] - com.netflix.loadbalancer.PollingServerListUpdater$LazyHolder$2.run(PollingServerListUpdater.java:53) - Shutting down the Executor Pool for PollingServerListUpdater
+[18:10:46:633] [WARN] - com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown(HttpClientBeanHolder.java:114) - [HttpClientBeanHolder] Destruction of the end
+[18:10:46:843] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+[18:10:46:847] [DEBUG] - org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.shutdown(PoolingNHttpClientConnectionManager.java:232) - Connection manager is shutting down
+[18:10:46:851] [DEBUG] - org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.shutdown(PoolingNHttpClientConnectionManager.java:234) - Connection manager shut down
+[18:10:46:854] [INFO] - com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:94) - De-registering from Nacos Server now...
+[18:10:46:858] [INFO] - com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:114) - De-registration finished.
+[18:10:47:430] [DEBUG] - com.alibaba.nacos.common.notify.DefaultPublisher.notifySubscriber(DefaultPublisher.java:193) - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@64437442 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@5e6522a6
+[18:10:55:956] [WARN] - org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:349) - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[18:10:55:957] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[18:10:55:973] [DEBUG] - io.lettuce.core.AbstractRedisClient.shutdownAsync(AbstractRedisClient.java:474) - Initiate shutdown (100, 100, MILLISECONDS)
+[18:10:55:986] [DEBUG] - io.lettuce.core.resource.DefaultClientResources.shutdown(DefaultClientResources.java:631) - Initiate shutdown (0, 2, SECONDS)
+[18:10:55:989] [DEBUG] - io.lettuce.core.resource.DefaultEventLoopGroupProvider.shutdown(DefaultEventLoopGroupProvider.java:263) - Initiate shutdown (0, 2, SECONDS)
+[18:10:56:005] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:411) - Connection manager is shutting down
+[18:10:56:009] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:434) - Connection manager shut down
+[18:10:56:012] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:411) - Connection manager is shutting down
+[18:10:56:012] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:434) - Connection manager shut down
+[18:10:56:013] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:411) - Connection manager is shutting down
+[18:10:56:013] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.shutdown(PoolingHttpClientConnectionManager.java:434) - Connection manager shut down
+[18:10:56:020] [INFO] - com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2071) - {dataSource-1} closing ...
+[18:10:56:022] [INFO] - com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2144) - {dataSource-1} closed

@@ -1,0 +1,5 @@
+[16:14:31:550] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:0
+[16:14:32:329] [INFO] - com.ustcsse.parking.service.WebSocketServer.onOpen(WebSocketServer.java:54) - 【websocket消息】有新的连接，总数为:1
+[16:14:44:044] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:0
+[16:14:44:845] [INFO] - com.ustcsse.parking.service.WebSocketServer.onOpen(WebSocketServer.java:54) - 【websocket消息】有新的连接，总数为:1
+[16:16:29:711] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:0

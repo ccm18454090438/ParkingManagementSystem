@@ -1,0 +1,17 @@
+[18:10:56:661] [WARN] - com.alibaba.nacos.common.notify.NotifyCenter.shutdown(NotifyCenter.java:145) - [NotifyCenter] Start destroying Publisher
+[18:10:56:661] [WARN] - com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown(HttpClientBeanHolder.java:108) - [HttpClientBeanHolder] Start destroying common HttpClient
+[18:10:56:662] [WARN] - com.alibaba.nacos.common.notify.NotifyCenter.shutdown(NotifyCenter.java:162) - [NotifyCenter] Destruction of the end
+[18:10:56:673] [WARN] - com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown(HttpClientBeanHolder.java:114) - [HttpClientBeanHolder] Destruction of the end
+[18:10:56:969] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+[18:10:56:986] [DEBUG] - org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.shutdown(PoolingNHttpClientConnectionManager.java:232) - Connection manager is shutting down
+[18:10:56:992] [DEBUG] - org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.shutdown(PoolingNHttpClientConnectionManager.java:234) - Connection manager shut down
+[18:10:56:999] [INFO] - com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:94) - De-registering from Nacos Server now...
+[18:10:57:007] [INFO] - com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:114) - De-registration finished.
+[18:10:57:626] [DEBUG] - com.alibaba.nacos.common.notify.DefaultPublisher.notifySubscriber(DefaultPublisher.java:193) - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@443f7063 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@389a1e34
+[18:11:06:097] [WARN] - org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:349) - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[18:11:06:108] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[18:11:06:151] [DEBUG] - io.lettuce.core.AbstractRedisClient.shutdownAsync(AbstractRedisClient.java:474) - Initiate shutdown (100, 100, MILLISECONDS)
+[18:11:06:200] [DEBUG] - io.lettuce.core.resource.DefaultClientResources.shutdown(DefaultClientResources.java:631) - Initiate shutdown (0, 2, SECONDS)
+[18:11:06:211] [DEBUG] - io.lettuce.core.resource.DefaultEventLoopGroupProvider.shutdown(DefaultEventLoopGroupProvider.java:263) - Initiate shutdown (0, 2, SECONDS)
+[18:11:06:227] [INFO] - com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2071) - {dataSource-1} closing ...
+[18:11:06:231] [INFO] - com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2144) - {dataSource-1} closed

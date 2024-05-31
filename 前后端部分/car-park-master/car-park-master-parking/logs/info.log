@@ -1,0 +1,26 @@
+[08:15:24:062] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[08:15:25:197] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[08:15:25:197] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[08:15:25:228] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+[08:15:25:558] [INFO] - org.springframework.cloud.context.scope.GenericScope.setSerializationId(GenericScope.java:295) - BeanFactory id=305a8364-32f7-30f4-a2e1-38fda08ee08d
+[08:15:26:237] [INFO] - com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[08:15:26:442] [INFO] - com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:998) - {dataSource-1} inited
+[08:15:28:915] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:559) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serverEndpointExporter' defined in class path resource [com/ustcsse/parking/config/WebSocketConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: javax.websocket.server.ServerContainer not available
+[08:15:28:931] [INFO] - com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2071) - {dataSource-1} closing ...
+[08:15:28:931] [INFO] - com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2144) - {dataSource-1} closed
+[08:15:28:947] [INFO] - org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(ConditionEvaluationReportLoggingListener.java:136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[08:16:37:814] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[08:16:39:392] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[08:16:39:392] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[08:16:39:455] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 29ms. Found 0 Redis repository interfaces.
+[08:16:39:911] [INFO] - org.springframework.cloud.context.scope.GenericScope.setSerializationId(GenericScope.java:295) - BeanFactory id=305a8364-32f7-30f4-a2e1-38fda08ee08d
+[08:16:40:682] [INFO] - com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[08:16:40:933] [INFO] - com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:998) - {dataSource-1} inited
+[08:16:44:119] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:559) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'serverEndpointExporter' defined in class path resource [com/ustcsse/parking/config/WebSocketConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: javax.websocket.server.ServerContainer not available
+[08:16:44:150] [INFO] - com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2071) - {dataSource-1} closing ...
+[08:16:44:150] [INFO] - com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2144) - {dataSource-1} closed
+[08:16:44:170] [INFO] - org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener.logMessage(ConditionEvaluationReportLoggingListener.java:136) - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.

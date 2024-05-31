@@ -1,0 +1,37 @@
+[18:21:12:463] [WARN] - com.alibaba.nacos.common.notify.NotifyCenter.shutdown(NotifyCenter.java:145) - [NotifyCenter] Start destroying Publisher
+[18:21:12:462] [WARN] - com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown(HttpClientBeanHolder.java:108) - [HttpClientBeanHolder] Start destroying common HttpClient
+[18:21:12:465] [WARN] - com.alibaba.nacos.common.notify.NotifyCenter.shutdown(NotifyCenter.java:162) - [NotifyCenter] Destruction of the end
+[18:21:12:474] [WARN] - com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown(HttpClientBeanHolder.java:114) - [HttpClientBeanHolder] Destruction of the end
+[18:21:12:828] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+[18:21:12:862] [INFO] - com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:94) - De-registering from Nacos Server now...
+[18:21:12:867] [INFO] - com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:114) - De-registration finished.
+[18:21:20:685] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[18:21:20:704] [WARN] - org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:349) - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[18:21:20:716] [INFO] - com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2071) - {dataSource-1} closing ...
+[18:21:20:721] [INFO] - com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2144) - {dataSource-1} closed
+[18:21:21:473] [WARN] - com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown(HttpClientBeanHolder.java:108) - [HttpClientBeanHolder] Start destroying common HttpClient
+[18:21:21:473] [WARN] - com.alibaba.nacos.common.notify.NotifyCenter.shutdown(NotifyCenter.java:145) - [NotifyCenter] Start destroying Publisher
+[18:21:21:474] [WARN] - com.alibaba.nacos.common.notify.NotifyCenter.shutdown(NotifyCenter.java:162) - [NotifyCenter] Destruction of the end
+[18:21:21:475] [WARN] - com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown(HttpClientBeanHolder.java:114) - [HttpClientBeanHolder] Destruction of the end
+[18:21:21:788] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+[18:21:21:813] [INFO] - com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:94) - De-registering from Nacos Server now...
+[18:21:21:817] [INFO] - com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:114) - De-registration finished.
+[18:21:28:437] [WARN] - org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:349) - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[18:21:28:447] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[18:21:28:560] [INFO] - com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2071) - {dataSource-1} closing ...
+[18:21:28:569] [INFO] - com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2144) - {dataSource-1} closed
+[18:21:29:085] [WARN] - com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown(HttpClientBeanHolder.java:108) - [HttpClientBeanHolder] Start destroying common HttpClient
+[18:21:29:085] [WARN] - com.alibaba.nacos.common.notify.NotifyCenter.shutdown(NotifyCenter.java:145) - [NotifyCenter] Start destroying Publisher
+[18:21:29:086] [WARN] - com.alibaba.nacos.common.notify.NotifyCenter.shutdown(NotifyCenter.java:162) - [NotifyCenter] Destruction of the end
+[18:21:29:086] [WARN] - com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown(HttpClientBeanHolder.java:114) - [HttpClientBeanHolder] Destruction of the end
+[18:21:29:332] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+[18:21:29:351] [INFO] - com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:94) - De-registering from Nacos Server now...
+[18:21:29:355] [INFO] - com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:114) - De-registration finished.
+[18:21:36:060] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:0
+[18:21:36:541] [WARN] - com.rabbitmq.client.impl.ForgivingExceptionHandler.log(ForgivingExceptionHandler.java:115) - An unexpected connection driver error occured (Exception message: Connection reset)
+[18:21:36:855] [INFO] - org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.killOrRestart(SimpleMessageListenerContainer.java:1436) - Restarting Consumer@6d4c18b8: tags=[[amq.ctag-ECcnep2L85P9L4lAxMsb0w]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://guest@192.168.232.130:5672/my_vhost,1), conn: Proxy@652f26da Shared Rabbit Connection: SimpleConnection@2b3242a5 [delegate=amqp://guest@192.168.232.130:5672/my_vhost, localPort= 58080], acknowledgeMode=NONE local queue size=0
+[18:21:36:859] [INFO] - org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:558) - Attempting to connect to: [192.168.232.130:5672]
+[18:21:37:557] [WARN] - org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:349) - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[18:21:37:559] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[18:21:37:590] [INFO] - com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2071) - {dataSource-1} closing ...
+[18:21:37:595] [INFO] - com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2144) - {dataSource-1} closed

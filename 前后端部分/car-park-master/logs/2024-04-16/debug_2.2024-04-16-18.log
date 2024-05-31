@@ -1,0 +1,50 @@
+[20:55:23:974] [ERROR] - org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1846) - Failed to check/redeclare auto-delete queue(s).
+org.springframework.amqp.AmqpIOException: java.net.SocketException: Software caused connection abort: connect
+	at org.springframework.amqp.rabbit.support.RabbitExceptionTranslator.convertRabbitAccessException(RabbitExceptionTranslator.java:70) ~[spring-rabbit-2.2.13.RELEASE.jar:2.2.13.RELEASE]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:524) ~[spring-rabbit-2.2.13.RELEASE.jar:2.2.13.RELEASE]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createConnection(CachingConnectionFactory.java:751) ~[spring-rabbit-2.2.13.RELEASE.jar:2.2.13.RELEASE]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.createBareChannel(CachingConnectionFactory.java:702) ~[spring-rabbit-2.2.13.RELEASE.jar:2.2.13.RELEASE]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.getCachedChannelProxy(CachingConnectionFactory.java:676) ~[spring-rabbit-2.2.13.RELEASE.jar:2.2.13.RELEASE]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.getChannel(CachingConnectionFactory.java:567) ~[spring-rabbit-2.2.13.RELEASE.jar:2.2.13.RELEASE]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory.access$1600(CachingConnectionFactory.java:102) ~[spring-rabbit-2.2.13.RELEASE.jar:2.2.13.RELEASE]
+	at org.springframework.amqp.rabbit.connection.CachingConnectionFactory$ChannelCachingConnectionProxy.createChannel(CachingConnectionFactory.java:1439) ~[spring-rabbit-2.2.13.RELEASE.jar:2.2.13.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.doExecute(RabbitTemplate.java:2095) ~[spring-rabbit-2.2.13.RELEASE.jar:2.2.13.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2062) ~[spring-rabbit-2.2.13.RELEASE.jar:2.2.13.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.execute(RabbitTemplate.java:2042) ~[spring-rabbit-2.2.13.RELEASE.jar:2.2.13.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueInfo(RabbitAdmin.java:407) ~[spring-rabbit-2.2.13.RELEASE.jar:2.2.13.RELEASE]
+	at org.springframework.amqp.rabbit.core.RabbitAdmin.getQueueProperties(RabbitAdmin.java:391) ~[spring-rabbit-2.2.13.RELEASE.jar:2.2.13.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.attemptDeclarations(AbstractMessageListenerContainer.java:1859) ~[spring-rabbit-2.2.13.RELEASE.jar:2.2.13.RELEASE]
+	at org.springframework.amqp.rabbit.listener.AbstractMessageListenerContainer.redeclareElementsIfNecessary(AbstractMessageListenerContainer.java:1840) [spring-rabbit-2.2.13.RELEASE.jar:2.2.13.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.initialize(SimpleMessageListenerContainer.java:1354) [spring-rabbit-2.2.13.RELEASE.jar:2.2.13.RELEASE]
+	at org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.run(SimpleMessageListenerContainer.java:1200) [spring-rabbit-2.2.13.RELEASE.jar:2.2.13.RELEASE]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+Caused by: java.net.SocketException: Software caused connection abort: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_201]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[?:1.8.0_201]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[?:1.8.0_201]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172) ~[?:1.8.0_201]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[?:1.8.0_201]
+	at java.net.Socket.connect(Socket.java:589) ~[?:1.8.0_201]
+	at com.rabbitmq.client.impl.SocketFrameHandlerFactory.create(SocketFrameHandlerFactory.java:60) ~[amqp-client-5.9.0.jar:5.9.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1137) ~[amqp-client-5.9.0.jar:5.9.0]
+	at com.rabbitmq.client.ConnectionFactory.newConnection(ConnectionFactory.java:1087) ~[amqp-client-5.9.0.jar:5.9.0]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:560) ~[spring-rabbit-2.2.13.RELEASE.jar:2.2.13.RELEASE]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connect(AbstractConnectionFactory.java:533) ~[spring-rabbit-2.2.13.RELEASE.jar:2.2.13.RELEASE]
+	at org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:487) ~[spring-rabbit-2.2.13.RELEASE.jar:2.2.13.RELEASE]
+	... 16 more
+[20:55:23:975] [INFO] - org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:558) - Attempting to connect to: [192.168.232.130:5672]
+[20:55:25:095] [WARN] - com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown(HttpClientBeanHolder.java:108) - [HttpClientBeanHolder] Start destroying common HttpClient
+[20:55:25:095] [WARN] - com.alibaba.nacos.common.notify.NotifyCenter.shutdown(NotifyCenter.java:145) - [NotifyCenter] Start destroying Publisher
+[20:55:25:095] [INFO] - com.netflix.loadbalancer.PollingServerListUpdater$LazyHolder$2.run(PollingServerListUpdater.java:53) - Shutting down the Executor Pool for PollingServerListUpdater
+[20:55:25:096] [WARN] - com.alibaba.nacos.common.notify.NotifyCenter.shutdown(NotifyCenter.java:162) - [NotifyCenter] Destruction of the end
+[20:55:25:099] [WARN] - com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown(HttpClientBeanHolder.java:114) - [HttpClientBeanHolder] Destruction of the end
+[20:55:25:105] [INFO] - org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doShutdown(SimpleMessageListenerContainer.java:646) - Waiting for workers to finish.
+[20:55:25:106] [INFO] - org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer.doShutdown(SimpleMessageListenerContainer.java:649) - Successfully waited for workers to finish.
+[20:55:25:759] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+[20:55:25:777] [DEBUG] - org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.shutdown(PoolingNHttpClientConnectionManager.java:232) - Connection manager is shutting down
+[20:55:25:780] [DEBUG] - org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.shutdown(PoolingNHttpClientConnectionManager.java:234) - Connection manager shut down
+[20:55:25:787] [INFO] - com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:94) - De-registering from Nacos Server now...
+[20:55:25:800] [INFO] - com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:114) - De-registration finished.
+[20:55:25:814] [DEBUG] - com.alibaba.nacos.common.notify.DefaultPublisher.notifySubscriber(DefaultPublisher.java:193) - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@a68c0b6 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@5f68eec6

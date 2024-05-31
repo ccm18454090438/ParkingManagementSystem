@@ -1,0 +1,939 @@
+[15:04:55:851] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[15:04:56:785] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[15:04:56:789] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[15:04:56:839] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
+[15:04:57:121] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[15:04:57:260] [INFO] - org.springframework.cloud.context.scope.GenericScope.setSerializationId(GenericScope.java:295) - BeanFactory id=21c4a58f-e4e0-302b-8aad-11cec84ab24b
+[15:04:57:700] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 10001 (http)
+[15:04:57:708] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-10001"]
+[15:04:57:709] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[15:04:57:709] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[15:04:57:834] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[15:04:57:834] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 1961 ms
+[15:04:57:942] [INFO] - com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[15:04:58:029] [INFO] - com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:998) - {dataSource-1} inited
+[15:04:58:083] [DEBUG] - org.mybatis.logging.Logger.debug(Logger.java:49) - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@d611f1c'
+[15:04:58:167] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.parking.mapper.ParkingMapper.insert
+[15:04:58:172] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.parking.mapper.ParkingMapper.delete
+[15:04:58:175] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.parking.mapper.ParkingMapper.deleteByMap
+[15:04:58:194] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.parking.mapper.ParkingMapper.deleteById
+[15:04:58:196] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.parking.mapper.ParkingMapper.deleteBatchIds
+[15:04:58:201] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.parking.mapper.ParkingMapper.update
+[15:04:58:203] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.parking.mapper.ParkingMapper.updateById
+[15:04:58:204] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.parking.mapper.ParkingMapper.selectById
+[15:04:58:207] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.parking.mapper.ParkingMapper.selectBatchIds
+[15:04:58:209] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.parking.mapper.ParkingMapper.selectByMap
+[15:04:58:213] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.parking.mapper.ParkingMapper.selectOne
+[15:04:58:217] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.parking.mapper.ParkingMapper.selectCount
+[15:04:58:219] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.parking.mapper.ParkingMapper.selectMaps
+[15:04:58:221] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.parking.mapper.ParkingMapper.selectMapsPage
+[15:04:58:225] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.parking.mapper.ParkingMapper.selectObjs
+[15:04:58:228] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.parking.mapper.ParkingMapper.selectList
+[15:04:58:231] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.parking.mapper.ParkingMapper.selectPage
+[15:04:58:232] [DEBUG] - org.mybatis.logging.Logger.debug(Logger.java:49) - Parsed mapper file: 'file [D:\CodeRepositery\Java\car-park-master\car-park-master-parking\target\classes\com\ustcsse\parking\mapper\ParkingMapper.xml]'
+[15:04:58:938] [DEBUG] - io.netty.util.internal.logging.InternalLoggerFactory.newDefaultFactory(InternalLoggerFactory.java:45) - Using SLF4J as the default logging framework
+[15:04:58:941] [DEBUG] - io.lettuce.core.resource.DefaultClientResources.<clinit>(DefaultClientResources.java:108) - -Dio.netty.eventLoopThreads: 16
+[15:04:58:951] [DEBUG] - io.lettuce.core.resource.DefaultEventLoopGroupProvider.createEventLoopGroup(DefaultEventLoopGroupProvider.java:196) - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+[15:04:58:969] [DEBUG] - io.netty.util.internal.InternalThreadLocalMap.<clinit>(InternalThreadLocalMap.java:56) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[15:04:58:969] [DEBUG] - io.netty.util.internal.InternalThreadLocalMap.<clinit>(InternalThreadLocalMap.java:59) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[15:04:58:975] [DEBUG] - io.netty.util.ResourceLeakDetector.<clinit>(ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+[15:04:58:975] [DEBUG] - io.netty.util.ResourceLeakDetector.<clinit>(ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+[15:04:58:977] [DEBUG] - io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory.newResourceLeakDetector(ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7c453c34
+[15:04:58:981] [DEBUG] - io.netty.util.internal.PlatformDependent.isWindows0(PlatformDependent.java:1036) - Platform: Windows
+[15:04:58:982] [DEBUG] - io.netty.util.internal.PlatformDependent0.explicitNoUnsafeCause0(PlatformDependent0.java:417) - -Dio.netty.noUnsafe: false
+[15:04:58:983] [DEBUG] - io.netty.util.internal.PlatformDependent0.javaVersion0(PlatformDependent0.java:897) - Java version: 8
+[15:04:58:984] [DEBUG] - io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:130) - sun.misc.Unsafe.theUnsafe: available
+[15:04:58:985] [DEBUG] - io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:154) - sun.misc.Unsafe.copyMemory: available
+[15:04:58:986] [DEBUG] - io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:192) - java.nio.Buffer.address: available
+[15:04:58:986] [DEBUG] - io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:257) - direct buffer constructor: available
+[15:04:58:987] [DEBUG] - io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:331) - java.nio.Bits.unaligned: available, true
+[15:04:58:987] [DEBUG] - io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:396) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[15:04:58:987] [DEBUG] - io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:403) - java.nio.DirectByteBuffer.<init>(long, int): available
+[15:04:58:987] [DEBUG] - io.netty.util.internal.PlatformDependent.unsafeUnavailabilityCause0(PlatformDependent.java:1079) - sun.misc.Unsafe: available
+[15:04:58:988] [DEBUG] - io.netty.util.internal.PlatformDependent.tmpdir0(PlatformDependent.java:1200) - -Dio.netty.tmpdir: C:\Users\LONGIS~1\AppData\Local\Temp (java.io.tmpdir)
+[15:04:58:988] [DEBUG] - io.netty.util.internal.PlatformDependent.bitMode0(PlatformDependent.java:1279) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[15:04:59:000] [DEBUG] - io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:177) - -Dio.netty.maxDirectMemory: 3666870272 bytes
+[15:04:59:001] [DEBUG] - io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:184) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[15:04:59:005] [DEBUG] - io.netty.util.internal.CleanerJava6.<clinit>(CleanerJava6.java:92) - java.nio.ByteBuffer.cleaner(): available
+[15:04:59:005] [DEBUG] - io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:204) - -Dio.netty.noPreferDirect: false
+[15:04:59:007] [DEBUG] - io.netty.util.internal.PlatformDependent$Mpsc.<clinit>(PlatformDependent.java:940) - org.jctools-core.MpscChunkedArrayQueue: available
+[15:04:59:018] [DEBUG] - reactor.util.Loggers$Slf4JLogger.debug(Loggers.java:249) - Using Slf4j logging framework
+[15:04:59:037] [DEBUG] - io.lettuce.core.resource.DefaultClientResources.<init>(DefaultClientResources.java:204) - LatencyUtils/HdrUtils are not available, metrics are disabled
+[15:04:59:089] [DEBUG] - io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:154) - -Dio.netty.allocator.numHeapArenas: 32
+[15:04:59:089] [DEBUG] - io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:155) - -Dio.netty.allocator.numDirectArenas: 32
+[15:04:59:089] [DEBUG] - io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:157) - -Dio.netty.allocator.pageSize: 8192
+[15:04:59:089] [DEBUG] - io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:162) - -Dio.netty.allocator.maxOrder: 11
+[15:04:59:089] [DEBUG] - io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:166) - -Dio.netty.allocator.chunkSize: 16777216
+[15:04:59:089] [DEBUG] - io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:167) - -Dio.netty.allocator.smallCacheSize: 256
+[15:04:59:090] [DEBUG] - io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:168) - -Dio.netty.allocator.normalCacheSize: 64
+[15:04:59:090] [DEBUG] - io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:169) - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[15:04:59:090] [DEBUG] - io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:170) - -Dio.netty.allocator.cacheTrimInterval: 8192
+[15:04:59:090] [DEBUG] - io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:171) - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[15:04:59:090] [DEBUG] - io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:172) - -Dio.netty.allocator.useCacheForAllThreads: true
+[15:04:59:090] [DEBUG] - io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:173) - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[15:04:59:657] [DEBUG] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:54) - initialising the handler methods
+[15:04:59:660] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[15:04:59:721] [WARN] - com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121) - No URLs will be polled as dynamic configuration sources.
+[15:04:59:721] [INFO] - com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122) - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[15:04:59:730] [WARN] - com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121) - No URLs will be polled as dynamic configuration sources.
+[15:04:59:731] [INFO] - com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122) - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[15:04:59:769] [DEBUG] - org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory(ResourceBundleMessageInterpolator.java:172) - Loaded expression factory via original TCCL
+[15:04:59:773] [DEBUG] - org.hibernate.validator.internal.engine.AbstractConfigurationImpl.messageInterpolator(AbstractConfigurationImpl.java:171) - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+[15:04:59:775] [DEBUG] - org.hibernate.validator.internal.engine.AbstractConfigurationImpl.constraintValidatorFactory(AbstractConfigurationImpl.java:203) - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+[15:04:59:776] [DEBUG] - org.hibernate.validator.internal.engine.AbstractConfigurationImpl.parameterNameProvider(AbstractConfigurationImpl.java:217) - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+[15:04:59:779] [DEBUG] - org.hibernate.validator.internal.xml.config.ValidationXmlParser.getValidationXmlInputStream(ValidationXmlParser.java:120) - Trying to load META-INF/validation.xml for XML based Validator configuration.
+[15:04:59:779] [DEBUG] - org.hibernate.validator.internal.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath(ResourceLoaderHelper.java:53) - Trying to load META-INF/validation.xml via user class loader
+[15:04:59:780] [DEBUG] - org.hibernate.validator.internal.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath(ResourceLoaderHelper.java:60) - Trying to load META-INF/validation.xml via TCCL
+[15:04:59:781] [DEBUG] - org.hibernate.validator.internal.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath(ResourceLoaderHelper.java:66) - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+[15:04:59:781] [DEBUG] - org.hibernate.validator.internal.xml.config.ValidationXmlParser.getValidationXmlInputStream(ValidationXmlParser.java:127) - No META-INF/validation.xml found. Using annotation based configuration only.
+[15:04:59:783] [DEBUG] - org.hibernate.validator.internal.engine.resolver.TraversableResolvers.getDefault(TraversableResolvers.java:60) - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[15:04:59:787] [DEBUG] - org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper.determinePropertyNodeNameProvider(ValidatorFactoryConfigurationHelper.java:300) - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+[15:04:59:789] [DEBUG] - org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration(ValidatorFactoryConfigurationHelper.java:375) - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+[15:04:59:789] [DEBUG] - org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration(ValidatorFactoryConfigurationHelper.java:376) - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+[15:04:59:789] [DEBUG] - org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration(ValidatorFactoryConfigurationHelper.java:377) - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+[15:04:59:789] [DEBUG] - org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration(ValidatorFactoryConfigurationHelper.java:378) - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+[15:04:59:790] [DEBUG] - org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration(ValidatorFactoryConfigurationHelper.java:379) - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+[15:04:59:989] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[15:05:01:468] [INFO] - org.springframework.cloud.commons.util.InetUtils.convertAddress(InetUtils.java:170) - Cannot determine local hostname
+[15:05:01:474] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+[15:05:03:977] [INFO] - org.springframework.cloud.commons.util.InetUtils.convertAddress(InetUtils.java:170) - Cannot determine local hostname
+[15:05:04:258] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-10001"]
+[15:05:04:273] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 10001 (http) with context path ''
+[15:05:04:285] [INFO] - com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:75) - nacos registry, DEFAULT_GROUP cpm-parking 192.168.108.1:10001 register finished
+[15:05:05:176] [DEBUG] - com.alibaba.nacos.common.notify.DefaultPublisher.notifySubscriber(DefaultPublisher.java:193) - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@582e33f0 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@178dc733
+[15:05:05:474] [INFO] - org.springframework.cloud.commons.util.InetUtils.convertAddress(InetUtils.java:170) - Cannot determine local hostname
+[15:05:05:475] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[15:05:05:497] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[15:05:05:512] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:50) - Total number of request handlers 14
+[15:05:05:513] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:52) - Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[15:05:05:513] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:52) - Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[text/html]}}
+[15:05:05:513] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:52) - Adding key: [/parking/add], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/parking/add], supportedMethods=[POST], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[15:05:05:514] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:52) - Adding key: [/parking/delete/{id}], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/parking/delete/{id}], supportedMethods=[DELETE], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[15:05:05:514] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:52) - Adding key: [/parking/getAll], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/parking/getAll], supportedMethods=[POST], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[15:05:05:514] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:52) - Adding key: [/parking/getById/{id}], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/parking/getById/{id}], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[15:05:05:514] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:52) - Adding key: [/parking/getByParkingVo], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/parking/getByParkingVo], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[15:05:05:514] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:52) - Adding key: [/parking/getParking], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/parking/getParking], supportedMethods=[POST], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[15:05:05:514] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:52) - Adding key: [/parking/parkingIn], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/parking/parkingIn], supportedMethods=[POST], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[15:05:05:514] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:52) - Adding key: [/parking/parkingOut], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/parking/parkingOut], supportedMethods=[POST], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[15:05:05:514] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:52) - Adding key: [/parking/update], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/parking/update], supportedMethods=[POST], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[15:05:05:514] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:52) - Adding key: [/swagger-resources/configuration/security], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/security], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[15:05:05:514] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:52) - Adding key: [/swagger-resources/configuration/ui], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/ui], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[15:05:05:514] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:52) - Adding key: [/swagger-resources], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[15:05:05:532] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:58) - Combined number of request handlers 14
+[15:05:05:533] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[15:05:05:550] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectFromReturnType(OperationModelsProvider.java:76) - Adding return parameter of type V
+[15:05:05:550] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:83) - Reading parameters models for handlerMethod |addParking|
+[15:05:05:551] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:90) - Adding input parameter of type Lcom/ustcsse/parking/model/vo/ParkingVo;
+[15:05:05:551] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:94) - Finished reading parameters models for handlerMethod |addParking|
+[15:05:05:553] [DEBUG] - springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider.collectApiResponses(SwaggerOperationModelsProvider.java:84) - Reading parameters models for handlerMethod |addParking|
+[15:05:05:560] [DEBUG] - springfox.documentation.schema.DefaultModelProvider.modelFor(DefaultModelProvider.java:86) - Skipping model of type V as its either a container type, map, enum or base type, or its already been handled
+[15:05:05:562] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:76) - Did not find any parameter models for void
+[15:05:05:566] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property carplate
+[15:05:05:569] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setCarplate
+[15:05:05:570] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'carplate' renamed to 'carplate'
+[15:05:05:570] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property carplate to model
+[15:05:05:571] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setCarplate
+[15:05:05:571] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setCarplate
+[15:05:05:571] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setCarplate
+[15:05:05:571] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setCarplate
+[15:05:05:576] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property inTime
+[15:05:05:577] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setInTime
+[15:05:05:577] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'inTime' renamed to 'inTime'
+[15:05:05:577] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property inTime to model
+[15:05:05:577] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setInTime
+[15:05:05:577] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setInTime
+[15:05:05:577] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setInTime
+[15:05:05:577] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setInTime
+[15:05:05:578] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property outTime
+[15:05:05:578] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setOutTime
+[15:05:05:578] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'outTime' renamed to 'outTime'
+[15:05:05:578] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property outTime to model
+[15:05:05:578] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setOutTime
+[15:05:05:578] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setOutTime
+[15:05:05:579] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setOutTime
+[15:05:05:579] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setOutTime
+[15:05:05:579] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property parkinglotid
+[15:05:05:579] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotid
+[15:05:05:580] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'parkinglotid' renamed to 'parkinglotid'
+[15:05:05:580] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property parkinglotid to model
+[15:05:05:580] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotid
+[15:05:05:580] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotid
+[15:05:05:580] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotid
+[15:05:05:580] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotid
+[15:05:05:580] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property parkinglotName
+[15:05:05:580] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotName
+[15:05:05:581] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'parkinglotName' renamed to 'parkinglotName'
+[15:05:05:581] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property parkinglotName to model
+[15:05:05:581] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotName
+[15:05:05:581] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotName
+[15:05:05:581] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotName
+[15:05:05:581] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotName
+[15:05:05:586] [DEBUG] - springfox.documentation.schema.DefaultModelProvider.reflectionBasedModel(DefaultModelProvider.java:101) - Inferred 5 properties. Properties found carplate, inTime, outTime, parkinglotName, parkinglotid
+[15:05:05:587] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:71) - Generated parameter model id: ParkingVo, name: ParkingVo, schema: {} models
+[15:05:05:587] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.mergeModelMap(ApiModelReader.java:89) - Adding a new model with key ParkingVo
+[15:05:05:596] [DEBUG] - springfox.bean.validators.plugins.parameter.SizeAnnotationPlugin.apply(SizeAnnotationPlugin.java:52) - searching for @size: false
+[15:05:05:597] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationResponseClassReader.apply(OperationResponseClassReader.java:59) - Setting spring response class to: null
+[15:05:05:598] [DEBUG] - springfox.documentation.swagger.readers.operation.VendorExtensionsReader.apply(VendorExtensionsReader.java:59) - Extension count 1 for method addParking
+[15:05:05:604] [DEBUG] - springfox.documentation.swagger.readers.operation.OperationAuthReader.apply(OperationAuthReader.java:103) - Authorization count 1 for method addParking
+[15:05:05:617] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectFromReturnType(OperationModelsProvider.java:76) - Adding return parameter of type V
+[15:05:05:617] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:83) - Reading parameters models for handlerMethod |delateById|
+[15:05:05:618] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:94) - Finished reading parameters models for handlerMethod |delateById|
+[15:05:05:618] [DEBUG] - springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider.collectApiResponses(SwaggerOperationModelsProvider.java:84) - Reading parameters models for handlerMethod |delateById|
+[15:05:05:618] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:76) - Did not find any parameter models for void
+[15:05:05:618] [DEBUG] - springfox.bean.validators.plugins.parameter.SizeAnnotationPlugin.apply(SizeAnnotationPlugin.java:52) - searching for @size: false
+[15:05:05:619] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationResponseClassReader.apply(OperationResponseClassReader.java:59) - Setting spring response class to: null
+[15:05:05:619] [DEBUG] - springfox.documentation.swagger.readers.operation.VendorExtensionsReader.apply(VendorExtensionsReader.java:59) - Extension count 1 for method delateById
+[15:05:05:619] [DEBUG] - springfox.documentation.swagger.readers.operation.OperationAuthReader.apply(OperationAuthReader.java:103) - Authorization count 1 for method delateById
+[15:05:05:620] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectFromReturnType(OperationModelsProvider.java:76) - Adding return parameter of type Lcom/ustcsse/common/model/R;
+[15:05:05:620] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:83) - Reading parameters models for handlerMethod |getAll|
+[15:05:05:620] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:90) - Adding input parameter of type Lcom/ustcsse/parking/model/ParkingQueryParams;
+[15:05:05:620] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:94) - Finished reading parameters models for handlerMethod |getAll|
+[15:05:05:620] [DEBUG] - springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider.collectApiResponses(SwaggerOperationModelsProvider.java:84) - Reading parameters models for handlerMethod |getAll|
+[15:05:05:620] [DEBUG] - springfox.documentation.schema.DefaultModelProvider.modelFor(DefaultModelProvider.java:86) - Skipping model of type Lcom/ustcsse/common/model/R; as its either a container type, map, enum or base type, or its already been handled
+[15:05:05:620] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:76) - Did not find any parameter models for com.ustcsse.common.model.R
+[15:05:05:622] [DEBUG] - springfox.documentation.schema.DefaultModelDependencyProvider.resolvedTypeParameters(DefaultModelDependencyProvider.java:162) - Adding type for parameter Ljava/lang/String;
+[15:05:05:622] [DEBUG] - springfox.documentation.schema.DefaultModelDependencyProvider.resolvedTypeParameters(DefaultModelDependencyProvider.java:164) - Recursively resolving dependencies for parameter Ljava/lang/String;
+[15:05:05:622] [DEBUG] - springfox.documentation.schema.DefaultModelDependencyProvider.resolvedDependencies(DefaultModelDependencyProvider.java:113) - Marking base type Ljava/lang/String; as seen
+[15:05:05:622] [DEBUG] - springfox.documentation.schema.DefaultModelDependencyProvider.resolvedTypeParameters(DefaultModelDependencyProvider.java:162) - Adding type for parameter Ljava/lang/Object;
+[15:05:05:622] [DEBUG] - springfox.documentation.schema.DefaultModelDependencyProvider.resolvedTypeParameters(DefaultModelDependencyProvider.java:164) - Recursively resolving dependencies for parameter Ljava/lang/Object;
+[15:05:05:622] [DEBUG] - springfox.documentation.schema.DefaultModelDependencyProvider.resolvedDependencies(DefaultModelDependencyProvider.java:113) - Marking base type Ljava/lang/Object; as seen
+[15:05:05:623] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property data
+[15:05:05:623] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property code
+[15:05:05:625] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getCode
+[15:05:05:625] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForSerialization(ObjectMapperBeanPropertyNamingStrategy.java:57) - Name 'code' renamed to 'code'
+[15:05:05:625] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property code to model
+[15:05:05:625] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getCode
+[15:05:05:625] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getCode
+[15:05:05:625] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getCode
+[15:05:05:625] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getCode
+[15:05:05:626] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property empty
+[15:05:05:626] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member isEmpty
+[15:05:05:626] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForSerialization(ObjectMapperBeanPropertyNamingStrategy.java:57) - Name 'empty' renamed to 'empty'
+[15:05:05:626] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property empty to model
+[15:05:05:626] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member isEmpty
+[15:05:05:626] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member isEmpty
+[15:05:05:626] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member isEmpty
+[15:05:05:627] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member isEmpty
+[15:05:05:628] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property parkinglotid
+[15:05:05:628] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotid
+[15:05:05:629] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'parkinglotid' renamed to 'parkinglotid'
+[15:05:05:629] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property parkinglotid to model
+[15:05:05:629] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotid
+[15:05:05:629] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotid
+[15:05:05:629] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotid
+[15:05:05:629] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotid
+[15:05:05:629] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property parkinglotName
+[15:05:05:629] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotName
+[15:05:05:630] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'parkinglotName' renamed to 'parkinglotName'
+[15:05:05:630] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property parkinglotName to model
+[15:05:05:630] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotName
+[15:05:05:630] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotName
+[15:05:05:630] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotName
+[15:05:05:630] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotName
+[15:05:05:630] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property carplate
+[15:05:05:630] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setCarplate
+[15:05:05:631] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'carplate' renamed to 'carplate'
+[15:05:05:631] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property carplate to model
+[15:05:05:631] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setCarplate
+[15:05:05:631] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setCarplate
+[15:05:05:631] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setCarplate
+[15:05:05:631] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setCarplate
+[15:05:05:631] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property dateRange
+[15:05:05:631] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setDateRange
+[15:05:05:631] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'dateRange' renamed to 'dateRange'
+[15:05:05:632] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property dateRange to model
+[15:05:05:632] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setDateRange
+[15:05:05:632] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setDateRange
+[15:05:05:632] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setDateRange
+[15:05:05:632] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setDateRange
+[15:05:05:632] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property dateRange2
+[15:05:05:632] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setDateRange2
+[15:05:05:632] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'dateRange2' renamed to 'dateRange2'
+[15:05:05:633] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property dateRange2 to model
+[15:05:05:633] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setDateRange2
+[15:05:05:633] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setDateRange2
+[15:05:05:633] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setDateRange2
+[15:05:05:633] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setDateRange2
+[15:05:05:633] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property pageParams
+[15:05:05:633] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageParams
+[15:05:05:633] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'pageParams' renamed to 'pageParams'
+[15:05:05:633] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property pageParams to model
+[15:05:05:634] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageParams
+[15:05:05:634] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageParams
+[15:05:05:634] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageParams
+[15:05:05:634] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageParams
+[15:05:05:634] [DEBUG] - springfox.documentation.schema.DefaultModelProvider.reflectionBasedModel(DefaultModelProvider.java:101) - Inferred 6 properties. Properties found carplate, dateRange, dateRange2, pageParams, parkinglotName, parkinglotid
+[15:05:05:634] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:71) - Generated parameter model id: ParkingQueryParams, name: ParkingQueryParams, schema: {} models
+[15:05:05:634] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.mergeModelMap(ApiModelReader.java:89) - Adding a new model with key ParkingQueryParams
+[15:05:05:635] [DEBUG] - springfox.documentation.schema.DefaultModelDependencyProvider.resolvedPropertiesAndFields(DefaultModelDependencyProvider.java:177) - Adding type [Ljava/lang/String; for parameter dateRange
+[15:05:05:635] [DEBUG] - springfox.documentation.schema.DefaultModelDependencyProvider.maybeFromCollectionElementType(DefaultModelDependencyProvider.java:219) - Recursively resolving dependencies for collectionElement type Ljava/lang/String;
+[15:05:05:635] [DEBUG] - springfox.documentation.schema.DefaultModelDependencyProvider.resolvedDependencies(DefaultModelDependencyProvider.java:113) - Marking base type Ljava/lang/String; as seen
+[15:05:05:635] [DEBUG] - springfox.documentation.schema.DefaultModelDependencyProvider.resolvedPropertiesAndFields(DefaultModelDependencyProvider.java:177) - Adding type [Ljava/lang/String; for parameter dateRange2
+[15:05:05:635] [DEBUG] - springfox.documentation.schema.DefaultModelDependencyProvider.maybeFromCollectionElementType(DefaultModelDependencyProvider.java:219) - Recursively resolving dependencies for collectionElement type Ljava/lang/String;
+[15:05:05:635] [DEBUG] - springfox.documentation.schema.DefaultModelDependencyProvider.resolvedDependencies(DefaultModelDependencyProvider.java:113) - Marking base type Ljava/lang/String; as seen
+[15:05:05:635] [DEBUG] - springfox.documentation.schema.DefaultModelDependencyProvider.resolvedPropertiesAndFields(DefaultModelDependencyProvider.java:177) - Adding type Lcom/ustcsse/common/model/PageParams; for parameter pageParams
+[15:05:05:635] [DEBUG] - springfox.documentation.schema.DefaultModelDependencyProvider.maybeFromRegularType(DefaultModelDependencyProvider.java:206) - Recursively resolving dependencies for type Lcom/ustcsse/common/model/PageParams;
+[15:05:05:636] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property pageNo
+[15:05:05:636] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageNo
+[15:05:05:636] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'pageNo' renamed to 'pageNo'
+[15:05:05:636] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property pageNo to model
+[15:05:05:636] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageNo
+[15:05:05:636] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageNo
+[15:05:05:636] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageNo
+[15:05:05:636] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageNo
+[15:05:05:637] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property pageSize
+[15:05:05:637] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageSize
+[15:05:05:637] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'pageSize' renamed to 'pageSize'
+[15:05:05:637] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property pageSize to model
+[15:05:05:637] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageSize
+[15:05:05:637] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageSize
+[15:05:05:637] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageSize
+[15:05:05:637] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageSize
+[15:05:05:638] [DEBUG] - springfox.documentation.schema.DefaultModelProvider.modelFor(DefaultModelProvider.java:86) - Skipping model of type [Ljava/lang/String; as its either a container type, map, enum or base type, or its already been handled
+[15:05:05:638] [DEBUG] - springfox.documentation.schema.DefaultModelProvider.reflectionBasedModel(DefaultModelProvider.java:101) - Inferred 2 properties. Properties found pageNo, pageSize
+[15:05:05:638] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.mergeModelMap(ApiModelReader.java:89) - Adding a new model with key PageParams
+[15:05:05:639] [DEBUG] - springfox.bean.validators.plugins.parameter.SizeAnnotationPlugin.apply(SizeAnnotationPlugin.java:52) - searching for @size: false
+[15:05:05:639] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationResponseClassReader.apply(OperationResponseClassReader.java:59) - Setting spring response class to: R
+[15:05:05:639] [DEBUG] - springfox.documentation.swagger.readers.operation.VendorExtensionsReader.apply(VendorExtensionsReader.java:59) - Extension count 1 for method getAll
+[15:05:05:639] [DEBUG] - springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader.apply(SwaggerOperationResponseClassReader.java:74) - Setting response class to:R
+[15:05:05:639] [DEBUG] - springfox.documentation.swagger.readers.operation.OperationAuthReader.apply(OperationAuthReader.java:103) - Authorization count 1 for method getAll
+[15:05:05:640] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectFromReturnType(OperationModelsProvider.java:76) - Adding return parameter of type Lcom/ustcsse/parking/model/po/Parking;
+[15:05:05:640] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:83) - Reading parameters models for handlerMethod |getById|
+[15:05:05:640] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:94) - Finished reading parameters models for handlerMethod |getById|
+[15:05:05:640] [DEBUG] - springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider.collectApiResponses(SwaggerOperationModelsProvider.java:84) - Reading parameters models for handlerMethod |getById|
+[15:05:05:641] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property id
+[15:05:05:641] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getId
+[15:05:05:641] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForSerialization(ObjectMapperBeanPropertyNamingStrategy.java:57) - Name 'id' renamed to 'id'
+[15:05:05:641] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property id to model
+[15:05:05:641] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getId
+[15:05:05:642] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getId
+[15:05:05:642] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getId
+[15:05:05:642] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getId
+[15:05:05:642] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property parkinglotid
+[15:05:05:642] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getParkinglotid
+[15:05:05:642] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForSerialization(ObjectMapperBeanPropertyNamingStrategy.java:57) - Name 'parkinglotid' renamed to 'parkinglotid'
+[15:05:05:642] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property parkinglotid to model
+[15:05:05:642] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getParkinglotid
+[15:05:05:642] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getParkinglotid
+[15:05:05:642] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getParkinglotid
+[15:05:05:642] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getParkinglotid
+[15:05:05:643] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property parkinglotName
+[15:05:05:643] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getParkinglotName
+[15:05:05:643] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForSerialization(ObjectMapperBeanPropertyNamingStrategy.java:57) - Name 'parkinglotName' renamed to 'parkinglotName'
+[15:05:05:643] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property parkinglotName to model
+[15:05:05:643] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getParkinglotName
+[15:05:05:643] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getParkinglotName
+[15:05:05:643] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getParkinglotName
+[15:05:05:643] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getParkinglotName
+[15:05:05:644] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property memberid
+[15:05:05:644] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getMemberid
+[15:05:05:644] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForSerialization(ObjectMapperBeanPropertyNamingStrategy.java:57) - Name 'memberid' renamed to 'memberid'
+[15:05:05:644] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property memberid to model
+[15:05:05:644] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getMemberid
+[15:05:05:644] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getMemberid
+[15:05:05:644] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getMemberid
+[15:05:05:644] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getMemberid
+[15:05:05:645] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property carplate
+[15:05:05:645] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getCarplate
+[15:05:05:645] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForSerialization(ObjectMapperBeanPropertyNamingStrategy.java:57) - Name 'carplate' renamed to 'carplate'
+[15:05:05:645] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property carplate to model
+[15:05:05:645] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getCarplate
+[15:05:05:645] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getCarplate
+[15:05:05:645] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getCarplate
+[15:05:05:645] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getCarplate
+[15:05:05:645] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property intime
+[15:05:05:645] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getIntime
+[15:05:05:645] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForSerialization(ObjectMapperBeanPropertyNamingStrategy.java:57) - Name 'intime' renamed to 'intime'
+[15:05:05:646] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property intime to model
+[15:05:05:646] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getIntime
+[15:05:05:646] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getIntime
+[15:05:05:646] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getIntime
+[15:05:05:646] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getIntime
+[15:05:05:646] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property outtime
+[15:05:05:646] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getOuttime
+[15:05:05:646] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForSerialization(ObjectMapperBeanPropertyNamingStrategy.java:57) - Name 'outtime' renamed to 'outtime'
+[15:05:05:646] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property outtime to model
+[15:05:05:646] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getOuttime
+[15:05:05:647] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getOuttime
+[15:05:05:647] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getOuttime
+[15:05:05:647] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getOuttime
+[15:05:05:647] [DEBUG] - springfox.documentation.schema.DefaultModelProvider.reflectionBasedModel(DefaultModelProvider.java:101) - Inferred 7 properties. Properties found carplate, id, intime, memberid, outtime, parkinglotName, parkinglotid
+[15:05:05:647] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:71) - Generated parameter model id: Parking, name: Parking, schema: {} models
+[15:05:05:647] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.mergeModelMap(ApiModelReader.java:89) - Adding a new model with key Parking
+[15:05:05:648] [DEBUG] - springfox.bean.validators.plugins.parameter.SizeAnnotationPlugin.apply(SizeAnnotationPlugin.java:52) - searching for @size: false
+[15:05:05:648] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationResponseClassReader.apply(OperationResponseClassReader.java:59) - Setting spring response class to: Parking
+[15:05:05:648] [DEBUG] - springfox.documentation.swagger.readers.operation.VendorExtensionsReader.apply(VendorExtensionsReader.java:59) - Extension count 1 for method getById
+[15:05:05:648] [DEBUG] - springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader.apply(SwaggerOperationResponseClassReader.java:74) - Setting response class to:Parking
+[15:05:05:648] [DEBUG] - springfox.documentation.swagger.readers.operation.OperationAuthReader.apply(OperationAuthReader.java:103) - Authorization count 1 for method getById
+[15:05:05:649] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectFromReturnType(OperationModelsProvider.java:76) - Adding return parameter of type Lcom/ustcsse/parking/model/po/Parking;
+[15:05:05:649] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:83) - Reading parameters models for handlerMethod |getByParkingVo|
+[15:05:05:649] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:90) - Adding input parameter of type Lcom/ustcsse/parking/model/vo/ParkingVo;
+[15:05:05:649] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:94) - Finished reading parameters models for handlerMethod |getByParkingVo|
+[15:05:05:649] [DEBUG] - springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider.collectApiResponses(SwaggerOperationModelsProvider.java:84) - Reading parameters models for handlerMethod |getByParkingVo|
+[15:05:05:649] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:71) - Generated parameter model id: Parking, name: Parking, schema: {} models
+[15:05:05:649] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:71) - Generated parameter model id: ParkingVo, name: ParkingVo, schema: {} models
+[15:05:05:650] [DEBUG] - springfox.bean.validators.plugins.parameter.SizeAnnotationPlugin.apply(SizeAnnotationPlugin.java:52) - searching for @size: false
+[15:05:05:650] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationResponseClassReader.apply(OperationResponseClassReader.java:59) - Setting spring response class to: Parking
+[15:05:05:650] [DEBUG] - springfox.documentation.swagger.readers.operation.VendorExtensionsReader.apply(VendorExtensionsReader.java:59) - Extension count 1 for method getByParkingVo
+[15:05:05:651] [DEBUG] - springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader.apply(SwaggerOperationResponseClassReader.java:74) - Setting response class to:Parking
+[15:05:05:651] [DEBUG] - springfox.documentation.swagger.readers.operation.OperationAuthReader.apply(OperationAuthReader.java:103) - Authorization count 1 for method getByParkingVo
+[15:05:05:651] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectFromReturnType(OperationModelsProvider.java:76) - Adding return parameter of type Lcom/ustcsse/common/model/R;
+[15:05:05:651] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:83) - Reading parameters models for handlerMethod |getParking|
+[15:05:05:651] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:90) - Adding input parameter of type Lcom/ustcsse/parking/model/ParkingQueryParams;
+[15:05:05:651] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:94) - Finished reading parameters models for handlerMethod |getParking|
+[15:05:05:651] [DEBUG] - springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider.collectApiResponses(SwaggerOperationModelsProvider.java:84) - Reading parameters models for handlerMethod |getParking|
+[15:05:05:652] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:76) - Did not find any parameter models for com.ustcsse.common.model.R
+[15:05:05:652] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:71) - Generated parameter model id: ParkingQueryParams, name: ParkingQueryParams, schema: {} models
+[15:05:05:652] [DEBUG] - springfox.documentation.schema.DefaultModelProvider.modelFor(DefaultModelProvider.java:86) - Skipping model of type [Ljava/lang/String; as its either a container type, map, enum or base type, or its already been handled
+[15:05:05:652] [DEBUG] - springfox.documentation.schema.DefaultModelProvider.reflectionBasedModel(DefaultModelProvider.java:101) - Inferred 2 properties. Properties found pageNo, pageSize
+[15:05:05:652] [DEBUG] - springfox.bean.validators.plugins.parameter.SizeAnnotationPlugin.apply(SizeAnnotationPlugin.java:52) - searching for @size: false
+[15:05:05:654] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationResponseClassReader.apply(OperationResponseClassReader.java:59) - Setting spring response class to: R
+[15:05:05:654] [DEBUG] - springfox.documentation.swagger.readers.operation.VendorExtensionsReader.apply(VendorExtensionsReader.java:59) - Extension count 1 for method getParking
+[15:05:05:654] [DEBUG] - springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader.apply(SwaggerOperationResponseClassReader.java:74) - Setting response class to:R
+[15:05:05:654] [DEBUG] - springfox.documentation.swagger.readers.operation.OperationAuthReader.apply(OperationAuthReader.java:103) - Authorization count 1 for method getParking
+[15:05:05:655] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectFromReturnType(OperationModelsProvider.java:76) - Adding return parameter of type Lcom/ustcsse/common/model/R;
+[15:05:05:655] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:83) - Reading parameters models for handlerMethod |parkingIn|
+[15:05:05:655] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:90) - Adding input parameter of type Lcom/ustcsse/parking/model/vo/ParkingVo;
+[15:05:05:655] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:94) - Finished reading parameters models for handlerMethod |parkingIn|
+[15:05:05:655] [DEBUG] - springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider.collectApiResponses(SwaggerOperationModelsProvider.java:84) - Reading parameters models for handlerMethod |parkingIn|
+[15:05:05:655] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:76) - Did not find any parameter models for com.ustcsse.common.model.R
+[15:05:05:655] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:71) - Generated parameter model id: ParkingVo, name: ParkingVo, schema: {} models
+[15:05:05:655] [DEBUG] - springfox.bean.validators.plugins.parameter.SizeAnnotationPlugin.apply(SizeAnnotationPlugin.java:52) - searching for @size: false
+[15:05:05:656] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationResponseClassReader.apply(OperationResponseClassReader.java:59) - Setting spring response class to: R
+[15:05:05:656] [DEBUG] - springfox.documentation.swagger.readers.operation.VendorExtensionsReader.apply(VendorExtensionsReader.java:59) - Extension count 1 for method parkingIn
+[15:05:05:656] [DEBUG] - springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader.apply(SwaggerOperationResponseClassReader.java:74) - Setting response class to:R
+[15:05:05:656] [DEBUG] - springfox.documentation.swagger.readers.operation.OperationAuthReader.apply(OperationAuthReader.java:103) - Authorization count 1 for method parkingIn
+[15:05:05:656] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectFromReturnType(OperationModelsProvider.java:76) - Adding return parameter of type Lcom/ustcsse/common/model/R;
+[15:05:05:656] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:83) - Reading parameters models for handlerMethod |parkingOut|
+[15:05:05:657] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:90) - Adding input parameter of type Lcom/ustcsse/parking/model/vo/ParkingVo;
+[15:05:05:657] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:94) - Finished reading parameters models for handlerMethod |parkingOut|
+[15:05:05:657] [DEBUG] - springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider.collectApiResponses(SwaggerOperationModelsProvider.java:84) - Reading parameters models for handlerMethod |parkingOut|
+[15:05:05:657] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:76) - Did not find any parameter models for com.ustcsse.common.model.R
+[15:05:05:657] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:71) - Generated parameter model id: ParkingVo, name: ParkingVo, schema: {} models
+[15:05:05:657] [DEBUG] - springfox.bean.validators.plugins.parameter.SizeAnnotationPlugin.apply(SizeAnnotationPlugin.java:52) - searching for @size: false
+[15:05:05:657] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationResponseClassReader.apply(OperationResponseClassReader.java:59) - Setting spring response class to: R
+[15:05:05:658] [DEBUG] - springfox.documentation.swagger.readers.operation.VendorExtensionsReader.apply(VendorExtensionsReader.java:59) - Extension count 1 for method parkingOut
+[15:05:05:658] [DEBUG] - springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader.apply(SwaggerOperationResponseClassReader.java:74) - Setting response class to:R
+[15:05:05:658] [DEBUG] - springfox.documentation.swagger.readers.operation.OperationAuthReader.apply(OperationAuthReader.java:103) - Authorization count 1 for method parkingOut
+[15:05:05:658] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectFromReturnType(OperationModelsProvider.java:76) - Adding return parameter of type V
+[15:05:05:658] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:83) - Reading parameters models for handlerMethod |updateParking|
+[15:05:05:659] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:90) - Adding input parameter of type Lcom/ustcsse/parking/model/vo/ParkingVo;
+[15:05:05:659] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:94) - Finished reading parameters models for handlerMethod |updateParking|
+[15:05:05:659] [DEBUG] - springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider.collectApiResponses(SwaggerOperationModelsProvider.java:84) - Reading parameters models for handlerMethod |updateParking|
+[15:05:05:659] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:76) - Did not find any parameter models for void
+[15:05:05:659] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:71) - Generated parameter model id: ParkingVo, name: ParkingVo, schema: {} models
+[15:05:05:659] [DEBUG] - springfox.bean.validators.plugins.parameter.SizeAnnotationPlugin.apply(SizeAnnotationPlugin.java:52) - searching for @size: false
+[15:05:05:660] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationResponseClassReader.apply(OperationResponseClassReader.java:59) - Setting spring response class to: null
+[15:05:05:660] [DEBUG] - springfox.documentation.swagger.readers.operation.VendorExtensionsReader.apply(VendorExtensionsReader.java:59) - Extension count 1 for method updateParking
+[15:05:05:660] [DEBUG] - springfox.documentation.swagger.readers.operation.OperationAuthReader.apply(OperationAuthReader.java:103) - Authorization count 1 for method updateParking
+[15:05:05:679] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started CarParkMasterParkingApplication in 13.119 seconds (JVM running for 14.28)
+[15:05:06:696] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[15:05:07:414] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[15:05:07:418] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[15:05:07:450] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+[15:05:07:603] [DEBUG] - org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:105) - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+[15:05:07:676] [INFO] - org.springframework.cloud.context.scope.GenericScope.setSerializationId(GenericScope.java:295) - BeanFactory id=37381945-22ed-3d99-a2cb-99b151ad8258
+[15:05:08:049] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:108) - Tomcat initialized with port(s): 9000 (http)
+[15:05:08:059] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-9000"]
+[15:05:08:059] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[15:05:08:060] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.41]
+[15:05:08:163] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[15:05:08:163] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:285) - Root WebApplicationContext: initialization completed in 1448 ms
+[15:05:08:251] [INFO] - com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[15:05:08:321] [INFO] - com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:998) - {dataSource-1} inited
+[15:05:08:368] [DEBUG] - org.mybatis.logging.Logger.debug(Logger.java:49) - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@1c93b51e'
+[15:05:08:443] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.order.mapper.OrderMapper.insert
+[15:05:08:447] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.order.mapper.OrderMapper.delete
+[15:05:08:451] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.order.mapper.OrderMapper.deleteByMap
+[15:05:08:466] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.order.mapper.OrderMapper.deleteById
+[15:05:08:467] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.order.mapper.OrderMapper.deleteBatchIds
+[15:05:08:471] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.order.mapper.OrderMapper.update
+[15:05:08:474] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.order.mapper.OrderMapper.updateById
+[15:05:08:475] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.order.mapper.OrderMapper.selectById
+[15:05:08:477] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.order.mapper.OrderMapper.selectBatchIds
+[15:05:08:479] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.order.mapper.OrderMapper.selectByMap
+[15:05:08:481] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.order.mapper.OrderMapper.selectOne
+[15:05:08:484] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.order.mapper.OrderMapper.selectCount
+[15:05:08:486] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.order.mapper.OrderMapper.selectMaps
+[15:05:08:488] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.order.mapper.OrderMapper.selectMapsPage
+[15:05:08:490] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.order.mapper.OrderMapper.selectObjs
+[15:05:08:492] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.order.mapper.OrderMapper.selectList
+[15:05:08:494] [DEBUG] - com.baomidou.mybatisplus.core.MybatisConfiguration.addMappedStatement(MybatisConfiguration.java:128) - addMappedStatement: com.ustcsse.order.mapper.OrderMapper.selectPage
+[15:05:08:495] [DEBUG] - org.mybatis.logging.Logger.debug(Logger.java:49) - Parsed mapper file: 'file [D:\CodeRepositery\Java\car-park-master\car-park-master-order\target\classes\com\ustcsse\order\mapper\OrderMapper.xml]'
+[15:05:08:798] [DEBUG] - io.netty.util.internal.logging.InternalLoggerFactory.newDefaultFactory(InternalLoggerFactory.java:45) - Using SLF4J as the default logging framework
+[15:05:08:802] [DEBUG] - io.lettuce.core.resource.DefaultClientResources.<clinit>(DefaultClientResources.java:108) - -Dio.netty.eventLoopThreads: 16
+[15:05:08:814] [DEBUG] - io.lettuce.core.resource.DefaultEventLoopGroupProvider.createEventLoopGroup(DefaultEventLoopGroupProvider.java:196) - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+[15:05:08:845] [DEBUG] - io.netty.util.internal.InternalThreadLocalMap.<clinit>(InternalThreadLocalMap.java:56) - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[15:05:08:845] [DEBUG] - io.netty.util.internal.InternalThreadLocalMap.<clinit>(InternalThreadLocalMap.java:59) - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[15:05:08:852] [DEBUG] - io.netty.util.ResourceLeakDetector.<clinit>(ResourceLeakDetector.java:129) - -Dio.netty.leakDetection.level: simple
+[15:05:08:852] [DEBUG] - io.netty.util.ResourceLeakDetector.<clinit>(ResourceLeakDetector.java:130) - -Dio.netty.leakDetection.targetRecords: 4
+[15:05:08:856] [DEBUG] - io.netty.util.ResourceLeakDetectorFactory$DefaultResourceLeakDetectorFactory.newResourceLeakDetector(ResourceLeakDetectorFactory.java:196) - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6f731759
+[15:05:08:859] [DEBUG] - io.netty.util.internal.PlatformDependent.isWindows0(PlatformDependent.java:1036) - Platform: Windows
+[15:05:08:861] [DEBUG] - io.netty.util.internal.PlatformDependent0.explicitNoUnsafeCause0(PlatformDependent0.java:417) - -Dio.netty.noUnsafe: false
+[15:05:08:861] [DEBUG] - io.netty.util.internal.PlatformDependent0.javaVersion0(PlatformDependent0.java:897) - Java version: 8
+[15:05:08:864] [DEBUG] - io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:130) - sun.misc.Unsafe.theUnsafe: available
+[15:05:08:865] [DEBUG] - io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:154) - sun.misc.Unsafe.copyMemory: available
+[15:05:08:866] [DEBUG] - io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:192) - java.nio.Buffer.address: available
+[15:05:08:867] [DEBUG] - io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:257) - direct buffer constructor: available
+[15:05:08:869] [DEBUG] - io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:331) - java.nio.Bits.unaligned: available, true
+[15:05:08:869] [DEBUG] - io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:396) - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+[15:05:08:869] [DEBUG] - io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:403) - java.nio.DirectByteBuffer.<init>(long, int): available
+[15:05:08:869] [DEBUG] - io.netty.util.internal.PlatformDependent.unsafeUnavailabilityCause0(PlatformDependent.java:1079) - sun.misc.Unsafe: available
+[15:05:08:870] [DEBUG] - io.netty.util.internal.PlatformDependent.tmpdir0(PlatformDependent.java:1200) - -Dio.netty.tmpdir: C:\Users\LONGIS~1\AppData\Local\Temp (java.io.tmpdir)
+[15:05:08:870] [DEBUG] - io.netty.util.internal.PlatformDependent.bitMode0(PlatformDependent.java:1279) - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[15:05:08:872] [DEBUG] - io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:177) - -Dio.netty.maxDirectMemory: 3666870272 bytes
+[15:05:08:872] [DEBUG] - io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:184) - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[15:05:08:874] [DEBUG] - io.netty.util.internal.CleanerJava6.<clinit>(CleanerJava6.java:92) - java.nio.ByteBuffer.cleaner(): available
+[15:05:08:874] [DEBUG] - io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:204) - -Dio.netty.noPreferDirect: false
+[15:05:08:877] [DEBUG] - io.netty.util.internal.PlatformDependent$Mpsc.<clinit>(PlatformDependent.java:940) - org.jctools-core.MpscChunkedArrayQueue: available
+[15:05:08:901] [DEBUG] - reactor.util.Loggers$Slf4JLogger.debug(Loggers.java:249) - Using Slf4j logging framework
+[15:05:08:937] [DEBUG] - io.lettuce.core.resource.DefaultClientResources.<init>(DefaultClientResources.java:204) - LatencyUtils/HdrUtils are not available, metrics are disabled
+[15:05:09:023] [DEBUG] - io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:154) - -Dio.netty.allocator.numHeapArenas: 32
+[15:05:09:023] [DEBUG] - io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:155) - -Dio.netty.allocator.numDirectArenas: 32
+[15:05:09:023] [DEBUG] - io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:157) - -Dio.netty.allocator.pageSize: 8192
+[15:05:09:023] [DEBUG] - io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:162) - -Dio.netty.allocator.maxOrder: 11
+[15:05:09:023] [DEBUG] - io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:166) - -Dio.netty.allocator.chunkSize: 16777216
+[15:05:09:023] [DEBUG] - io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:167) - -Dio.netty.allocator.smallCacheSize: 256
+[15:05:09:023] [DEBUG] - io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:168) - -Dio.netty.allocator.normalCacheSize: 64
+[15:05:09:023] [DEBUG] - io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:169) - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[15:05:09:023] [DEBUG] - io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:170) - -Dio.netty.allocator.cacheTrimInterval: 8192
+[15:05:09:024] [DEBUG] - io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:171) - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[15:05:09:024] [DEBUG] - io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:172) - -Dio.netty.allocator.useCacheForAllThreads: true
+[15:05:09:024] [DEBUG] - io.netty.buffer.PooledByteBufAllocator.<clinit>(PooledByteBufAllocator.java:173) - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[15:05:09:471] [DEBUG] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:54) - initialising the handler methods
+[15:05:09:473] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[15:05:09:502] [WARN] - com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121) - No URLs will be polled as dynamic configuration sources.
+[15:05:09:502] [INFO] - com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122) - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[15:05:09:507] [WARN] - com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121) - No URLs will be polled as dynamic configuration sources.
+[15:05:09:507] [INFO] - com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122) - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[15:05:09:528] [DEBUG] - org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory(ResourceBundleMessageInterpolator.java:172) - Loaded expression factory via original TCCL
+[15:05:09:530] [DEBUG] - org.hibernate.validator.internal.engine.AbstractConfigurationImpl.messageInterpolator(AbstractConfigurationImpl.java:171) - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+[15:05:09:531] [DEBUG] - org.hibernate.validator.internal.engine.AbstractConfigurationImpl.constraintValidatorFactory(AbstractConfigurationImpl.java:203) - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+[15:05:09:531] [DEBUG] - org.hibernate.validator.internal.engine.AbstractConfigurationImpl.parameterNameProvider(AbstractConfigurationImpl.java:217) - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+[15:05:09:532] [DEBUG] - org.hibernate.validator.internal.xml.config.ValidationXmlParser.getValidationXmlInputStream(ValidationXmlParser.java:120) - Trying to load META-INF/validation.xml for XML based Validator configuration.
+[15:05:09:533] [DEBUG] - org.hibernate.validator.internal.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath(ResourceLoaderHelper.java:53) - Trying to load META-INF/validation.xml via user class loader
+[15:05:09:533] [DEBUG] - org.hibernate.validator.internal.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath(ResourceLoaderHelper.java:60) - Trying to load META-INF/validation.xml via TCCL
+[15:05:09:533] [DEBUG] - org.hibernate.validator.internal.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath(ResourceLoaderHelper.java:66) - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+[15:05:09:533] [DEBUG] - org.hibernate.validator.internal.xml.config.ValidationXmlParser.getValidationXmlInputStream(ValidationXmlParser.java:127) - No META-INF/validation.xml found. Using annotation based configuration only.
+[15:05:09:534] [DEBUG] - org.hibernate.validator.internal.engine.resolver.TraversableResolvers.getDefault(TraversableResolvers.java:60) - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[15:05:09:535] [DEBUG] - org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper.determinePropertyNodeNameProvider(ValidatorFactoryConfigurationHelper.java:300) - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+[15:05:09:535] [DEBUG] - org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration(ValidatorFactoryConfigurationHelper.java:375) - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+[15:05:09:535] [DEBUG] - org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration(ValidatorFactoryConfigurationHelper.java:376) - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+[15:05:09:535] [DEBUG] - org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration(ValidatorFactoryConfigurationHelper.java:377) - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+[15:05:09:535] [DEBUG] - org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration(ValidatorFactoryConfigurationHelper.java:378) - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+[15:05:09:535] [DEBUG] - org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper.logValidatorFactoryScopedConfiguration(ValidatorFactoryConfigurationHelper.java:379) - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+[15:05:09:609] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[15:05:10:892] [INFO] - org.springframework.cloud.commons.util.InetUtils.convertAddress(InetUtils.java:170) - Cannot determine local hostname
+[15:05:10:897] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+[15:05:12:848] [INFO] - org.springframework.cloud.commons.util.InetUtils.convertAddress(InetUtils.java:170) - Cannot determine local hostname
+[15:05:13:123] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-9000"]
+[15:05:13:139] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:220) - Tomcat started on port(s): 9000 (http) with context path ''
+[15:05:13:148] [INFO] - com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:75) - nacos registry, DEFAULT_GROUP cpm-order 192.168.108.1:9000 register finished
+[15:05:14:029] [DEBUG] - com.alibaba.nacos.common.notify.DefaultPublisher.notifySubscriber(DefaultPublisher.java:193) - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@39b0e61c will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@5bf523e3
+[15:05:14:355] [INFO] - org.springframework.cloud.commons.util.InetUtils.convertAddress(InetUtils.java:170) - Cannot determine local hostname
+[15:05:14:356] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[15:05:14:366] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[15:05:14:378] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:50) - Total number of request handlers 12
+[15:05:14:379] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:52) - Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[15:05:14:379] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:52) - Adding key: [/error], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/error], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[text/html]}}
+[15:05:14:381] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:52) - Adding key: [/order/add], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/order/add], supportedMethods=[POST], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[15:05:14:381] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:52) - Adding key: [/order/delete/{id}], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/order/delete/{id}], supportedMethods=[DELETE], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[15:05:14:381] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:52) - Adding key: [/order/getAll], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/order/getAll], supportedMethods=[POST], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[15:05:14:381] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:52) - Adding key: [/order/getById/{id}], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/order/getById/{id}], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[15:05:14:381] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:52) - Adding key: [/order/notify], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/order/notify], supportedMethods=[POST], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[15:05:14:381] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:52) - Adding key: [/order/pay], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/order/pay], supportedMethods=[GET], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[15:05:14:381] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:52) - Adding key: [/order/update], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/order/update], supportedMethods=[POST], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[15:05:14:381] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:52) - Adding key: [/swagger-resources/configuration/security], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/security], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[15:05:14:381] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:52) - Adding key: [/swagger-resources/configuration/ui], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources/configuration/ui], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[15:05:14:381] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:52) - Adding key: [/swagger-resources], WebMvcRequestHandler{key=RequestHandlerKey{pathMappings=[/swagger-resources], supportedMethods=[], supportedMediaTypes=[], producibleMediaTypes=[]}}
+[15:05:14:394] [DEBUG] - springfox.documentation.spring.web.plugins.DefaultRequestHandlerCombiner.combine(DefaultRequestHandlerCombiner.java:58) - Combined number of request handlers 12
+[15:05:14:395] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[15:05:14:409] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectFromReturnType(OperationModelsProvider.java:76) - Adding return parameter of type Ljava/lang/String;
+[15:05:14:410] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:83) - Reading parameters models for handlerMethod |addOrder|
+[15:05:14:411] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:90) - Adding input parameter of type Lcom/ustcsse/order/model/po/Order;
+[15:05:14:411] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:94) - Finished reading parameters models for handlerMethod |addOrder|
+[15:05:14:412] [DEBUG] - springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider.collectApiResponses(SwaggerOperationModelsProvider.java:84) - Reading parameters models for handlerMethod |addOrder|
+[15:05:14:427] [DEBUG] - springfox.documentation.schema.DefaultModelProvider.modelFor(DefaultModelProvider.java:86) - Skipping model of type Ljava/lang/String; as its either a container type, map, enum or base type, or its already been handled
+[15:05:14:435] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:76) - Did not find any parameter models for java.lang.String
+[15:05:14:437] [DEBUG] - springfox.documentation.schema.DefaultModelDependencyProvider.resolvedDependencies(DefaultModelDependencyProvider.java:113) - Marking base type Ljava/lang/String; as seen
+[15:05:14:446] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property id
+[15:05:14:451] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setId
+[15:05:14:452] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'id' renamed to 'id'
+[15:05:14:452] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property id to model
+[15:05:14:453] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setId
+[15:05:14:453] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setId
+[15:05:14:453] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setId
+[15:05:14:454] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setId
+[15:05:14:462] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property amount
+[15:05:14:464] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setAmount
+[15:05:14:464] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'amount' renamed to 'amount'
+[15:05:14:464] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property amount to model
+[15:05:14:464] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setAmount
+[15:05:14:464] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setAmount
+[15:05:14:464] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setAmount
+[15:05:14:464] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setAmount
+[15:05:14:465] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property method
+[15:05:14:465] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setMethod
+[15:05:14:466] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'method' renamed to 'method'
+[15:05:14:466] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property method to model
+[15:05:14:466] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setMethod
+[15:05:14:466] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setMethod
+[15:05:14:466] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setMethod
+[15:05:14:466] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setMethod
+[15:05:14:467] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property type
+[15:05:14:467] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setType
+[15:05:14:467] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'type' renamed to 'type'
+[15:05:14:467] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property type to model
+[15:05:14:467] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setType
+[15:05:14:467] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setType
+[15:05:14:467] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setType
+[15:05:14:467] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setType
+[15:05:14:468] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property carplate
+[15:05:14:468] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setCarplate
+[15:05:14:468] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'carplate' renamed to 'carplate'
+[15:05:14:468] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property carplate to model
+[15:05:14:468] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setCarplate
+[15:05:14:468] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setCarplate
+[15:05:14:468] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setCarplate
+[15:05:14:468] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setCarplate
+[15:05:14:469] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property memberid
+[15:05:14:469] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setMemberid
+[15:05:14:469] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'memberid' renamed to 'memberid'
+[15:05:14:470] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property memberid to model
+[15:05:14:470] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setMemberid
+[15:05:14:470] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setMemberid
+[15:05:14:470] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setMemberid
+[15:05:14:470] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setMemberid
+[15:05:14:470] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property time
+[15:05:14:471] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setTime
+[15:05:14:471] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'time' renamed to 'time'
+[15:05:14:471] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property time to model
+[15:05:14:471] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setTime
+[15:05:14:471] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setTime
+[15:05:14:471] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setTime
+[15:05:14:471] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setTime
+[15:05:14:473] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property duration
+[15:05:14:473] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setDuration
+[15:05:14:473] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'duration' renamed to 'duration'
+[15:05:14:473] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property duration to model
+[15:05:14:473] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setDuration
+[15:05:14:474] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setDuration
+[15:05:14:474] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setDuration
+[15:05:14:474] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setDuration
+[15:05:14:474] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property parkingid
+[15:05:14:475] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkingid
+[15:05:14:475] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'parkingid' renamed to 'parkingid'
+[15:05:14:475] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property parkingid to model
+[15:05:14:475] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkingid
+[15:05:14:475] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkingid
+[15:05:14:475] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkingid
+[15:05:14:475] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkingid
+[15:05:14:476] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property parkinglotName
+[15:05:14:476] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotName
+[15:05:14:476] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'parkinglotName' renamed to 'parkinglotName'
+[15:05:14:476] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property parkinglotName to model
+[15:05:14:476] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotName
+[15:05:14:476] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotName
+[15:05:14:476] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotName
+[15:05:14:476] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotName
+[15:05:14:477] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property parkinglotid
+[15:05:14:477] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotid
+[15:05:14:477] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'parkinglotid' renamed to 'parkinglotid'
+[15:05:14:477] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property parkinglotid to model
+[15:05:14:477] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotid
+[15:05:14:478] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotid
+[15:05:14:478] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotid
+[15:05:14:478] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotid
+[15:05:14:478] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property status
+[15:05:14:478] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setStatus
+[15:05:14:479] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'status' renamed to 'status'
+[15:05:14:479] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property status to model
+[15:05:14:479] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setStatus
+[15:05:14:479] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setStatus
+[15:05:14:479] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setStatus
+[15:05:14:479] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setStatus
+[15:05:14:479] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property tradeNo
+[15:05:14:480] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setTradeNo
+[15:05:14:480] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'tradeNo' renamed to 'tradeNo'
+[15:05:14:480] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property tradeNo to model
+[15:05:14:480] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setTradeNo
+[15:05:14:480] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setTradeNo
+[15:05:14:480] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setTradeNo
+[15:05:14:480] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setTradeNo
+[15:05:14:487] [DEBUG] - springfox.documentation.schema.DefaultModelProvider.reflectionBasedModel(DefaultModelProvider.java:101) - Inferred 13 properties. Properties found amount, carplate, duration, id, memberid, method, parkingid, parkinglotName, parkinglotid, status, time, tradeNo, type
+[15:05:14:489] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:71) - Generated parameter model id: Order, name: Order, schema: {} models
+[15:05:14:489] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.mergeModelMap(ApiModelReader.java:89) - Adding a new model with key Order
+[15:05:14:499] [DEBUG] - springfox.bean.validators.plugins.parameter.SizeAnnotationPlugin.apply(SizeAnnotationPlugin.java:52) - searching for @size: false
+[15:05:14:501] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationResponseClassReader.apply(OperationResponseClassReader.java:59) - Setting spring response class to: string
+[15:05:14:502] [DEBUG] - springfox.documentation.swagger.readers.operation.VendorExtensionsReader.apply(VendorExtensionsReader.java:59) - Extension count 1 for method addOrder
+[15:05:14:503] [DEBUG] - springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader.apply(SwaggerOperationResponseClassReader.java:74) - Setting response class to:string
+[15:05:14:512] [DEBUG] - springfox.documentation.swagger.readers.operation.OperationAuthReader.apply(OperationAuthReader.java:103) - Authorization count 1 for method addOrder
+[15:05:14:528] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectFromReturnType(OperationModelsProvider.java:76) - Adding return parameter of type V
+[15:05:14:529] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:83) - Reading parameters models for handlerMethod |delateById|
+[15:05:14:530] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:94) - Finished reading parameters models for handlerMethod |delateById|
+[15:05:14:530] [DEBUG] - springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider.collectApiResponses(SwaggerOperationModelsProvider.java:84) - Reading parameters models for handlerMethod |delateById|
+[15:05:14:530] [DEBUG] - springfox.documentation.schema.DefaultModelProvider.modelFor(DefaultModelProvider.java:86) - Skipping model of type V as its either a container type, map, enum or base type, or its already been handled
+[15:05:14:530] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:76) - Did not find any parameter models for void
+[15:05:14:531] [DEBUG] - springfox.bean.validators.plugins.parameter.SizeAnnotationPlugin.apply(SizeAnnotationPlugin.java:52) - searching for @size: false
+[15:05:14:531] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationResponseClassReader.apply(OperationResponseClassReader.java:59) - Setting spring response class to: null
+[15:05:14:531] [DEBUG] - springfox.documentation.swagger.readers.operation.VendorExtensionsReader.apply(VendorExtensionsReader.java:59) - Extension count 1 for method delateById
+[15:05:14:532] [DEBUG] - springfox.documentation.swagger.readers.operation.OperationAuthReader.apply(OperationAuthReader.java:103) - Authorization count 1 for method delateById
+[15:05:14:532] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectFromReturnType(OperationModelsProvider.java:76) - Adding return parameter of type Lcom/ustcsse/common/model/R;
+[15:05:14:532] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:83) - Reading parameters models for handlerMethod |getAll|
+[15:05:14:532] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:90) - Adding input parameter of type Lcom/ustcsse/order/model/OrderRequestParams;
+[15:05:14:532] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:94) - Finished reading parameters models for handlerMethod |getAll|
+[15:05:14:533] [DEBUG] - springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider.collectApiResponses(SwaggerOperationModelsProvider.java:84) - Reading parameters models for handlerMethod |getAll|
+[15:05:14:533] [DEBUG] - springfox.documentation.schema.DefaultModelProvider.modelFor(DefaultModelProvider.java:86) - Skipping model of type Lcom/ustcsse/common/model/R; as its either a container type, map, enum or base type, or its already been handled
+[15:05:14:533] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:76) - Did not find any parameter models for com.ustcsse.common.model.R
+[15:05:14:533] [DEBUG] - springfox.documentation.schema.DefaultModelDependencyProvider.resolvedTypeParameters(DefaultModelDependencyProvider.java:162) - Adding type for parameter Ljava/lang/String;
+[15:05:14:533] [DEBUG] - springfox.documentation.schema.DefaultModelDependencyProvider.resolvedTypeParameters(DefaultModelDependencyProvider.java:164) - Recursively resolving dependencies for parameter Ljava/lang/String;
+[15:05:14:533] [DEBUG] - springfox.documentation.schema.DefaultModelDependencyProvider.resolvedDependencies(DefaultModelDependencyProvider.java:113) - Marking base type Ljava/lang/String; as seen
+[15:05:14:533] [DEBUG] - springfox.documentation.schema.DefaultModelDependencyProvider.resolvedTypeParameters(DefaultModelDependencyProvider.java:162) - Adding type for parameter Ljava/lang/Object;
+[15:05:14:533] [DEBUG] - springfox.documentation.schema.DefaultModelDependencyProvider.resolvedTypeParameters(DefaultModelDependencyProvider.java:164) - Recursively resolving dependencies for parameter Ljava/lang/Object;
+[15:05:14:533] [DEBUG] - springfox.documentation.schema.DefaultModelDependencyProvider.resolvedDependencies(DefaultModelDependencyProvider.java:113) - Marking base type Ljava/lang/Object; as seen
+[15:05:14:534] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property data
+[15:05:14:534] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property code
+[15:05:14:537] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getCode
+[15:05:14:537] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForSerialization(ObjectMapperBeanPropertyNamingStrategy.java:57) - Name 'code' renamed to 'code'
+[15:05:14:537] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property code to model
+[15:05:14:537] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getCode
+[15:05:14:537] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getCode
+[15:05:14:537] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getCode
+[15:05:14:537] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getCode
+[15:05:14:538] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property empty
+[15:05:14:538] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member isEmpty
+[15:05:14:538] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForSerialization(ObjectMapperBeanPropertyNamingStrategy.java:57) - Name 'empty' renamed to 'empty'
+[15:05:14:538] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property empty to model
+[15:05:14:538] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member isEmpty
+[15:05:14:538] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member isEmpty
+[15:05:14:538] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member isEmpty
+[15:05:14:538] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member isEmpty
+[15:05:14:541] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property pageParams
+[15:05:14:541] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageParams
+[15:05:14:541] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'pageParams' renamed to 'pageParams'
+[15:05:14:541] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property pageParams to model
+[15:05:14:543] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageParams
+[15:05:14:543] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageParams
+[15:05:14:543] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageParams
+[15:05:14:543] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageParams
+[15:05:14:543] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property method
+[15:05:14:543] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setMethod
+[15:05:14:543] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'method' renamed to 'method'
+[15:05:14:544] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property method to model
+[15:05:14:544] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setMethod
+[15:05:14:544] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setMethod
+[15:05:14:544] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setMethod
+[15:05:14:544] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setMethod
+[15:05:14:544] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property carplate
+[15:05:14:544] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setCarplate
+[15:05:14:544] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'carplate' renamed to 'carplate'
+[15:05:14:544] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property carplate to model
+[15:05:14:544] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setCarplate
+[15:05:14:545] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setCarplate
+[15:05:14:545] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setCarplate
+[15:05:14:545] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setCarplate
+[15:05:14:545] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property parkinglotid
+[15:05:14:545] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotid
+[15:05:14:546] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'parkinglotid' renamed to 'parkinglotid'
+[15:05:14:546] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property parkinglotid to model
+[15:05:14:546] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotid
+[15:05:14:546] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotid
+[15:05:14:546] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotid
+[15:05:14:546] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotid
+[15:05:14:546] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property parkinglotName
+[15:05:14:547] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotName
+[15:05:14:547] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'parkinglotName' renamed to 'parkinglotName'
+[15:05:14:547] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property parkinglotName to model
+[15:05:14:547] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotName
+[15:05:14:547] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotName
+[15:05:14:547] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotName
+[15:05:14:547] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setParkinglotName
+[15:05:14:547] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property type
+[15:05:14:548] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setType
+[15:05:14:548] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'type' renamed to 'type'
+[15:05:14:548] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property type to model
+[15:05:14:548] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setType
+[15:05:14:548] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setType
+[15:05:14:548] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setType
+[15:05:14:548] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setType
+[15:05:14:549] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property dateRange
+[15:05:14:549] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setDateRange
+[15:05:14:549] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'dateRange' renamed to 'dateRange'
+[15:05:14:549] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property dateRange to model
+[15:05:14:549] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setDateRange
+[15:05:14:549] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setDateRange
+[15:05:14:549] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setDateRange
+[15:05:14:549] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setDateRange
+[15:05:14:550] [DEBUG] - springfox.documentation.schema.DefaultModelProvider.reflectionBasedModel(DefaultModelProvider.java:101) - Inferred 7 properties. Properties found carplate, dateRange, method, pageParams, parkinglotName, parkinglotid, type
+[15:05:14:550] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:71) - Generated parameter model id: OrderRequestParams, name: OrderRequestParams, schema: {} models
+[15:05:14:550] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.mergeModelMap(ApiModelReader.java:89) - Adding a new model with key OrderRequestParams
+[15:05:14:550] [DEBUG] - springfox.documentation.schema.DefaultModelDependencyProvider.resolvedPropertiesAndFields(DefaultModelDependencyProvider.java:177) - Adding type [Ljava/lang/String; for parameter dateRange
+[15:05:14:550] [DEBUG] - springfox.documentation.schema.DefaultModelDependencyProvider.maybeFromCollectionElementType(DefaultModelDependencyProvider.java:219) - Recursively resolving dependencies for collectionElement type Ljava/lang/String;
+[15:05:14:550] [DEBUG] - springfox.documentation.schema.DefaultModelDependencyProvider.resolvedDependencies(DefaultModelDependencyProvider.java:113) - Marking base type Ljava/lang/String; as seen
+[15:05:14:550] [DEBUG] - springfox.documentation.schema.DefaultModelDependencyProvider.resolvedPropertiesAndFields(DefaultModelDependencyProvider.java:177) - Adding type Lcom/ustcsse/common/model/PageParams; for parameter pageParams
+[15:05:14:550] [DEBUG] - springfox.documentation.schema.DefaultModelDependencyProvider.maybeFromRegularType(DefaultModelDependencyProvider.java:206) - Recursively resolving dependencies for type Lcom/ustcsse/common/model/PageParams;
+[15:05:14:551] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property pageNo
+[15:05:14:551] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageNo
+[15:05:14:551] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'pageNo' renamed to 'pageNo'
+[15:05:14:551] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property pageNo to model
+[15:05:14:551] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageNo
+[15:05:14:552] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageNo
+[15:05:14:552] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageNo
+[15:05:14:552] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageNo
+[15:05:14:552] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property pageSize
+[15:05:14:552] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageSize
+[15:05:14:552] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForDeserialization(ObjectMapperBeanPropertyNamingStrategy.java:73) - Name 'pageSize' renamed to 'pageSize'
+[15:05:14:552] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property pageSize to model
+[15:05:14:552] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageSize
+[15:05:14:552] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageSize
+[15:05:14:552] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageSize
+[15:05:14:552] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:73) - Evaluating unwrapped setter for member setPageSize
+[15:05:14:553] [DEBUG] - springfox.documentation.schema.DefaultModelProvider.modelFor(DefaultModelProvider.java:86) - Skipping model of type [Ljava/lang/String; as its either a container type, map, enum or base type, or its already been handled
+[15:05:14:553] [DEBUG] - springfox.documentation.schema.DefaultModelProvider.reflectionBasedModel(DefaultModelProvider.java:101) - Inferred 2 properties. Properties found pageNo, pageSize
+[15:05:14:553] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.mergeModelMap(ApiModelReader.java:89) - Adding a new model with key PageParams
+[15:05:14:553] [DEBUG] - springfox.bean.validators.plugins.parameter.SizeAnnotationPlugin.apply(SizeAnnotationPlugin.java:52) - searching for @size: false
+[15:05:14:554] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationResponseClassReader.apply(OperationResponseClassReader.java:59) - Setting spring response class to: R
+[15:05:14:554] [DEBUG] - springfox.documentation.swagger.readers.operation.VendorExtensionsReader.apply(VendorExtensionsReader.java:59) - Extension count 1 for method getAll
+[15:05:14:554] [DEBUG] - springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader.apply(SwaggerOperationResponseClassReader.java:74) - Setting response class to:R
+[15:05:14:554] [DEBUG] - springfox.documentation.swagger.readers.operation.OperationAuthReader.apply(OperationAuthReader.java:103) - Authorization count 1 for method getAll
+[15:05:14:555] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectFromReturnType(OperationModelsProvider.java:76) - Adding return parameter of type Lcom/ustcsse/order/model/po/Order;
+[15:05:14:555] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:83) - Reading parameters models for handlerMethod |getById|
+[15:05:14:555] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:94) - Finished reading parameters models for handlerMethod |getById|
+[15:05:14:555] [DEBUG] - springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider.collectApiResponses(SwaggerOperationModelsProvider.java:84) - Reading parameters models for handlerMethod |getById|
+[15:05:14:556] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property id
+[15:05:14:556] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getId
+[15:05:14:556] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForSerialization(ObjectMapperBeanPropertyNamingStrategy.java:57) - Name 'id' renamed to 'id'
+[15:05:14:556] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property id to model
+[15:05:14:556] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getId
+[15:05:14:556] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getId
+[15:05:14:556] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getId
+[15:05:14:556] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getId
+[15:05:14:557] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property amount
+[15:05:14:557] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getAmount
+[15:05:14:557] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForSerialization(ObjectMapperBeanPropertyNamingStrategy.java:57) - Name 'amount' renamed to 'amount'
+[15:05:14:557] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property amount to model
+[15:05:14:557] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getAmount
+[15:05:14:557] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getAmount
+[15:05:14:557] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getAmount
+[15:05:14:557] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getAmount
+[15:05:14:557] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property method
+[15:05:14:557] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getMethod
+[15:05:14:558] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForSerialization(ObjectMapperBeanPropertyNamingStrategy.java:57) - Name 'method' renamed to 'method'
+[15:05:14:558] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property method to model
+[15:05:14:558] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getMethod
+[15:05:14:558] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getMethod
+[15:05:14:558] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getMethod
+[15:05:14:558] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getMethod
+[15:05:14:558] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property type
+[15:05:14:558] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getType
+[15:05:14:558] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForSerialization(ObjectMapperBeanPropertyNamingStrategy.java:57) - Name 'type' renamed to 'type'
+[15:05:14:558] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property type to model
+[15:05:14:558] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getType
+[15:05:14:558] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getType
+[15:05:14:558] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getType
+[15:05:14:558] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getType
+[15:05:14:559] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property carplate
+[15:05:14:559] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getCarplate
+[15:05:14:559] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForSerialization(ObjectMapperBeanPropertyNamingStrategy.java:57) - Name 'carplate' renamed to 'carplate'
+[15:05:14:559] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property carplate to model
+[15:05:14:559] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getCarplate
+[15:05:14:559] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getCarplate
+[15:05:14:559] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getCarplate
+[15:05:14:559] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getCarplate
+[15:05:14:559] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property memberid
+[15:05:14:559] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getMemberid
+[15:05:14:559] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForSerialization(ObjectMapperBeanPropertyNamingStrategy.java:57) - Name 'memberid' renamed to 'memberid'
+[15:05:14:559] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property memberid to model
+[15:05:14:559] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getMemberid
+[15:05:14:559] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getMemberid
+[15:05:14:561] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getMemberid
+[15:05:14:561] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getMemberid
+[15:05:14:561] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property time
+[15:05:14:561] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getTime
+[15:05:14:561] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForSerialization(ObjectMapperBeanPropertyNamingStrategy.java:57) - Name 'time' renamed to 'time'
+[15:05:14:561] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property time to model
+[15:05:14:561] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getTime
+[15:05:14:561] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getTime
+[15:05:14:561] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getTime
+[15:05:14:561] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getTime
+[15:05:14:562] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property duration
+[15:05:14:562] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getDuration
+[15:05:14:562] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForSerialization(ObjectMapperBeanPropertyNamingStrategy.java:57) - Name 'duration' renamed to 'duration'
+[15:05:14:562] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property duration to model
+[15:05:14:562] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getDuration
+[15:05:14:562] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getDuration
+[15:05:14:562] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getDuration
+[15:05:14:562] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getDuration
+[15:05:14:562] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property parkingid
+[15:05:14:562] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getParkingid
+[15:05:14:563] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForSerialization(ObjectMapperBeanPropertyNamingStrategy.java:57) - Name 'parkingid' renamed to 'parkingid'
+[15:05:14:563] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property parkingid to model
+[15:05:14:563] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getParkingid
+[15:05:14:563] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getParkingid
+[15:05:14:563] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getParkingid
+[15:05:14:563] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getParkingid
+[15:05:14:563] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property parkinglotName
+[15:05:14:563] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getParkinglotName
+[15:05:14:563] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForSerialization(ObjectMapperBeanPropertyNamingStrategy.java:57) - Name 'parkinglotName' renamed to 'parkinglotName'
+[15:05:14:563] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property parkinglotName to model
+[15:05:14:563] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getParkinglotName
+[15:05:14:563] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getParkinglotName
+[15:05:14:563] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getParkinglotName
+[15:05:14:564] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getParkinglotName
+[15:05:14:564] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property parkinglotid
+[15:05:14:564] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getParkinglotid
+[15:05:14:564] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForSerialization(ObjectMapperBeanPropertyNamingStrategy.java:57) - Name 'parkinglotid' renamed to 'parkinglotid'
+[15:05:14:564] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property parkinglotid to model
+[15:05:14:564] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getParkinglotid
+[15:05:14:564] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getParkinglotid
+[15:05:14:564] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getParkinglotid
+[15:05:14:564] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getParkinglotid
+[15:05:14:564] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property status
+[15:05:14:564] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getStatus
+[15:05:14:565] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForSerialization(ObjectMapperBeanPropertyNamingStrategy.java:57) - Name 'status' renamed to 'status'
+[15:05:14:565] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property status to model
+[15:05:14:565] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getStatus
+[15:05:14:565] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getStatus
+[15:05:14:565] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getStatus
+[15:05:14:565] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getStatus
+[15:05:14:565] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.propertiesFor(OptimizedModelPropertiesProvider.java:127) - Reading property tradeNo
+[15:05:14:565] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getTradeNo
+[15:05:14:565] [DEBUG] - springfox.documentation.schema.property.ObjectMapperBeanPropertyNamingStrategy.nameForSerialization(ObjectMapperBeanPropertyNamingStrategy.java:57) - Name 'tradeNo' renamed to 'tradeNo'
+[15:05:14:565] [DEBUG] - springfox.documentation.schema.property.OptimizedModelPropertiesProvider.beanModelProperty(OptimizedModelPropertiesProvider.java:315) - Adding property tradeNo to model
+[15:05:14:565] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getTradeNo
+[15:05:14:565] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getTradeNo
+[15:05:14:565] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getTradeNo
+[15:05:14:566] [DEBUG] - springfox.documentation.schema.property.bean.BeanModelProperty.paramOrReturnType(BeanModelProperty.java:70) - Evaluating unwrapped getter for member getTradeNo
+[15:05:14:566] [DEBUG] - springfox.documentation.schema.DefaultModelProvider.reflectionBasedModel(DefaultModelProvider.java:101) - Inferred 13 properties. Properties found amount, carplate, duration, id, memberid, method, parkingid, parkinglotName, parkinglotid, status, time, tradeNo, type
+[15:05:14:566] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:71) - Generated parameter model id: Order, name: Order, schema: {} models
+[15:05:14:567] [DEBUG] - springfox.bean.validators.plugins.parameter.SizeAnnotationPlugin.apply(SizeAnnotationPlugin.java:52) - searching for @size: false
+[15:05:14:567] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationResponseClassReader.apply(OperationResponseClassReader.java:59) - Setting spring response class to: Order
+[15:05:14:567] [DEBUG] - springfox.documentation.swagger.readers.operation.VendorExtensionsReader.apply(VendorExtensionsReader.java:59) - Extension count 1 for method getById
+[15:05:14:567] [DEBUG] - springfox.documentation.swagger.readers.operation.SwaggerOperationResponseClassReader.apply(SwaggerOperationResponseClassReader.java:74) - Setting response class to:Order
+[15:05:14:567] [DEBUG] - springfox.documentation.swagger.readers.operation.OperationAuthReader.apply(OperationAuthReader.java:103) - Authorization count 1 for method getById
+[15:05:14:568] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectFromReturnType(OperationModelsProvider.java:76) - Adding return parameter of type V
+[15:05:14:568] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:83) - Reading parameters models for handlerMethod |updateOrder|
+[15:05:14:568] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:90) - Adding input parameter of type Lcom/ustcsse/order/model/po/Order;
+[15:05:14:568] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:94) - Finished reading parameters models for handlerMethod |updateOrder|
+[15:05:14:568] [DEBUG] - springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider.collectApiResponses(SwaggerOperationModelsProvider.java:84) - Reading parameters models for handlerMethod |updateOrder|
+[15:05:14:568] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:76) - Did not find any parameter models for void
+[15:05:14:568] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:71) - Generated parameter model id: Order, name: Order, schema: {} models
+[15:05:14:569] [DEBUG] - springfox.bean.validators.plugins.parameter.SizeAnnotationPlugin.apply(SizeAnnotationPlugin.java:52) - searching for @size: false
+[15:05:14:569] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationResponseClassReader.apply(OperationResponseClassReader.java:59) - Setting spring response class to: null
+[15:05:14:569] [DEBUG] - springfox.documentation.swagger.readers.operation.VendorExtensionsReader.apply(VendorExtensionsReader.java:59) - Extension count 1 for method updateOrder
+[15:05:14:569] [DEBUG] - springfox.documentation.swagger.readers.operation.OperationAuthReader.apply(OperationAuthReader.java:103) - Authorization count 1 for method updateOrder
+[15:05:14:575] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectFromReturnType(OperationModelsProvider.java:76) - Adding return parameter of type V
+[15:05:14:575] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:83) - Reading parameters models for handlerMethod |notify|
+[15:05:14:576] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:94) - Finished reading parameters models for handlerMethod |notify|
+[15:05:14:576] [DEBUG] - springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider.collectApiResponses(SwaggerOperationModelsProvider.java:84) - Reading parameters models for handlerMethod |notify|
+[15:05:14:576] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:76) - Did not find any parameter models for void
+[15:05:14:577] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationResponseClassReader.apply(OperationResponseClassReader.java:59) - Setting spring response class to: null
+[15:05:14:577] [DEBUG] - springfox.documentation.swagger.readers.operation.OperationAuthReader.apply(OperationAuthReader.java:103) - Authorization count 1 for method notify
+[15:05:14:577] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectFromReturnType(OperationModelsProvider.java:76) - Adding return parameter of type V
+[15:05:14:577] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:83) - Reading parameters models for handlerMethod |pay|
+[15:05:14:577] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationModelsProvider.collectParameters(OperationModelsProvider.java:94) - Finished reading parameters models for handlerMethod |pay|
+[15:05:14:577] [DEBUG] - springfox.documentation.swagger.readers.operation.SwaggerOperationModelsProvider.collectApiResponses(SwaggerOperationModelsProvider.java:84) - Reading parameters models for handlerMethod |pay|
+[15:05:14:577] [DEBUG] - springfox.documentation.spring.web.scanners.ApiModelReader.read(ApiModelReader.java:76) - Did not find any parameter models for void
+[15:05:14:579] [DEBUG] - springfox.documentation.spring.web.readers.operation.OperationResponseClassReader.apply(OperationResponseClassReader.java:59) - Setting spring response class to: null
+[15:05:14:579] [DEBUG] - springfox.documentation.swagger.readers.operation.OperationAuthReader.apply(OperationAuthReader.java:103) - Authorization count 1 for method pay
+[15:05:14:593] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started CarParkMasterOrderApplication in 11.171 seconds (JVM running for 12.336)

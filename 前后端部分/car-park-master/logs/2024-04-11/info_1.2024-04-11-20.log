@@ -1,0 +1,6 @@
+[20:18:43:438] [WARN] - com.alibaba.nacos.common.notify.NotifyCenter.shutdown(NotifyCenter.java:145) - [NotifyCenter] Start destroying Publisher
+[20:18:43:438] [WARN] - com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown(HttpClientBeanHolder.java:108) - [HttpClientBeanHolder] Start destroying common HttpClient
+[20:18:43:438] [WARN] - com.alibaba.nacos.common.notify.NotifyCenter.shutdown(NotifyCenter.java:162) - [NotifyCenter] Destruction of the end
+[20:18:43:439] [WARN] - com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown(HttpClientBeanHolder.java:114) - [HttpClientBeanHolder] Destruction of the end
+[20:18:43:587] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+[20:18:43:595] [INFO] - com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:94) - De-registering from Nacos Server now...

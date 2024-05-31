@@ -1,0 +1,12 @@
+[18:10:46:631] [WARN] - com.alibaba.nacos.common.notify.NotifyCenter.shutdown(NotifyCenter.java:145) - [NotifyCenter] Start destroying Publisher
+[18:10:46:632] [WARN] - com.alibaba.nacos.common.notify.NotifyCenter.shutdown(NotifyCenter.java:162) - [NotifyCenter] Destruction of the end
+[18:10:46:631] [WARN] - com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown(HttpClientBeanHolder.java:108) - [HttpClientBeanHolder] Start destroying common HttpClient
+[18:10:46:632] [INFO] - com.netflix.loadbalancer.PollingServerListUpdater$LazyHolder$2.run(PollingServerListUpdater.java:53) - Shutting down the Executor Pool for PollingServerListUpdater
+[18:10:46:633] [WARN] - com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown(HttpClientBeanHolder.java:114) - [HttpClientBeanHolder] Destruction of the end
+[18:10:46:843] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+[18:10:46:854] [INFO] - com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:94) - De-registering from Nacos Server now...
+[18:10:46:858] [INFO] - com.alibaba.cloud.nacos.registry.NacosServiceRegistry.deregister(NacosServiceRegistry.java:114) - De-registration finished.
+[18:10:55:956] [WARN] - org.springframework.beans.factory.support.DisposableBeanAdapter.invokeCustomDestroyMethod(DisposableBeanAdapter.java:349) - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+[18:10:55:957] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[18:10:56:020] [INFO] - com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2071) - {dataSource-1} closing ...
+[18:10:56:022] [INFO] - com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2144) - {dataSource-1} closed

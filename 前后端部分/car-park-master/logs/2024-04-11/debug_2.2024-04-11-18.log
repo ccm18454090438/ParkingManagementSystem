@@ -1,0 +1,74 @@
+[20:14:45:940] [DEBUG] - io.lettuce.core.protocol.ConnectionWatchdog.lambda$run$4(ConnectionWatchdog.java:327) - Cannot reconnect to [192.168.232.130:6379]: Reconnection attempt exceeded timeout of 60 SECONDS 
+java.util.concurrent.TimeoutException: Reconnection attempt exceeded timeout of 60 SECONDS 
+	at io.lettuce.core.protocol.ReconnectionHandler.lambda$reconnect0$6(ReconnectionHandler.java:203) ~[lettuce-core-5.3.5.RELEASE.jar:5.3.5.RELEASE]
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.PromiseTask.run(PromiseTask.java:106) ~[netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) ~[netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+[20:14:45:940] [DEBUG] - io.lettuce.core.protocol.ConnectionWatchdog.lambda$run$4(ConnectionWatchdog.java:327) - Cannot reconnect to [192.168.232.130:6379]: Reconnection attempt exceeded timeout of 60 SECONDS 
+java.util.concurrent.TimeoutException: Reconnection attempt exceeded timeout of 60 SECONDS 
+	at io.lettuce.core.protocol.ReconnectionHandler.lambda$reconnect0$6(ReconnectionHandler.java:203) ~[lettuce-core-5.3.5.RELEASE.jar:5.3.5.RELEASE]
+	at io.netty.util.concurrent.PromiseTask.runTask(PromiseTask.java:98) ~[netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.PromiseTask.run(PromiseTask.java:106) ~[netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.DefaultEventExecutor.run(DefaultEventExecutor.java:66) ~[netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+[20:14:45:945] [DEBUG] - io.lettuce.core.protocol.ConnectionWatchdog.scheduleReconnect(ConnectionWatchdog.java:218) - [channel=0x8e118afc, /192.168.232.1:52372 -> /192.168.232.130:6379, last known addr=/192.168.232.130:6379] scheduleReconnect()
+[20:14:45:945] [DEBUG] - io.lettuce.core.protocol.ConnectionWatchdog.scheduleReconnect(ConnectionWatchdog.java:218) - [channel=0x56f9ab6c, /192.168.232.1:52482 -> /192.168.232.130:6379, last known addr=/192.168.232.130:6379] scheduleReconnect()
+[20:14:45:945] [DEBUG] - io.lettuce.core.protocol.ConnectionWatchdog.scheduleReconnect(ConnectionWatchdog.java:235) - [channel=0x8e118afc, /192.168.232.1:52372 -> /192.168.232.130:6379, last known addr=/192.168.232.130:6379] Reconnect attempt 2, delay 2ms
+[20:14:45:945] [DEBUG] - io.lettuce.core.protocol.ConnectionWatchdog.scheduleReconnect(ConnectionWatchdog.java:235) - [channel=0x56f9ab6c, /192.168.232.1:52482 -> /192.168.232.130:6379, last known addr=/192.168.232.130:6379] Reconnect attempt 2, delay 2ms
+[20:14:45:946] [DEBUG] - io.lettuce.core.protocol.CommandHandler.channelUnregistered(CommandHandler.java:198) - [channel=0x4152c691, [id: 0x69836841] (inactive), chid=0x3] channelUnregistered()
+[20:14:45:946] [DEBUG] - io.lettuce.core.protocol.CommandHandler.channelUnregistered(CommandHandler.java:198) - [channel=0x528a1218, [id: 0xceba2f3e] (inactive), chid=0x4] channelUnregistered()
+[20:14:45:972] [INFO] - io.netty.util.internal.logging.AbstractInternalLogger.log(AbstractInternalLogger.java:171) - Reconnecting, last destination was 192.168.232.130:6379
+[20:14:45:972] [DEBUG] - io.lettuce.core.RedisClient.lambda$getSocketAddressSupplier$19(RedisClient.java:775) - Resolved SocketAddress 192.168.232.130:6379 using RedisURI [host='192.168.232.130', port=6379]
+[20:14:45:972] [INFO] - io.netty.util.internal.logging.AbstractInternalLogger.log(AbstractInternalLogger.java:171) - Reconnecting, last destination was 192.168.232.130:6379
+[20:14:45:972] [DEBUG] - io.lettuce.core.RedisClient.lambda$getSocketAddressSupplier$19(RedisClient.java:775) - Resolved SocketAddress 192.168.232.130:6379 using RedisURI [host='192.168.232.130', port=6379]
+[20:14:45:976] [DEBUG] - io.lettuce.core.protocol.ReconnectionHandler.reconnect0(ReconnectionHandler.java:126) - Reconnecting to Redis at 192.168.232.130:6379
+[20:14:45:976] [DEBUG] - io.lettuce.core.protocol.ReconnectionHandler.reconnect0(ReconnectionHandler.java:126) - Reconnecting to Redis at 192.168.232.130:6379
+[20:14:46:027] [DEBUG] - io.lettuce.core.protocol.CommandHandler.channelRegistered(CommandHandler.java:181) - [channel=0xdc98da0c, [id: 0x891aa436] (inactive), chid=0x5] channelRegistered()
+[20:14:46:051] [DEBUG] - io.lettuce.core.protocol.CommandHandler.channelRegistered(CommandHandler.java:181) - [channel=0x6ba499d6, [id: 0xc04b5562] (inactive), chid=0x6] channelRegistered()
+[20:14:46:048] [WARN] - io.netty.util.internal.logging.AbstractInternalLogger.log(AbstractInternalLogger.java:105) - Cannot reconnect to [192.168.232.130:6379]: No route to host: no further information: /192.168.232.130:6379
+io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /192.168.232.130:6379
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[?:1.8.0_201]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330) ~[netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+[20:14:46:051] [DEBUG] - io.lettuce.core.protocol.ConnectionWatchdog.scheduleReconnect(ConnectionWatchdog.java:218) - [channel=0x56f9ab6c, /192.168.232.1:52482 -> /192.168.232.130:6379, last known addr=/192.168.232.130:6379] scheduleReconnect()
+[20:14:46:051] [DEBUG] - io.lettuce.core.protocol.ConnectionWatchdog.scheduleReconnect(ConnectionWatchdog.java:235) - [channel=0x56f9ab6c, /192.168.232.1:52482 -> /192.168.232.130:6379, last known addr=/192.168.232.130:6379] Reconnect attempt 3, delay 4ms
+[20:14:46:054] [DEBUG] - io.lettuce.core.protocol.CommandHandler.channelUnregistered(CommandHandler.java:198) - [channel=0xdc98da0c, [id: 0x891aa436] (inactive), chid=0x5] channelUnregistered()
+[20:14:46:054] [WARN] - io.netty.util.internal.logging.AbstractInternalLogger.log(AbstractInternalLogger.java:105) - Cannot reconnect to [192.168.232.130:6379]: No route to host: no further information: /192.168.232.130:6379
+io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /192.168.232.130:6379
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[?:1.8.0_201]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330) ~[netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+[20:14:46:054] [DEBUG] - io.lettuce.core.protocol.ConnectionWatchdog.scheduleReconnect(ConnectionWatchdog.java:218) - [channel=0x8e118afc, /192.168.232.1:52372 -> /192.168.232.130:6379, last known addr=/192.168.232.130:6379] scheduleReconnect()
+[20:14:46:056] [DEBUG] - io.lettuce.core.protocol.ConnectionWatchdog.scheduleReconnect(ConnectionWatchdog.java:235) - [channel=0x8e118afc, /192.168.232.1:52372 -> /192.168.232.130:6379, last known addr=/192.168.232.130:6379] Reconnect attempt 3, delay 4ms
+[20:14:46:056] [DEBUG] - io.lettuce.core.protocol.CommandHandler.channelUnregistered(CommandHandler.java:198) - [channel=0x6ba499d6, [id: 0xc04b5562] (inactive), chid=0x6] channelUnregistered()
+[20:14:46:065] [DEBUG] - io.netty.util.internal.logging.AbstractInternalLogger.log(AbstractInternalLogger.java:168) - Reconnecting, last destination was 192.168.232.130:6379
+[20:14:46:065] [DEBUG] - io.lettuce.core.RedisClient.lambda$getSocketAddressSupplier$19(RedisClient.java:775) - Resolved SocketAddress 192.168.232.130:6379 using RedisURI [host='192.168.232.130', port=6379]
+[20:14:46:066] [DEBUG] - io.lettuce.core.protocol.ReconnectionHandler.reconnect0(ReconnectionHandler.java:126) - Reconnecting to Redis at 192.168.232.130:6379
+[20:14:46:121] [DEBUG] - io.lettuce.core.protocol.CommandHandler.channelRegistered(CommandHandler.java:181) - [channel=0xd7321e8f, [id: 0x754ee935] (inactive), chid=0x7] channelRegistered()

@@ -1,0 +1,6 @@
+com\ustcsse\parkinglot\mapper\ParkinglotMapper.class
+com\ustcsse\parkinglot\service\ParkinglotService.class
+com\ustcsse\CarParkMasterParkinglotsApplication.class
+com\ustcsse\parkinglot\controller\ParkinglotsController.class
+com\ustcsse\parkinglot\service\impl\ParkinglotServiceImpl.class
+com\ustcsse\parkinglot\model\po\Parkinglot.class

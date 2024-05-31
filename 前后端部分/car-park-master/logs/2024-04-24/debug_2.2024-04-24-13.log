@@ -1,0 +1,796 @@
+[14:00:17:201] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:00:17:629] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:00:18:544] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:00:18:544] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:00:18:544] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:00:18:544] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:00:18:544] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:00:18:544] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:00:18:544] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:00:18:544] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:00:18:544] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:00:18:544] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:00:18:544] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:00:18:544] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:00:18:544] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:00:18:544] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:00:18:544] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:00:18:544] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:00:18:544] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:00:18:544] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:00:18:544] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:00:18:544] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:00:18:544] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:00:26:484] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:00:47:203] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:00:47:631] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:00:48:547] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:00:48:547] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:00:48:547] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:00:48:547] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:00:48:547] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:00:48:547] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:00:48:547] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:00:48:547] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:00:48:547] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:00:48:547] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:00:48:547] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:00:48:547] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:00:48:547] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:00:48:547] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:00:48:547] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:00:48:547] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:00:48:547] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:00:48:547] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:00:48:547] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:00:48:547] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:00:48:547] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:00:56:488] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:01:17:205] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:01:17:634] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:01:18:550] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:01:18:550] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:01:18:550] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:01:18:550] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:01:18:550] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:01:18:550] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:01:18:550] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:01:18:550] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:01:18:550] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:01:18:550] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:01:18:550] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:01:18:550] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:01:18:550] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:01:18:550] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:01:18:550] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:01:18:550] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:01:18:550] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:01:18:550] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:01:18:550] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:01:18:550] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:01:18:550] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:01:26:489] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:01:47:207] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:01:47:635] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:01:48:553] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:01:48:553] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:01:48:553] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:01:48:553] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:01:48:553] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:01:48:553] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:01:48:553] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:01:48:553] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:01:48:553] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:01:48:553] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:01:48:553] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:01:48:553] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:01:48:553] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:01:48:553] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:01:48:553] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:01:48:553] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:01:48:553] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:01:48:553] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:01:48:553] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:01:48:553] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:01:48:553] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:01:56:491] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:02:17:209] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:02:17:638] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:02:18:554] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:02:18:554] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:02:18:554] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:02:18:554] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:02:18:554] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:02:18:554] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:02:18:554] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:02:18:554] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:02:18:554] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:02:18:554] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:02:18:554] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:02:18:554] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:02:18:554] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:02:18:554] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:02:18:554] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:02:18:554] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:02:18:554] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:02:18:554] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:02:18:554] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:02:18:554] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:02:18:554] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:02:26:494] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:02:47:209] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:02:47:641] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:02:48:558] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:02:48:558] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:02:48:558] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:02:48:558] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:02:48:558] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:02:48:558] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:02:48:558] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:02:48:558] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:02:48:558] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:02:48:558] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:02:48:558] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:02:48:558] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:02:48:558] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:02:48:558] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:02:48:558] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:02:48:558] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:02:48:558] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:02:48:558] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:02:48:558] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:02:48:558] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:02:48:558] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:02:56:495] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:03:17:210] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:03:17:641] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:03:18:560] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:03:18:560] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:03:18:560] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:03:18:560] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:03:18:560] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:03:18:560] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:03:18:560] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:03:18:560] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:03:18:560] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:03:18:560] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:03:18:560] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:03:18:560] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:03:18:560] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:03:18:560] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:03:18:560] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:03:18:560] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:03:18:560] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:03:18:560] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:03:18:560] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:03:18:560] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:03:18:560] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:03:26:495] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:03:47:214] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:03:47:645] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:03:48:563] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:03:48:563] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:03:48:563] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:03:48:563] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:03:48:563] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:03:48:563] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:03:48:563] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:03:48:563] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:03:48:563] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:03:48:563] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:03:48:563] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:03:48:563] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:03:48:563] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:03:48:563] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:03:48:563] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:03:48:563] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:03:48:563] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:03:48:563] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:03:48:563] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:03:48:563] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:03:48:563] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:03:56:497] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:04:17:216] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:04:17:646] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:04:18:565] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:04:18:565] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:04:18:565] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:04:18:565] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:04:18:565] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:04:18:565] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:04:18:565] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:04:18:565] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:04:18:565] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:04:18:565] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:04:18:565] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:04:18:565] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:04:18:565] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:04:18:565] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:04:18:565] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:04:18:565] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:04:18:565] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:04:18:565] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:04:18:565] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:04:18:565] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:04:18:565] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:04:26:499] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:04:47:217] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:04:47:649] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:04:48:568] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:04:48:568] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:04:48:568] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:04:48:568] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:04:48:568] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:04:48:568] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:04:48:568] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:04:48:568] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:04:48:568] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:04:48:568] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:04:48:568] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:04:48:568] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:04:48:568] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:04:48:568] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:04:48:568] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:04:48:568] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:04:48:568] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:04:48:568] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:04:48:568] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:04:48:568] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:04:48:568] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:04:56:502] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:05:17:220] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:05:17:649] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:05:18:572] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:05:18:572] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:05:18:572] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:05:18:572] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:05:18:572] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:05:18:572] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:05:18:572] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:05:18:572] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:05:18:572] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:05:18:572] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:05:18:572] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:05:18:572] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:05:18:572] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:05:18:572] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:05:18:572] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:05:18:572] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:05:18:572] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:05:18:572] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:05:18:572] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:05:18:572] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:05:18:572] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:05:26:504] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:05:47:220] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:05:47:651] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:05:48:576] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:05:48:576] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:05:48:576] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:05:48:576] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:05:48:576] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:05:48:576] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:05:48:576] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:05:48:576] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:05:48:576] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:05:48:576] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:05:48:576] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:05:48:576] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:05:48:576] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:05:48:576] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:05:48:576] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:05:48:576] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:05:48:576] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:05:48:576] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:05:48:576] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:05:48:576] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:05:48:576] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:05:56:507] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:06:17:224] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:06:17:654] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:06:18:578] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:06:18:578] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:06:18:578] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:06:18:578] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:06:18:578] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:06:18:578] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:06:18:578] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:06:18:578] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:06:18:578] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:06:18:578] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:06:18:578] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:06:18:578] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:06:18:578] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:06:18:578] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:06:18:578] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:06:18:578] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:06:18:578] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:06:18:578] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:06:18:578] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:06:18:578] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:06:18:578] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:06:26:509] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:06:47:226] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:06:47:656] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:06:48:581] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:06:48:581] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:06:48:581] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:06:48:581] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:06:48:581] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:06:48:581] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:06:48:581] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:06:48:581] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:06:48:581] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:06:48:581] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:06:48:581] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:06:48:581] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:06:48:581] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:06:48:581] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:06:48:581] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:06:48:581] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:06:48:581] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:06:48:581] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:06:48:581] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:06:48:581] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:06:48:581] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:06:56:511] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:07:17:230] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:07:17:659] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:07:18:585] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:07:18:585] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:07:18:585] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:07:18:585] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:07:18:585] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:07:18:585] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:07:18:585] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:07:18:585] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:07:18:585] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:07:18:585] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:07:18:585] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:07:18:585] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:07:18:585] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:07:18:585] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:07:18:585] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:07:18:588] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:07:18:588] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:07:18:588] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:07:18:588] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:07:18:588] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:07:18:588] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:07:26:514] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:07:47:231] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:07:47:661] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:07:48:589] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:07:48:589] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:07:48:589] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:07:48:589] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:07:48:589] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:07:48:589] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:07:48:589] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:07:48:589] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:07:48:589] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:07:48:589] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:07:48:589] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:07:48:589] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:07:48:589] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:07:48:589] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:07:48:589] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:07:48:589] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:07:48:589] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:07:48:589] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:07:48:589] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:07:48:589] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:07:48:589] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:07:56:516] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:08:17:235] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:08:17:664] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:08:18:592] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:08:18:592] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:08:18:592] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:08:18:592] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:08:18:592] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:08:18:592] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:08:18:592] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:08:18:592] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:08:18:592] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:08:18:592] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:08:18:592] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:08:18:592] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:08:18:592] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:08:18:592] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:08:18:592] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:08:18:592] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:08:18:592] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:08:18:592] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:08:18:592] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:08:18:592] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:08:18:592] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:08:26:519] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:08:47:236] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:08:47:666] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:08:48:594] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:08:48:594] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:08:48:594] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:08:48:594] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:08:48:594] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:08:48:594] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:08:48:594] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:08:48:594] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:08:48:594] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:08:48:594] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:08:48:594] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:08:48:594] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:08:48:594] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:08:48:594] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:08:48:594] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:08:48:594] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:08:48:594] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:08:48:594] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:08:48:594] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:08:48:594] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:08:48:594] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:08:56:522] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:09:17:238] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:09:17:668] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:09:18:595] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:09:18:595] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:09:18:595] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:09:18:595] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:09:18:595] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:09:18:595] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:09:18:595] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:09:18:595] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:09:18:595] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:09:18:595] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:09:18:595] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:09:18:595] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:09:18:595] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:09:18:595] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:09:18:595] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:09:18:595] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:09:18:595] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:09:18:595] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:09:18:595] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:09:18:595] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:09:18:595] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:09:26:522] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:09:47:239] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:09:47:669] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:09:48:600] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:09:48:600] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:09:48:600] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:09:48:600] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:09:48:600] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:09:48:600] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:09:48:600] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:09:48:600] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:09:48:600] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:09:48:600] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:09:48:600] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:09:48:600] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:09:48:600] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:09:48:600] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:09:48:600] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:09:48:600] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:09:48:600] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:09:48:600] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:09:48:600] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:09:48:600] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:09:48:600] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:09:56:524] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:10:17:241] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:10:17:671] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:10:18:604] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:10:18:604] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:10:18:604] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:10:18:604] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:10:18:604] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:10:18:604] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:10:18:604] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:10:18:604] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:10:18:604] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:10:18:604] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:10:18:604] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:10:18:604] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:10:18:604] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:10:18:604] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:10:18:604] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:10:18:604] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:10:18:604] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:10:18:604] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:10:18:604] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:10:18:604] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:10:18:604] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:10:26:527] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:10:47:242] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:10:47:674] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:10:48:605] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:10:48:605] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:10:48:605] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:10:48:605] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:10:48:605] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:10:48:605] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:10:48:605] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:10:48:605] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:10:48:605] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:10:48:605] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:10:48:605] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:10:48:605] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:10:48:605] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:10:48:605] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:10:48:605] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:10:48:605] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:10:48:605] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:10:48:605] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:10:48:605] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:10:48:605] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:10:48:605] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:10:56:530] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:11:17:245] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:11:17:676] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:11:18:611] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:11:18:611] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:11:18:611] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:11:18:611] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:11:18:611] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:11:18:611] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:11:18:611] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:11:18:611] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:11:18:611] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:11:18:611] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:11:18:611] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:11:18:611] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:11:18:611] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:11:18:611] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:11:18:611] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:11:18:611] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:11:18:611] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:11:18:611] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:11:18:611] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:11:18:611] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:11:18:611] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:11:26:532] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:11:47:249] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:11:47:678] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:11:48:615] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:11:48:615] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:11:48:615] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:11:48:615] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:11:48:615] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:11:48:615] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:11:48:615] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:11:48:615] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:11:48:615] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:11:48:615] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:11:48:615] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:11:48:615] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:11:48:615] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:11:48:615] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:11:48:615] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:11:48:615] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:11:48:615] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:11:48:615] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:11:48:615] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:11:48:615] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:11:48:615] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:11:56:534] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:12:17:250] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:12:17:679] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:12:18:617] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:12:18:617] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:12:18:617] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:12:18:617] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:12:18:617] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:12:18:617] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:12:18:617] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:12:18:617] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:12:18:617] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:12:18:617] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:12:18:617] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:12:18:617] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:12:18:617] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:12:18:617] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:12:18:617] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:12:18:617] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:12:18:617] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:12:18:617] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:12:18:617] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:12:18:617] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:12:18:617] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:12:26:537] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:12:47:251] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:12:47:681] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:12:48:623] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:12:48:623] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:12:48:623] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:12:48:623] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:12:48:623] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:12:48:623] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:12:48:623] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:12:48:623] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:12:48:623] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:12:48:623] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:12:48:623] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:12:48:623] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:12:48:623] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:12:48:623] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:12:48:623] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:12:48:623] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:12:48:623] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:12:48:623] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:12:48:623] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:12:48:623] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:12:48:623] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:12:56:539] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:13:17:252] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:13:17:682] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:13:18:628] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:13:18:628] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:13:18:628] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:13:18:628] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:13:18:628] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:13:18:628] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:13:18:628] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:13:18:628] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:13:18:628] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:13:18:628] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:13:18:628] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:13:18:628] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:13:18:628] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:13:18:628] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:13:18:628] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:13:18:628] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:13:18:628] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:13:18:628] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:13:18:628] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:13:18:628] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:13:18:628] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:13:26:540] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:13:47:252] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:13:47:682] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:13:48:633] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:13:48:633] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:13:48:633] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:13:48:633] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:13:48:633] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:13:48:633] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:13:48:633] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:13:48:633] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:13:48:633] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:13:48:633] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:13:48:633] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:13:48:633] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:13:48:633] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:13:48:633] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:13:48:633] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:13:48:633] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:13:48:633] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:13:48:633] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:13:48:633] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:13:48:633] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:13:48:633] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:13:56:543] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:14:17:254] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:14:17:684] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:14:18:637] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:14:18:637] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:14:18:637] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:14:18:637] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:14:18:637] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:14:18:637] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:14:18:637] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:14:18:637] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:14:18:637] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:14:18:637] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:14:18:637] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:14:18:637] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:14:18:637] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:14:18:637] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:14:18:637] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:14:18:637] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:14:18:637] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:14:18:637] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:14:18:637] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:14:18:637] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:14:18:637] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:14:26:544] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:14:47:256] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:14:47:688] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:14:48:640] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:14:48:640] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:14:48:640] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:14:48:640] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:14:48:640] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:14:48:640] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:14:48:640] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:14:48:640] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:14:48:640] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:14:48:640] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:14:48:640] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:14:48:640] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:14:48:640] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:14:48:640] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:14:48:640] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:14:48:640] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:14:48:640] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:14:48:640] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:14:48:640] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:14:48:640] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:14:48:640] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:14:56:545] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:15:17:260] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:15:17:690] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:15:18:641] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:15:18:641] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:15:18:641] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:15:18:641] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:15:18:641] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:15:18:641] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:15:18:641] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:15:18:641] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:15:18:641] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:15:18:641] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:15:18:641] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:15:18:641] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:15:18:641] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:15:18:641] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:15:18:641] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:15:18:641] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:15:18:641] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:15:18:641] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:15:18:641] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:15:18:641] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:15:18:641] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:15:26:546] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:15:47:264] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:15:47:691] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:15:48:646] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:15:48:646] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:15:48:646] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:15:48:646] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:15:48:646] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:15:48:646] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:15:48:646] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:15:48:646] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:15:48:646] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:15:48:646] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:15:48:646] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:15:48:646] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:15:48:646] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:15:48:646] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:15:48:646] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:15:48:646] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:15:48:646] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:15:48:646] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:15:48:646] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:15:48:646] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:15:48:646] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:15:56:547] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:16:17:264] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:16:17:692] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:16:18:650] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:16:18:650] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:16:18:650] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-member obtained from Discovery client: [192.168.108.1:8000]
+[14:16:18:650] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-parkinglots obtained from Discovery client: [192.168.108.1:11000]
+[14:16:18:650] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots]: clearing server list (SET op)
+[14:16:18:650] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member]: clearing server list (SET op)
+[14:16:18:650] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots]:  addServer [192.168.108.1:11000]
+[14:16:18:650] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member]:  addServer [192.168.108.1:8000]
+[14:16:18:650] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:11000]}
+[14:16:18:650] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:8000]}
+[14:16:18:650] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-parkinglots_unknown]: clearing server list (SET op)
+[14:16:18:650] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-member_unknown]: clearing server list (SET op)
+[14:16:18:650] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-parkinglots_unknown]:  addServer [192.168.108.1:11000]
+[14:16:18:650] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-member_unknown]:  addServer [192.168.108.1:8000]
+[14:16:18:650] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:241) - List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:16:18:650] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.updateListOfServers(DynamicServerListLoadBalancer.java:246) - Filtered List of Servers for cpm-order obtained from Discovery client: [192.168.108.1:9000]
+[14:16:18:650] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order]: clearing server list (SET op)
+[14:16:18:650] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order]:  addServer [192.168.108.1:9000]
+[14:16:18:650] [DEBUG] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.setServerListForZones(DynamicServerListLoadBalancer.java:179) - Setting server list for zones: {unknown=[192.168.108.1:9000]}
+[14:16:18:650] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:491) - LoadBalancer [cpm-order_unknown]: clearing server list (SET op)
+[14:16:18:650] [DEBUG] - com.netflix.loadbalancer.BaseLoadBalancer.setServersList(BaseLoadBalancer.java:507) - LoadBalancer [cpm-order_unknown]:  addServer [192.168.108.1:9000]
+[14:16:26:548] [DEBUG] - org.apache.http.impl.conn.PoolingHttpClientConnectionManager.closeExpiredConnections(PoolingHttpClientConnectionManager.java:448) - Closing expired connections
+[14:16:28:850] [ERROR] - com.ustcsse.parking.service.WebSocketServer.onError(WebSocketServer.java:88) - 用户错误,原因:null
+[14:16:28:850] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:0
+[14:16:29:389] [WARN] - com.rabbitmq.client.impl.ForgivingExceptionHandler.log(ForgivingExceptionHandler.java:115) - An unexpected connection driver error occured (Exception message: Connection reset)
+[14:16:29:389] [ERROR] - org.springframework.amqp.rabbit.connection.CachingConnectionFactory$DefaultChannelCloseLogger.log(CachingConnectionFactory.java:1575) - Channel shutdown: connection error

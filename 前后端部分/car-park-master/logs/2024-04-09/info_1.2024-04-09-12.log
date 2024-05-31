@@ -1,0 +1,56 @@
+[12:01:03:326] [WARN] - com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal(DruidAbstractDataSource.java:1494) - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/cpm_parkinglot?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true, version : 1.2.8, lastPacketReceivedIdleMillis : 288605
+[12:01:03:488] [INFO] - com.netflix.config.ChainedDynamicProperty$ChainLink.checkAndFlip(ChainedDynamicProperty.java:115) - Flipping property: cpm-member.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[12:01:03:490] [INFO] - com.netflix.loadbalancer.BaseLoadBalancer.initWithConfig(BaseLoadBalancer.java:197) - Client: cpm-member instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=cpm-member,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+[12:01:03:491] [INFO] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.enableAndInitLearnNewServersFeature(DynamicServerListLoadBalancer.java:222) - Using serverListUpdater PollingServerListUpdater
+[12:01:03:500] [INFO] - com.netflix.config.ChainedDynamicProperty$ChainLink.checkAndFlip(ChainedDynamicProperty.java:115) - Flipping property: cpm-member.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[12:01:03:503] [INFO] - com.netflix.loadbalancer.DynamicServerListLoadBalancer.restOfInit(DynamicServerListLoadBalancer.java:150) - DynamicServerListLoadBalancer for client cpm-member initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=cpm-member,current list of Servers=[192.168.108.1:8000],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.108.1:8000;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@46187d2a
+[12:01:04:033] [INFO] - com.netflix.config.ChainedDynamicProperty$ChainLink.checkAndFlip(ChainedDynamicProperty.java:115) - Flipping property: cpm-parkinglots.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[12:01:04:087] [INFO] - com.ustcsse.parking.service.WebSocketServer.sendOneMessage(WebSocketServer.java:115) - 【websocket消息】 单点消息:皖A77777,欢迎光临!
+[12:01:04:501] [INFO] - com.netflix.config.ChainedDynamicProperty$ChainLink.checkAndFlip(ChainedDynamicProperty.java:115) - Flipping property: cpm-member.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+[12:02:14:198] [INFO] - com.ustcsse.parking.service.WebSocketServer.onOpen(WebSocketServer.java:54) - 【websocket消息】有新的连接，总数为:2
+[12:02:14:238] [WARN] - com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal(DruidAbstractDataSource.java:1494) - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/cpm_parkinglot?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true, version : 1.2.8, lastPacketReceivedIdleMillis : 70153
+[12:02:17:163] [INFO] - com.ustcsse.parking.service.WebSocketServer.onOpen(WebSocketServer.java:54) - 【websocket消息】有新的连接，总数为:3
+[12:05:30:362] [INFO] - com.ustcsse.parking.service.WebSocketServer.onOpen(WebSocketServer.java:54) - 【websocket消息】有新的连接，总数为:4
+[12:05:30:401] [WARN] - com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal(DruidAbstractDataSource.java:1494) - discard long time none received connection. , jdbcUrl : jdbc:mysql://localhost:3306/cpm_parkinglot?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true, version : 1.2.8, lastPacketReceivedIdleMillis : 193205
+[12:05:39:986] [INFO] - com.ustcsse.parking.service.WebSocketServer.onOpen(WebSocketServer.java:54) - 【websocket消息】有新的连接，总数为:5
+[12:06:11:507] [INFO] - com.ustcsse.parking.service.WebSocketServer.onOpen(WebSocketServer.java:54) - 【websocket消息】有新的连接，总数为:6
+[12:06:13:014] [INFO] - com.ustcsse.parking.service.WebSocketServer.onOpen(WebSocketServer.java:54) - 【websocket消息】有新的连接，总数为:7
+[12:06:14:685] [INFO] - com.ustcsse.parking.service.WebSocketServer.onOpen(WebSocketServer.java:54) - 【websocket消息】有新的连接，总数为:8
+[12:06:17:374] [INFO] - com.ustcsse.parking.service.WebSocketServer.onOpen(WebSocketServer.java:54) - 【websocket消息】有新的连接，总数为:9
+[12:06:19:974] [INFO] - com.ustcsse.parking.service.WebSocketServer.onOpen(WebSocketServer.java:54) - 【websocket消息】有新的连接，总数为:10
+[12:06:23:137] [INFO] - com.ustcsse.parking.service.WebSocketServer.onOpen(WebSocketServer.java:54) - 【websocket消息】有新的连接，总数为:11
+[12:06:50:396] [INFO] - com.ustcsse.parking.service.WebSocketServer.onOpen(WebSocketServer.java:54) - 【websocket消息】有新的连接，总数为:12
+[12:06:53:579] [INFO] - com.ustcsse.parking.service.WebSocketServer.onOpen(WebSocketServer.java:54) - 【websocket消息】有新的连接，总数为:13
+[12:07:05:046] [INFO] - com.ustcsse.parking.service.WebSocketServer.onOpen(WebSocketServer.java:54) - 【websocket消息】有新的连接，总数为:14
+[12:07:05:081] [INFO] - com.ustcsse.parking.service.WebSocketServer.onOpen(WebSocketServer.java:54) - 【websocket消息】有新的连接，总数为:15
+[12:07:08:953] [INFO] - com.ustcsse.parking.service.WebSocketServer.onOpen(WebSocketServer.java:54) - 【websocket消息】有新的连接，总数为:16
+[12:07:13:074] [INFO] - com.ustcsse.parking.service.WebSocketServer.onOpen(WebSocketServer.java:54) - 【websocket消息】有新的连接，总数为:17
+[12:07:18:976] [INFO] - com.ustcsse.parking.service.WebSocketServer.onOpen(WebSocketServer.java:54) - 【websocket消息】有新的连接，总数为:18
+[12:07:20:595] [INFO] - com.ustcsse.parking.service.WebSocketServer.onOpen(WebSocketServer.java:54) - 【websocket消息】有新的连接，总数为:19
+[12:07:24:725] [INFO] - com.ustcsse.parking.service.WebSocketServer.onOpen(WebSocketServer.java:54) - 【websocket消息】有新的连接，总数为:20
+[12:07:28:301] [INFO] - com.ustcsse.parking.service.WebSocketServer.onOpen(WebSocketServer.java:54) - 【websocket消息】有新的连接，总数为:21
+[12:07:37:274] [INFO] - com.ustcsse.parking.service.WebSocketServer.onOpen(WebSocketServer.java:54) - 【websocket消息】有新的连接，总数为:22
+[12:09:05:440] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:18
+[12:09:05:441] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:16
+[12:09:05:440] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:17
+[12:09:05:441] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:18
+[12:09:05:441] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:14
+[12:09:05:440] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:18
+[12:09:05:441] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:15
+[12:09:05:440] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:18
+[12:09:05:441] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:13
+[12:09:05:442] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:12
+[12:09:05:443] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:10
+[12:09:05:443] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:11
+[12:09:05:445] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:9
+[12:09:05:446] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:7
+[12:09:05:445] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:8
+[12:09:05:447] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:6
+[12:09:05:449] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:5
+[12:09:05:449] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:4
+[12:09:05:449] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:2
+[12:09:05:449] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:3
+[12:09:05:453] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:1
+[12:09:05:454] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:0

@@ -1,0 +1,4 @@
+[16:28:37:347] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[16:28:37:355] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[16:28:37:443] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 87 ms
+[16:28:37:590] [INFO] - com.ustcsse.parking.service.WebSocketServer.onOpen(WebSocketServer.java:54) - 【websocket消息】有新的连接，总数为:1

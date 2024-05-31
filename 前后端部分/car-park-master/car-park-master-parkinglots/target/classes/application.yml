@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: cpm-parkinglots
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+#        namespace: 43ea2193-6bb0-4aa6-9d17-2111e14b404e
+        register-enabled: true
+  datasource:
+    url: jdbc:mysql://192.168.232.130:3306/cpm_parkinglot?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 11000
+#日志配置文件
+logging:
+  config: classpath:log4j2-dev.xml
+#接口文档，访问路径http://localhost:11000/swagger-ui.html
+swagger:
+  title: "智慧停车停车场管理模块"
+  description: "对停车场进行管理"
+  base-package: com.ustcsse.parkinglot
+  enabled: true
+  version: 1.0.0
+mybatis-plus:
+  mapper-locations: classpath*:/com/ustcsse/parkinglot/mapper/*.xml
+

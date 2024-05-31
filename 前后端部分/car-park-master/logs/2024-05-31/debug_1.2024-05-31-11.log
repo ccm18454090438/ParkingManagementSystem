@@ -1,0 +1,64 @@
+[11:42:52:727] [INFO] - io.netty.util.internal.logging.AbstractInternalLogger.log(AbstractInternalLogger.java:217) - [channel=0x3cf35115, /192.168.232.1:55785 -> /192.168.232.130:6379, chid=0x1] Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_201]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134) ~[netty-buffer-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+[11:42:52:727] [INFO] - io.netty.util.internal.logging.AbstractInternalLogger.log(AbstractInternalLogger.java:217) - [channel=0x6a7a91cc, /192.168.232.1:58283 -> /192.168.232.130:6379, chid=0x2] Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_201]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134) ~[netty-buffer-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+[11:42:52:913] [DEBUG] - io.lettuce.core.protocol.CommandHandler.channelInactive(CommandHandler.java:332) - [channel=0x3cf35115, /192.168.232.1:55785 -> /192.168.232.130:6379, chid=0x1] channelInactive()
+[11:42:52:913] [DEBUG] - io.lettuce.core.protocol.CommandHandler.channelInactive(CommandHandler.java:332) - [channel=0x6a7a91cc, /192.168.232.1:58283 -> /192.168.232.130:6379, chid=0x2] channelInactive()
+[11:42:52:921] [DEBUG] - io.lettuce.core.protocol.DefaultEndpoint.lambda$notifyChannelInactive$2(DefaultEndpoint.java:463) - [channel=0x6a7a91cc, /192.168.232.1:58283 -> /192.168.232.130:6379, epid=0x2] deactivating endpoint handler
+[11:42:52:921] [DEBUG] - io.lettuce.core.protocol.DefaultEndpoint.lambda$notifyChannelInactive$2(DefaultEndpoint.java:463) - [channel=0x3cf35115, /192.168.232.1:55785 -> /192.168.232.130:6379, epid=0x1] deactivating endpoint handler
+[11:42:52:930] [DEBUG] - io.lettuce.core.protocol.DefaultEndpoint.lambda$notifyDrainQueuedCommands$9(DefaultEndpoint.java:645) - [channel=0x3cf35115, /192.168.232.1:55785 -> /192.168.232.130:6379, epid=0x1] notifyQueuedCommands adding 0 command(s) to buffer
+[11:42:52:930] [DEBUG] - io.lettuce.core.protocol.DefaultEndpoint.lambda$notifyDrainQueuedCommands$9(DefaultEndpoint.java:645) - [channel=0x6a7a91cc, /192.168.232.1:58283 -> /192.168.232.130:6379, epid=0x2] notifyQueuedCommands adding 0 command(s) to buffer
+[11:42:52:934] [DEBUG] - io.lettuce.core.protocol.CommandHandler.channelInactive(CommandHandler.java:358) - [channel=0x3cf35115, /192.168.232.1:55785 -> /192.168.232.130:6379, chid=0x1] channelInactive() done
+[11:42:52:934] [DEBUG] - io.lettuce.core.protocol.CommandHandler.channelInactive(CommandHandler.java:358) - [channel=0x6a7a91cc, /192.168.232.1:58283 -> /192.168.232.130:6379, chid=0x2] channelInactive() done
+[11:42:52:938] [DEBUG] - io.lettuce.core.protocol.ConnectionWatchdog.channelInactive(ConnectionWatchdog.java:188) - [channel=0x6a7a91cc, /192.168.232.1:58283 -> /192.168.232.130:6379, last known addr=/192.168.232.130:6379] channelInactive()
+[11:42:52:938] [DEBUG] - io.lettuce.core.protocol.ConnectionWatchdog.channelInactive(ConnectionWatchdog.java:188) - [channel=0x3cf35115, /192.168.232.1:55785 -> /192.168.232.130:6379, last known addr=/192.168.232.130:6379] channelInactive()
+[11:42:52:938] [DEBUG] - io.lettuce.core.protocol.ConnectionWatchdog.scheduleReconnect(ConnectionWatchdog.java:218) - [channel=0x6a7a91cc, /192.168.232.1:58283 -> /192.168.232.130:6379, last known addr=/192.168.232.130:6379] scheduleReconnect()
+[11:42:52:938] [DEBUG] - io.lettuce.core.protocol.ConnectionWatchdog.scheduleReconnect(ConnectionWatchdog.java:218) - [channel=0x3cf35115, /192.168.232.1:55785 -> /192.168.232.130:6379, last known addr=/192.168.232.130:6379] scheduleReconnect()
+[11:42:52:942] [DEBUG] - io.lettuce.core.protocol.ConnectionWatchdog.scheduleReconnect(ConnectionWatchdog.java:235) - [channel=0x6a7a91cc, /192.168.232.1:58283 -> /192.168.232.130:6379, last known addr=/192.168.232.130:6379] Reconnect attempt 1, delay 1ms
+[11:42:52:942] [DEBUG] - io.lettuce.core.protocol.ConnectionWatchdog.scheduleReconnect(ConnectionWatchdog.java:235) - [channel=0x3cf35115, /192.168.232.1:55785 -> /192.168.232.130:6379, last known addr=/192.168.232.130:6379] Reconnect attempt 1, delay 1ms
+[11:42:52:975] [DEBUG] - io.lettuce.core.protocol.CommandHandler.channelUnregistered(CommandHandler.java:198) - [channel=0x6a7a91cc, /192.168.232.1:58283 -> /192.168.232.130:6379, chid=0x2] channelUnregistered()
+[11:42:52:975] [DEBUG] - io.lettuce.core.protocol.CommandHandler.channelUnregistered(CommandHandler.java:198) - [channel=0x3cf35115, /192.168.232.1:55785 -> /192.168.232.130:6379, chid=0x1] channelUnregistered()
+[11:42:53:080] [INFO] - io.netty.util.internal.logging.AbstractInternalLogger.log(AbstractInternalLogger.java:171) - Reconnecting, last destination was /192.168.232.130:6379
+[11:42:53:080] [INFO] - io.netty.util.internal.logging.AbstractInternalLogger.log(AbstractInternalLogger.java:171) - Reconnecting, last destination was /192.168.232.130:6379
+[11:42:53:106] [DEBUG] - io.lettuce.core.RedisClient.lambda$getSocketAddressSupplier$19(RedisClient.java:775) - Resolved SocketAddress 192.168.232.130:6379 using RedisURI [host='192.168.232.130', port=6379]
+[11:42:53:106] [DEBUG] - io.lettuce.core.RedisClient.lambda$getSocketAddressSupplier$19(RedisClient.java:775) - Resolved SocketAddress 192.168.232.130:6379 using RedisURI [host='192.168.232.130', port=6379]
+[11:42:53:134] [DEBUG] - io.lettuce.core.protocol.ReconnectionHandler.reconnect0(ReconnectionHandler.java:126) - Reconnecting to Redis at 192.168.232.130:6379
+[11:42:53:134] [DEBUG] - io.lettuce.core.protocol.ReconnectionHandler.reconnect0(ReconnectionHandler.java:126) - Reconnecting to Redis at 192.168.232.130:6379
+[11:42:53:177] [DEBUG] - io.lettuce.core.protocol.CommandHandler.channelRegistered(CommandHandler.java:181) - [channel=0xac659094, [id: 0x6bfbcf9b] (inactive), chid=0x4] channelRegistered()
+[11:42:53:177] [DEBUG] - io.lettuce.core.protocol.CommandHandler.channelRegistered(CommandHandler.java:181) - [channel=0xcb8582df, [id: 0xd57331cb] (inactive), chid=0x3] channelRegistered()
+[11:42:53:373] [INFO] - org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.killOrRestart(SimpleMessageListenerContainer.java:1436) - Restarting Consumer@663622b1: tags=[[amq.ctag-wjJjJ7FZaeX58q3SPefpYg]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://guest@192.168.232.130:5672/my_vhost,1), conn: Proxy@484a5ddd Shared Rabbit Connection: SimpleConnection@11120583 [delegate=amqp://guest@192.168.232.130:5672/my_vhost, localPort= 55907], acknowledgeMode=NONE local queue size=0
+[11:42:53:389] [INFO] - org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:558) - Attempting to connect to: [192.168.232.130:5672]

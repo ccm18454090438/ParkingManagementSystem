@@ -1,0 +1,40 @@
+spring:
+  application:
+    name: cpm-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        register-enabled: true
+    gateway:
+      routes:
+        - id: auth-api      # 路由id，自定义，只要唯一即可
+            # uri: http://127.0.0.1:8081   # 路由的目标地址 (直接写死地址的方式，不推荐)
+          uri: lb://cpm-auth    # 路由的目标地址 lb是负载均衡，后面跟服务名称(推荐)
+          predicates: # 路由断言，判断请求是否符合路由规则的条件
+            - Path=/auth/**      # 按照路径匹配，以/user/开头的请求就符合要求
+        - id: member-api
+          uri: lb://cpm-member
+          predicates:
+            - Path=/member/**
+        - id: parking-api
+          uri: lb://cpm-parking
+          predicates:
+            - Path=/parking/**
+        - id: member-api
+          uri: lb://cpm-parkinglots
+          predicates:
+            - Path=/parkinglots/**
+        - id: order-api
+          uri: lb://cpm-order
+          predicates:
+            - Path=/order/**
+        - id: user-api
+          uri: lb://cpm-user
+          predicates:
+            - Path=/user/**
+server:
+  port: 5000
+
+
+

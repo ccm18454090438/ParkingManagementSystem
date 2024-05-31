@@ -1,0 +1,28 @@
+[08:18:04:568] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[08:18:06:224] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:249) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[08:18:06:239] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:127) - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[08:18:06:303] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:187) - Finished Spring Data repository scanning in 30ms. Found 0 Redis repository interfaces.
+[08:18:06:790] [INFO] - org.springframework.cloud.context.scope.GenericScope.setSerializationId(GenericScope.java:295) - BeanFactory id=93d4c290-bdc9-3fa7-bc4a-bd60c64cd607
+[08:18:07:593] [INFO] - com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure.dataSource(DruidDataSourceAutoConfigure.java:56) - Init DruidDataSource
+[08:18:07:861] [INFO] - com.alibaba.druid.pool.DruidDataSource.init(DruidDataSource.java:998) - {dataSource-1} inited
+[08:18:10:659] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[08:18:11:084] [WARN] - com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121) - No URLs will be polled as dynamic configuration sources.
+[08:18:11:084] [INFO] - com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122) - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[08:18:11:100] [WARN] - com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:121) - No URLs will be polled as dynamic configuration sources.
+[08:18:11:100] [INFO] - com.netflix.config.sources.URLConfigurationSource.<init>(URLConfigurationSource.java:122) - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[08:18:11:587] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'applicationTaskExecutor'
+[08:18:13:097] [INFO] - org.springframework.cloud.commons.util.InetUtils.convertAddress(InetUtils.java:170) - Cannot determine local hostname
+[08:18:13:119] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:181) - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+[08:18:16:666] [INFO] - org.springframework.cloud.commons.util.InetUtils.convertAddress(InetUtils.java:170) - Cannot determine local hostname
+[08:18:17:338] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[08:18:17:401] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[08:18:17:495] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[08:18:17:961] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started CarParkMasterOrderApplicationTests in 17.7 seconds (JVM running for 19.724)
+[08:18:23:384] [WARN] - com.alibaba.nacos.common.notify.NotifyCenter.shutdown(NotifyCenter.java:145) - [NotifyCenter] Start destroying Publisher
+[08:18:23:384] [WARN] - com.alibaba.nacos.common.notify.NotifyCenter.shutdown(NotifyCenter.java:162) - [NotifyCenter] Destruction of the end
+[08:18:23:384] [WARN] - com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown(HttpClientBeanHolder.java:108) - [HttpClientBeanHolder] Start destroying common HttpClient
+[08:18:23:384] [WARN] - com.alibaba.nacos.common.http.HttpClientBeanHolder.shutdown(HttpClientBeanHolder.java:114) - [HttpClientBeanHolder] Destruction of the end
+[08:18:23:400] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+[08:18:27:411] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:218) - Shutting down ExecutorService 'applicationTaskExecutor'
+[08:18:27:443] [INFO] - com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2071) - {dataSource-1} closing ...
+[08:18:27:443] [INFO] - com.alibaba.druid.pool.DruidDataSource.close(DruidDataSource.java:2144) - {dataSource-1} closed

@@ -1,0 +1,78 @@
+[14:16:29:389] [INFO] - io.netty.util.internal.logging.AbstractInternalLogger.log(AbstractInternalLogger.java:217) - [channel=0xc2a9cf70, /192.168.232.1:52033 -> /192.168.232.130:6379, chid=0x6] Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_201]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134) ~[netty-buffer-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+[14:16:29:389] [INFO] - io.netty.util.internal.logging.AbstractInternalLogger.log(AbstractInternalLogger.java:217) - [channel=0x0bc8c32d, /192.168.232.1:52034 -> /192.168.232.130:6379, chid=0x5] Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223) ~[?:1.8.0_201]
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380) ~[?:1.8.0_201]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1134) ~[netty-buffer-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+[14:16:29:481] [INFO] - io.netty.util.internal.logging.AbstractInternalLogger.log(AbstractInternalLogger.java:171) - Reconnecting, last destination was /192.168.232.130:6379
+[14:16:29:481] [INFO] - io.netty.util.internal.logging.AbstractInternalLogger.log(AbstractInternalLogger.java:171) - Reconnecting, last destination was /192.168.232.130:6379
+[14:16:29:859] [INFO] - org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer$AsyncMessageProcessingConsumer.killOrRestart(SimpleMessageListenerContainer.java:1436) - Restarting Consumer@110c0ea6: tags=[[amq.ctag-B7c6KsurM6oNFiL7h4H2cg]], channel=Cached Rabbit Channel: PublisherCallbackChannelImpl: AMQChannel(amqp://guest@192.168.232.130:5672/my_vhost,1), conn: Proxy@652f26da Shared Rabbit Connection: SimpleConnection@10a98820 [delegate=amqp://guest@192.168.232.130:5672/my_vhost, localPort= 52059], acknowledgeMode=NONE local queue size=0
+[14:16:29:859] [INFO] - org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:558) - Attempting to connect to: [192.168.232.130:5672]
+[14:45:03:944] [INFO] - io.netty.util.internal.logging.AbstractInternalLogger.log(AbstractInternalLogger.java:171) - Reconnecting, last destination was 192.168.232.130:6379
+[14:45:03:944] [INFO] - io.netty.util.internal.logging.AbstractInternalLogger.log(AbstractInternalLogger.java:171) - Reconnecting, last destination was 192.168.232.130:6379
+[14:45:03:959] [WARN] - io.netty.util.internal.logging.AbstractInternalLogger.log(AbstractInternalLogger.java:105) - Cannot reconnect to [192.168.232.130:6379]: No route to host: no further information: /192.168.232.130:6379
+io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /192.168.232.130:6379
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[?:1.8.0_201]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330) ~[netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+[14:45:03:959] [WARN] - io.netty.util.internal.logging.AbstractInternalLogger.log(AbstractInternalLogger.java:105) - Cannot reconnect to [192.168.232.130:6379]: No route to host: no further information: /192.168.232.130:6379
+io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /192.168.232.130:6379
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_201]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[?:1.8.0_201]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330) ~[netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.55.Final.jar:4.1.55.Final]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_201]
+[14:45:09:241] [INFO] - io.lettuce.core.protocol.ReconnectionHandler.lambda$null$4(ReconnectionHandler.java:191) - Reconnected to 192.168.232.130:6379, Channel channel=0x621684e7, /192.168.232.1:52770 -> /192.168.232.130:6379
+[14:45:11:263] [INFO] - io.lettuce.core.protocol.ReconnectionHandler.lambda$null$4(ReconnectionHandler.java:191) - Reconnected to 192.168.232.130:6379, Channel channel=0x7346d530, /192.168.232.1:52769 -> /192.168.232.130:6379
+[14:45:19:314] [INFO] - org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.connectAddresses(AbstractConnectionFactory.java:558) - Attempting to connect to: [192.168.232.130:5672]
+[14:45:19:396] [INFO] - org.springframework.amqp.rabbit.connection.AbstractConnectionFactory.createBareConnection(AbstractConnectionFactory.java:511) - Created new connection: rabbitConnectionFactory#2c2a903f:4/SimpleConnection@5961cb8d [delegate=amqp://guest@192.168.232.130:5672/my_vhost, localPort= 52889]

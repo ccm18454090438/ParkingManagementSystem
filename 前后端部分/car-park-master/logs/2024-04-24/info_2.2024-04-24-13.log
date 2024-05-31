@@ -1,0 +1,2 @@
+[14:16:28:850] [INFO] - com.ustcsse.parking.service.WebSocketServer.onClose(WebSocketServer.java:67) - 【websocket消息】连接断开，总数为:0
+[14:16:29:389] [WARN] - com.rabbitmq.client.impl.ForgivingExceptionHandler.log(ForgivingExceptionHandler.java:115) - An unexpected connection driver error occured (Exception message: Connection reset)

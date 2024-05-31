@@ -1,0 +1,12 @@
+[13:00:44:463] [DEBUG] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.lookupHandlerMethod(PropertySourcedRequestMappingHandlerMapping.java:108) - looking up handler for path: /parkinglots/getByName/中科大南区停车场
+[13:00:44:468] [WARN] - com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal(DruidAbstractDataSource.java:1494) - discard long time none received connection. , jdbcUrl : jdbc:mysql://192.168.232.130:3306/cpm_parkinglot?useSSL=false&useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true, version : 1.2.8, lastPacketReceivedIdleMillis : 249646
+[13:00:44:469] [DEBUG] - com.alibaba.druid.pool.DruidDataSource.getConnectionDirect(DruidDataSource.java:1485) - skip not validate connection.
+[13:00:44:477] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - ==>  Preparing: SELECT id,total,car_amount,left_amount,name,administrator,phone,address FROM parkinglot WHERE (name = ?)
+[13:00:44:478] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - ==> Parameters: 中科大南区停车场(String)
+[13:00:44:481] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - <==      Total: 1
+[13:00:44:490] [DEBUG] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.lookupHandlerMethod(PropertySourcedRequestMappingHandlerMapping.java:108) - looking up handler for path: /parkinglots/add
+[13:00:44:493] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - ==>  Preparing: UPDATE parkinglot SET total=?, car_amount=?, left_amount=?, name=?, administrator=?, phone=?, address=? WHERE id=?
+[13:00:44:495] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - ==> Parameters: 80(Integer), 21(Integer), 59(Integer), 中科大南区停车场(String), 李四(String), 16666666666(String), 中科大西校区(String), 2(Integer)
+[13:00:44:498] [DEBUG] - org.apache.ibatis.logging.jdbc.BaseJdbcLogger.debug(BaseJdbcLogger.java:137) - <==    Updates: 1
+[13:00:44:503] [DEBUG] - com.netflix.loadbalancer.ZoneAwareLoadBalancer.chooseServer(ZoneAwareLoadBalancer.java:112) - Zone aware logic disabled or there is only one zone
+[13:00:44:503] [DEBUG] - com.netflix.loadbalancer.LoadBalancerContext.getServerFromLoadBalancer(LoadBalancerContext.java:492) - cpm-member using LB returned Server: 192.168.108.1:8000 for request http:///member/getByCarplate?carplate=%E7%9A%96FZ777B
